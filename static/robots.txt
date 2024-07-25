@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap-index.xml
+Sitemap: https://magenta-lebkuchen-4f5f1a.netlify.app/sitemap-index.xml
