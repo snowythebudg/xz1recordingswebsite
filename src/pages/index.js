@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Text, LinkBox, Box, Section, Image, Strong, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Icon, Text, LinkBox, Box, Section, Image, Strong, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -13,7 +13,7 @@ export default (() => {
 				XZ1 Recordings - Powered by one artist
 			</title>
 			<meta name={"description"} content={"A single only label for upcoming artists! "} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-2" display="grid" background="#000000">
 			<Override
@@ -392,7 +392,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section padding="100px 0 100px 0" background="#0c0e23" quarkly-title="FAQ-4">
+		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
 				Frequently asked questions
 			</Text>
@@ -471,8 +471,49 @@ export default (() => {
 						>
 							Contact
 						</Text>
-						<Text font="--headline2" max-width="500px" margin="10px 0 0 0" color="#ffffff">
-							Email us, we would love to hear form you
+						<Text font="--headline3" max-width="500px" margin="10px 0 0 0" color="#ffffff">
+							Get in contact with us. We'll reply quick!
+							<br />
+							<br />
+							<Span
+								font-weight="normal"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
+								<Span
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									To submit a demo, click{" "}
+									<Link
+										href="demos"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+										target="_blank"
+									>
+										here
+									</Link>
+									<br />
+								</Span>
+							</Span>
 						</Text>
 					</Box>
 				</Box>
@@ -497,7 +538,7 @@ export default (() => {
 										type="text"
 										background="#ffffff"
 										border-width="2px"
-										color="#ffffff"
+										color="#000000"
 									/>
 								</Box>
 								<Box sm-width="100%" display="flex" flex-direction="column">

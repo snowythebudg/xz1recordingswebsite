@@ -8,6 +8,9 @@ const pageStyles = {
     },
     "index": {
         "font": "--headline3"
+    },
+    "demos": {
+        "font": "--headline3"
     }
 };
 

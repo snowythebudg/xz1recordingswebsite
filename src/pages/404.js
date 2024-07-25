@@ -12,7 +12,7 @@ export default (() => {
 				XZ1 Recordings - Powered by one artist
 			</title>
 			<meta name={"description"} content={"A single only label for upcoming artists! "} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
 			min-height="100vh"
