@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Text, Box, Input, Button, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Section, Icon, Box, Input, Button, LinkBox } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Formspree } from "@quarkly/components";
+import { RawHtml, Override, Formspree } from "@quarkly/components";
 import { MdEmail } from "react-icons/md";
+import { GiFairyWings } from "react-icons/gi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"demos"} />
@@ -15,13 +16,34 @@ export default (() => {
 			<meta name={"description"} content={"A single only label for upcoming artists! "} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
 		</Helmet>
+		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
+			<Override slot="SectionContent" align-items="center" />
+			<Text
+				as="h2"
+				font="--headline1"
+				md-font="--headline2"
+				margin="20px 0 0 0"
+				color="#ffffff"
+			>
+				Welcome!
+			</Text>
+			<Text
+				as="p"
+				font="--lead"
+				margin="20px 0 20px 0"
+				text-align="center"
+				color="#ffffff"
+			>
+				Welcome to XZ1 Recordings' demo submission portal. Scroll down below to submit your demo!
+			</Text>
+		</Section>
 		<Section
 			color="--light"
 			padding="100px 0"
 			sm-padding="40px 0"
 			position="relative"
 			quarkly-title="Form-1"
-			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1663669628783-b458c217348a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1510577956525-69bd3c29339e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
 		>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
 				<Box padding="16px 16px 16px 16px" width="50%" md-width="100%">
@@ -46,7 +68,7 @@ export default (() => {
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
 								<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
-									snowythebudg@gmail.com
+									hello@company.com
 								</Link>
 							</Text>
 						</Box>
@@ -62,9 +84,9 @@ export default (() => {
 							max-width="360px"
 						>
 							<Text as="h3" font="--headline3" margin="0 0 20px 0">
-								Send a demo!
+								Send us your demo!
 							</Text>
-							<Formspree endpoint="myzgkoje" completeText="Thanks! We'll send you an email if we think you're a good fit" errorMessage="Your demo submission was not processed, please resubmit">
+							<Formspree endpoint="xeqpgrlv">
 								<Box gap="16px" display="flex" flex-direction="row" flex-wrap="wrap">
 									<Box padding="8px 8px 8px 8px" width="100%">
 										<Box display="flex" flex-direction="column">
@@ -92,7 +114,7 @@ export default (() => {
 									</Box>
 									<Box width="100%" padding="8px 8px 8px 8px">
 										<Box display="flex" flex-direction="column" align-items="flex-start">
-											<Button background="--color-indigo" color="#ffffff">
+											<Button background="--color-indigo">
 												Send
 											</Button>
 										</Box>
@@ -102,6 +124,67 @@ export default (() => {
 						</Box>
 					</Box>
 				</Box>
+			</Box>
+		</Section>
+		<Section padding="80px 0 80px 0" quarkly-title="Footer-4" background="#000000">
+			<Box
+				display="flex"
+				lg-width="100%"
+				flex-direction="row"
+				lg-flex-direction="row"
+				justify-content="space-between"
+				width="100%"
+				padding="0 0px 50px 0px"
+				md-padding="0 0px 30px 0px"
+				lg-padding="0 0px 50px 0px"
+				md-flex-direction="column"
+				md-display="flex"
+				md-grid-gap="36px"
+			>
+				<Box
+					lg-margin="0px 0px 0px 0px"
+					width="30%"
+					display="flex"
+					lg-width="30%"
+					sm-width="20%"
+					md-width="10%"
+				>
+					<LinkBox
+						justify-content="center"
+						border-radius="100%"
+						width="36px"
+						height="36px"
+						align-items="center"
+						display="flex"
+						href="#"
+					>
+						<Icon category="gi" icon={GiFairyWings} color="#6d32ec" size="37px" />
+					</LinkBox>
+				</Box>
+			</Box>
+			<Box
+				display="flex"
+				justify-content="space-between"
+				padding="50px 0px 0px 0px"
+				border-width="1px 0 0 0"
+				border-style="solid"
+				border-color="--color-lightD2"
+				md-padding="30px 0px 0px 0px"
+				md-flex-direction="column"
+			>
+				<Text
+					margin="0px 0px 0px 0px"
+					font="--base"
+					color="#ffffff"
+					md-margin="0px 0px 25px 0px"
+					sm-text-align="center"
+				>
+					© 2024 XZ1 Recording Ventures, a division of Fusion Audio Distribution
+					<br />
+					Owned and operated by BudgieMint (https://ebb.l5.ca)
+					<br />
+					Subdomain provided by https://freedns.afraid.org
+				</Text>
 			</Box>
 		</Section>
 		<Link

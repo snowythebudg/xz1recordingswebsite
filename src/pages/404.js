@@ -52,7 +52,7 @@ export default (() => {
 					padding="12px 24px 12px 24px"
 					border-radius="8px"
 					background="--color-light"
-					href="#"
+					href="xz1label.l5.ca"
 					text-decoration-line="initial"
 					color="--dark"
 				>
