@@ -6,8 +6,7 @@ export default {
 			"name": "root",
 			"children": [
 				"66a1919115ac540018708a54",
-				"66a1919115ac540018708a57",
-				"66a1b4669710450018a18ee3"
+				"66a1919115ac540018708a57"
 			]
 		},
 		"66a1919115ac540018708a54": {
@@ -19,11 +18,6 @@ export default {
 			"id": "66a1919115ac540018708a57",
 			"name": "index",
 			"pageUrl": "index"
-		},
-		"66a1b4669710450018a18ee3": {
-			"id": "66a1b4669710450018a18ee3",
-			"pageUrl": "demos",
-			"name": "demos"
 		}
 	},
 	"mode": "production",
