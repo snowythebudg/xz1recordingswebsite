@@ -67,8 +67,8 @@ export default (() => {
 								Email XZ1 Recordings
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
-								<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
-									hello@company.com
+								<Link href="mailto:snowythebudg@gmail.com?XZ1 Recordings Inquiry" text-decoration="none" hover-text-decoration="underline" color="--light">
+									snowythebudg@gmail.com
 								</Link>
 							</Text>
 						</Box>
@@ -86,7 +86,7 @@ export default (() => {
 							<Text as="h3" font="--headline3" margin="0 0 20px 0">
 								Send us your demo!
 							</Text>
-							<Formspree endpoint="xeqpgrlv">
+							<Formspree endpoint="mzzpdwnq" completeText="Thanks! We'll get back to you soon if we like your demo" errorMessage="Unfortunately your submission did not go through, please resubmit!">
 								<Box gap="16px" display="flex" flex-direction="row" flex-wrap="wrap">
 									<Box padding="8px 8px 8px 8px" width="100%">
 										<Box display="flex" flex-direction="column">
