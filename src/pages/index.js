@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				XZ1 Recordings - Powered by one artist
+				XZ1 Recordings - Music from the next generation
 			</title>
 			<meta name={"description"} content={"A single only label for upcoming artists! "} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
@@ -90,7 +90,7 @@ export default (() => {
 					sm-margin="0px 0px 12px 0px"
 					letter-spacing="2px"
 				>
-					For artists, by artists!
+					Music from the next generation
 				</Text>
 			</Box>
 			<Box
