@@ -11,9 +11,6 @@ const pageStyles = {
     },
     "demos": {
         "font": "--headline3"
-    },
-    "roster": {
-        "font": "--headline3"
     }
 };
 
