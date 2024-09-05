@@ -86,6 +86,15 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"66a1919115ac540018708a4d"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
+			<script
+				src={"https://static.elfsight.com/platform/platform.js"}
+				defer={true}
+				type={""}
+				place={"endOfHead"}
+				rawKey={"66d9d3eed240a0038c329af4"}
+			>
+				{"data-use-service-core defer></script>\n<div class=\"elfsight-app-c101d66c-2d81-4652-93f5-9f482872bb6c\" data-elfsight-app-lazy></div>"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });

@@ -4,6 +4,7 @@ import { Theme, Link, Icon, Text, LinkBox, Box, Section, Image, Strong, Span, In
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
+import * as Components from "components";
 import { BsFillMusicPlayerFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
@@ -388,7 +389,7 @@ export default (() => {
 					: To maintain a deep passion for music at the core of our operations, driving us to support and promote exceptional talent.
 					<br />
 					<br />
-					These missions and visions guide us at XZ1 Recordings in our commitment to fostering a thriving and artistically rich music community.{"\n\n"}
+					These missions and visions guide us at XZ1 Recordings in our commitment to fostering a thriving and artistically rich music community.
 				</Text>
 			</Box>
 		</Section>
@@ -631,6 +632,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Components.EmbedHTML />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -657,6 +659,15 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"66a1919115ac540018708a4d"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
+			<script
+				src={"https://static.elfsight.com/platform/platform.js"}
+				defer={true}
+				type={""}
+				place={"endOfHead"}
+				rawKey={"66d9d3eed240a0038c329af4"}
+			>
+				{"data-use-service-core defer></script>\n<div class=\"elfsight-app-c101d66c-2d81-4652-93f5-9f482872bb6c\" data-elfsight-app-lazy></div>"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });
