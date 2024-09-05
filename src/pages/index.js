@@ -4,7 +4,6 @@ import { Theme, Link, Icon, Text, LinkBox, Box, Section, Image, Strong, Span, In
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
-import * as Components from "components";
 import { BsFillMusicPlayerFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
@@ -414,7 +413,7 @@ export default (() => {
 						What's the royalty split
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						At the moment, the royalty split is 80/20. That is after the cut by the distributor is made
+						At the moment, the royalty split is either 70/30 or 80/20 depending on your choice. That is after the cut by the distributor is made
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -422,7 +421,7 @@ export default (() => {
 						Does XZ1 release albums
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						XZ1 Recordings is a single only label/distributor. We currently do not release albums or EP's
+						XZ1 Recordings is a single only label/distributor. We are considering releasing EP's at some point but if you want to release an album, head to Fusion Audio Distribution (https://fusion.l5.ca)
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -430,7 +429,7 @@ export default (() => {
 						Do I need to sign a contract
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						We're currently working on one and should have one ready in the coming months. We are still operating though!
+						We send contracts on a per release basis. Once we submit your release, you'll recieve a contract to sign in your email which can easily be signed through your XZ1 dashboard.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -446,7 +445,7 @@ export default (() => {
 						Do I need to pay anything
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						Not at all!{" "}
+						Not at all! We also do not provide advances at this moment.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -632,7 +631,6 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Components.EmbedHTML />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -659,15 +657,6 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"66a1919115ac540018708a4d"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
-			<script
-				src={"https://static.elfsight.com/platform/platform.js"}
-				defer={true}
-				type={""}
-				place={"endOfHead"}
-				rawKey={"66d9d3eed240a0038c329af4"}
-			>
-				{"data-use-service-core defer></script>\n<div class=\"elfsight-app-c101d66c-2d81-4652-93f5-9f482872bb6c\" data-elfsight-app-lazy></div>"}
-			</script>
 		</RawHtml>
 	</Theme>;
 });
