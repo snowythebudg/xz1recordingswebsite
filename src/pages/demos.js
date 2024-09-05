@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import { MdEmail } from "react-icons/md";
-import { GiFairyWings } from "react-icons/gi";
+import { BsFillMusicPlayerFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"demos"} />
@@ -158,7 +158,7 @@ export default (() => {
 						display="flex"
 						href="#"
 					>
-						<Icon category="gi" icon={GiFairyWings} color="#6d32ec" size="37px" />
+						<Icon category="bs" icon={BsFillMusicPlayerFill} color="#6d32ec" size="37px" />
 					</LinkBox>
 				</Box>
 			</Box>
