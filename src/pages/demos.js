@@ -107,14 +107,14 @@ export default (() => {
 									<Box padding="8px 8px 8px 8px" width="100%">
 										<Box display="flex" flex-direction="column">
 											<Text font="--base" margin="0 0 4px 0">
-												Message
+												Song link and/or other info (send music through Google Drive)
 											</Text>
 											<Input width="100%" name="message" as="textarea" rows="4" />
 										</Box>
 									</Box>
 									<Box width="100%" padding="8px 8px 8px 8px">
 										<Box display="flex" flex-direction="column" align-items="flex-start">
-											<Button background="--color-indigo">
+											<Button background="--color-orange">
 												Send
 											</Button>
 										</Box>
