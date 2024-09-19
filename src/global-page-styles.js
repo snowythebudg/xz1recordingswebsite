@@ -11,6 +11,9 @@ const pageStyles = {
     },
     "demos": {
         "font": "--headline3"
+    },
+    "promotionalservices": {
+        "font": "--headline3"
     }
 };
 
