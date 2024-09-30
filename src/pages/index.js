@@ -577,6 +577,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Components.Footer />
+		<Components.QuarklycommunityKitNetlifyForm />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
