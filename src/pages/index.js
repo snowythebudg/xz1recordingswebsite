@@ -135,6 +135,30 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				Important announcement
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				White box on mobile
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake. I’m a great space for you to tell a story and let your site visitors know more about you. Talk about your business and what products and services you offer. Share how you came up with the idea for your company and what makes you different from your competitors. Make your business stand out and show your visitors who you are.
+			</Text>
+		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,#0038ff 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
@@ -576,7 +600,16 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer />
+		<Components.Footer>
+			<Override slot="text">
+				© 2024 XZ1 Recording Ventures, All rights reserved.
+				<br />
+				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
+				<br />
+				Subdomain provided by https://freedns.afraid.org
+			</Override>
+		</Components.Footer>
+		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Link
 			font={"--capture"}
