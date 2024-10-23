@@ -153,10 +153,10 @@ export default (() => {
 				Important announcement
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				White box on mobile
+				White box on navigation bar
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake. I’m a great space for you to tell a story and let your site visitors know more about you. Talk about your business and what products and services you offer. Share how you came up with the idea for your company and what makes you different from your competitors. Make your business stand out and show your visitors who you are.
+				Hello, we are aware of a white box in the navigation bar that shows up on desktop and mobile. We are working on fixing it!
 			</Text>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,#0038ff 0%,rgba(0,0,0,1) 100%)">
