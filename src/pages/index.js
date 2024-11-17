@@ -623,7 +623,7 @@ export default (() => {
 		</Section>
 		<Components.Footer>
 			<Override slot="text">
-				© 2024 XZ1 Recording Ventures, All rights reserved.
+				© 2024 XZ1 Recordings, a division of XZ1 AV Media Enterprises. All rights reserved.
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
 				<br />
