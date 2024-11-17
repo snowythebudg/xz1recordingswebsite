@@ -501,7 +501,7 @@ export default (() => {
 							<br />
 							<br />
 							To speak to XZ1 Live Chat, click{" "}
-							<Link href="portal.xz1support.x4xs.xyz" target="_blank">
+							<Link href="https://portal.xz1support.x4xs.xyz" target="_blank">
 								here
 							</Link>
 							<br />
