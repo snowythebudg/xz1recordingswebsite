@@ -500,6 +500,12 @@ export default (() => {
 							Get in contact with us. We'll reply quick!
 							<br />
 							<br />
+							To speak to XZ1 Live Chat, click{" "}
+							<Link href="portal.xz1support.x4xs.xyz" target="_blank">
+								here
+							</Link>
+							<br />
+							<br />
 							<Span
 								font-weight="normal"
 								overflow-wrap="normal"
@@ -521,7 +527,9 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									To submit a demo, click{" "}
+									To submit a demo, click
+									<br />
+									{" "}
 									<Link
 										href="demos"
 										overflow-wrap="normal"
@@ -539,8 +547,21 @@ export default (() => {
 										<br />
 									</Link>
 									To view XZ1 promotional services, click{" "}
-									<Link href="/promotionalservices" target="_blank">
+									<Link
+										href="/promotionalservices"
+										target="_blank"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
 										here
+										<br />
+										<br />
 									</Link>
 								</Span>
 							</Span>
@@ -609,6 +630,7 @@ export default (() => {
 				Subdomain provided by https://freedns.afraid.org
 			</Override>
 		</Components.Footer>
+		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Link
