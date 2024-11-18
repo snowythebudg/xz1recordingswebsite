@@ -24,6 +24,8 @@ export default (() => {
 				align-items="center"
 				lg-flex-direction="row"
 				background="#ffffff"
+				lg-width="720px"
+				lg-background="#000000"
 			/>
 			<Box
 				display="flex"
@@ -134,30 +136,6 @@ export default (() => {
 					XZ1 Recordings specializes in distributing singles to streaming services around the world. We also strive to help out upcoming artists grow their career!
 				</Text>
 			</Box>
-		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				Important announcement
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				White box on navigation bar
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Hello, we are aware of a white box in the navigation bar that shows up on desktop and mobile. We are working on fixing it!
-			</Text>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,#0038ff 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
