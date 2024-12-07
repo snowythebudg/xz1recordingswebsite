@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xz1label.l5.ca/sitemap-index.xml
+Sitemap: https://xzone.64-b.it/sitemap-index.xml

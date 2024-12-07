@@ -13,7 +13,7 @@ export default (() => {
 			<title>
 				XZ1 Recordings - Music from the next generation
 			</title>
-			<meta name={"description"} content={"A single only label for upcoming artists! "} />
+			<meta name={"description"} content={"A single and EP only label for upcoming artists! "} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-2" display="grid" background="#000000">
@@ -424,7 +424,7 @@ export default (() => {
 						Does XZ1 release albums
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						XZ1 Recordings is a single only label/distributor. We are considering releasing EP's at some point but if you want to release an album, head to Fusion Audio Distribution (https://fusion.l5.ca)
+						XZ1 Recordings is a single only label/distributor. We are now releasing EP's however, if you want to release an album, head to Fusion Audio Distribution (https://fusion.l5.ca) or you can negotiate something with our team and we can potentially get your album out!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -601,7 +601,7 @@ export default (() => {
 		</Section>
 		<Components.Footer>
 			<Override slot="text">
-				© 2024 XZ1 Recordings, a division of XZ1 AV Media Enterprises. All rights reserved.
+				© 2024 XZ1 Recording Ventures, a division of Spearmint Enterprises All rights reserved.
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
 				<br />
