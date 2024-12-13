@@ -179,11 +179,9 @@ export default (() => {
 					md-margin="0px 0px 25px 0px"
 					sm-text-align="center"
 				>
-					© 2024 XZ1 Recording Ventures, a division of Fusion Audio Distribution
+					© 2024 XZ1 Recording Ventures
 					<br />
 					Owned and operated by BudgieMint (https://ebb.l5.ca)
-					<br />
-					Subdomain provided by https://freedns.afraid.org
 				</Text>
 			</Box>
 		</Section>

@@ -47,7 +47,13 @@ export default (() => {
 				View here
 			</Button>
 		</Section>
-		<Components.Footer />
+		<Components.Footer>
+			<Override slot="text">
+				© 2024 XZ1 Recording Ventures
+				<br />
+				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
+			</Override>
+		</Components.Footer>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

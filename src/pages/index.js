@@ -601,11 +601,9 @@ export default (() => {
 		</Section>
 		<Components.Footer>
 			<Override slot="text">
-				© 2024 XZ1 Recording Ventures, a division of Spearmint Enterprises All rights reserved.
+				© 2024 XZ1 Recording Ventures
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
-				<br />
-				Subdomain provided by https://freedns.afraid.org
 			</Override>
 		</Components.Footer>
 		<Components.QuarklycommunityKitNetlifyForm />
