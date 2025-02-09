@@ -193,7 +193,7 @@ export default (() => {
 					lg-text-align="left"
 					sm-text-align="left"
 				>
-					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company under the umbrella of Fusion Audio Distribution. Established as a platform exclusively for releasing singles, our label aims to empower musicians in launching their careers. Since our inception, XZ1 Recordings has been committed to next level personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
+					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates a smaller sub-label called Solus Sound. Established as a platform exclusively for releasing singles, our label aims to empower musicians in launching their careers. XZ1 Recordings has moved on to start releasing EP's and albums. Since our inception, XZ1 Recordings has been committed to next level personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
 				</Text>
 				<Text
 					margin="0px 0px 16px 0px"
@@ -416,7 +416,7 @@ export default (() => {
 						What's the royalty split
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						At the moment, the royalty split is either 70/30 or 80/20 depending on your choice. That is after the cut by the distributor is made
+						At the moment, the royalty split is 70/30. That is after the cut by the distributor is made
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -424,7 +424,7 @@ export default (() => {
 						Does XZ1 release albums
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						XZ1 Recordings is a single only label/distributor. We are now releasing EP's however, if you want to release an album, head to Fusion Audio Distribution (https://fusion.l5.ca) or you can negotiate something with our team and we can potentially get your album out!
+						XZ1 Recordings used to be a single and EP only distributor. However, we are thinking about shutting down Fusion Audio Distribution which means that XZ1 is now accepting albums!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -440,7 +440,7 @@ export default (() => {
 						How many releases can I release through XZ1
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						As many as you wish, as long as they are all singles!
+						As many as you wish, do note that all releases you release through XZ1 will be binded to us for 365 days, after that you are free to re-release your release or keep it on XZ1.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -479,7 +479,17 @@ export default (() => {
 							<br />
 							<br />
 							To speak to XZ1 Live Chat, click{" "}
-							<Link href="https://portal.xz1support.x4xs.xyz">
+							<Link
+								href="https://portal.xz1support.x4xs.xyz"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
 								here
 							</Link>
 							<br />
@@ -601,7 +611,7 @@ export default (() => {
 		</Section>
 		<Components.Footer>
 			<Override slot="text">
-				© 2024 XZ1 Recording Ventures
+				© 2024-2025 XZ1 Recording Ventures
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
 			</Override>
