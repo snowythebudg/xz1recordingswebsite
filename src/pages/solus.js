@@ -43,26 +43,19 @@ export default (() => {
 						position="absolute"
 						display="block"
 						width="829px"
-						left="145px"
+						left="auto"
 						bottom="auto"
 						min-height="100%"
 						src="https://uploads.quarkly.io/66a1919115ac540018708a4f/images/ss.png?v=2025-02-11T04:37:34.762Z"
 						object-fit="cover"
 						top="-85px"
-						right="auto"
+						right="127px"
 						overflow="visible"
 						height="872px"
 						srcSet="https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/ss.png?v=2025-02-11T04%3A37%3A34.762Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/ss.png?v=2025-02-11T04%3A37%3A34.762Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/ss.png?v=2025-02-11T04%3A37%3A34.762Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/ss.png?v=2025-02-11T04%3A37%3A34.762Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/ss.png?v=2025-02-11T04%3A37%3A34.762Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/ss.png?v=2025-02-11T04%3A37%3A34.762Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/ss.png?v=2025-02-11T04%3A37%3A34.762Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
-				<Text margin="0px 0px 0px 0px" text-align="center" color="#ffffff" font="300 28px/33.6px ">
-					Scroll down!
-					<br />
-					↓
-					<br />
-					<br />
-				</Text>
 			</Box>
 			<Box
 				display="flex"
