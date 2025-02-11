@@ -132,7 +132,10 @@ export default (() => {
 				text-align="center"
 				color="#ffffff"
 			>
-				Solus Sound was originally for the multi-genre music project of BudgieMint (the owner of XZ1 Recordings) called Red Palm Tree, the sub-label was created before XZ1's existence and pre-dates XZ1 by almost 2 weeks. However, Solus Sound has expanded to the general public! Solus Sound is now the main line electronic/ambient sub-label of XZ1 Recordings. Electronic releases can be directed to Solus Sound before release if you so wish, only select XZ1 members can access the sub-label. If you are new to XZ1 and/or haven't sent a demo yet, you can send one here!
+				Solus Sound was originally for the multi-genre music project of BudgieMint (the owner of XZ1 Recordings) called Red Palm Tree, the sub-label was created before XZ1's existence and pre-dates XZ1 by almost 2 weeks. However, Solus Sound has expanded to the general public! Solus Sound is now the main line electronic/ambient sub-label of XZ1 Recordings. Electronic releases can be directed to Solus Sound before release if you so wish, only select XZ1 members can access the sub-label. If you are new to XZ1 and/or haven't sent a demo yet, you can send one here! (if the button doesn't work, send an email to snowythebudg@gmail.com or go{" "}
+				<Link href="/demos">
+					here
+				</Link>
 			</Text>
 			<Button
 				font="--lead"
