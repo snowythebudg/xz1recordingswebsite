@@ -8,7 +8,8 @@ export default {
 				"66a1919115ac540018708a54",
 				"66a1919115ac540018708a57",
 				"66a276e72fc7070018ba3895",
-				"66ec36b828b5e30023ac92b6"
+				"66ec36b828b5e30023ac92b6",
+				"67aad324e5d27700189bcbce"
 			]
 		},
 		"66a1919115ac540018708a54": {
@@ -30,6 +31,11 @@ export default {
 			"id": "66ec36b828b5e30023ac92b6",
 			"pageUrl": "promotionalservices",
 			"name": "promotionalservices"
+		},
+		"67aad324e5d27700189bcbce": {
+			"id": "67aad324e5d27700189bcbce",
+			"pageUrl": "solus",
+			"name": "solus"
 		}
 	},
 	"mode": "production",

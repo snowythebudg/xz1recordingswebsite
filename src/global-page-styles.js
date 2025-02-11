@@ -14,6 +14,9 @@ const pageStyles = {
     },
     "promotionalservices": {
         "font": "--headline3"
+    },
+    "solus": {
+        "font": "--headline3"
     }
 };
 

@@ -551,6 +551,25 @@ export default (() => {
 										<br />
 										<br />
 									</Link>
+									To read about the XZ1 ambient sub-label (Solus Sound), click{" "}
+									<Link href="/solus">
+										here
+									</Link>
+									<br />
+									<Link
+										href="/promotionalservices"
+										target="_blank"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
+										<br />
+									</Link>
 								</Span>
 							</Span>
 						</Text>
