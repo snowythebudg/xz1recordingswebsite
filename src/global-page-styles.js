@@ -15,7 +15,7 @@ const pageStyles = {
     "promotionalservices": {
         "font": "--headline3"
     },
-    "solus": {
+    "sublabels": {
         "font": "--headline3"
     }
 };
