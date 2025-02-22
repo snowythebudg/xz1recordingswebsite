@@ -8,8 +8,7 @@ export default {
 				"66a1919115ac540018708a54",
 				"66a1919115ac540018708a57",
 				"66a276e72fc7070018ba3895",
-				"66ec36b828b5e30023ac92b6",
-				"67b90adee5d27700189c1613"
+				"67b913af41a0cf0024a828ab"
 			]
 		},
 		"66a1919115ac540018708a54": {
@@ -27,13 +26,8 @@ export default {
 			"pageUrl": "demos",
 			"name": "demos"
 		},
-		"66ec36b828b5e30023ac92b6": {
-			"id": "66ec36b828b5e30023ac92b6",
-			"pageUrl": "promotionalservices",
-			"name": "promotionalservices"
-		},
-		"67b90adee5d27700189c1613": {
-			"id": "67b90adee5d27700189c1613",
+		"67b913af41a0cf0024a828ab": {
+			"id": "67b913af41a0cf0024a828ab",
 			"pageUrl": "sublabels",
 			"name": "sublabels"
 		}

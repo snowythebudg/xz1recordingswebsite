@@ -1,7 +1,6 @@
 module.exports = [
 	"/index/",
 	"/demos/",
-	"/promotionalservices/",
 	"/sublabels/",
 	"/404/",
 	"/",

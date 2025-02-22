@@ -19,10 +19,10 @@ export default (() => {
 			<Override slot="SectionContent" sm-align-items="center" />
 			<Box max-width="360px" padding="50px 80px 80px 50px" background="--color-dark" color="--dark">
 				<Text as="h2" font="--headline2" margin="0 0 12px 0" color="#ffffff">
-					Sub-labels of XZ1 Recordings
+					Sub-labels operated by XZ1 Recordings
 				</Text>
 				<Text font="--base" color="#ffffff">
-					XZ1 Recordings operates numerous sub-labels based on different genres of music. You can be assigned to one of the sub-labels if your music passes the requirements of said sub-label. You can also release under XZ1 Recordings by itself if you so choose. You can submit a demo to XZ1 Recordings by heading back to the homepage and finding the button to send demos
+					XZ1 Recordings operates multiple sub-labels for different genres of music. You can get into one of these sub-labels by requesting to get in or we'll contact you if we feel your music is good for one of our sub-labels listed below. You may also be automatically assigned into a sub-label if we accept your demo into XZ1 Recordings. Note that you have the right to decline your entry into one of our sub-labels. You may also release on XZ1 Recordings by itself if you want, or if you don't fit any of the genres that correspond to a sub-label.
 				</Text>
 			</Box>
 		</Section>
@@ -50,15 +50,7 @@ export default (() => {
 				md-width="100%"
 			>
 				<Text margin="0px 0px 0px 0px" color="#F7FBFF" font="--base">
-					Solus Sound is the main sub-label for ambient music. Solus Sound was founded BEFORE XZ1 Recordings. Most ambient and ambient based genres are included in the eligibility requirements for SS.
-					<br />
-					<br />
-					Requirements:
-					<br />
-					- Make ambient music (IDM and leftfield accepted too)
-					<br />
-					- Already be an XZ1 Client OR successfully get accepted into XZ1
-					<br />
+					Solus Sound is the primary sub-label for all ambient and ambient based genres. Solus Sound also releases leftfield/IDM music and relaxational music too. Solus Sound was founded BEFORE XZ1 Recordings
 				</Text>
 			</Box>
 		</Section>
@@ -89,11 +81,6 @@ export default (() => {
 					Affogato Music is the primary sub-label for jazz and all jazz related music, Affogato Music was founded in February 2025 alongside 17th Street (see below)
 					<br />
 					<br />
-					Requirements
-					<br />
-					- Make jazz or any jazz related genre
-					<br />
-					- Successfully be accepted to XZ1
 				</Text>
 			</Box>
 		</Section>
@@ -110,7 +97,7 @@ export default (() => {
 				md-padding="0px 0px 0px 0px"
 			>
 				<Text margin="0px 0px 0px 0px" color="--light" font="--headline2" md-margin="0px 0px 30px 0px">
-					17th Street{" "}
+					17th Street
 				</Text>
 			</Box>
 			<Box
@@ -121,14 +108,8 @@ export default (() => {
 				md-width="100%"
 			>
 				<Text margin="0px 0px 0px 0px" color="#F7FBFF" font="--base">
-					17th Street is the primary sub-label for hip-hop/rap and all hip-hop/rap related music, 17th Street founded in February 2025 alongside Affogato Music (see above)
+					17th Street is the primary sub-label for hip-hop/rap and all hip-hop/rap related music, 17th Street was founded in February 2025 alongside Affogato Music (see above)
 					<br />
-					<br />
-					Requirements
-					<br />
-					- Make hip-hop or any hip-hop related genre
-					<br />
-					- Successfully be accepted to XZ1{"\n\n"}
 				</Text>
 			</Box>
 		</Section>

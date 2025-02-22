@@ -12,9 +12,6 @@ const pageStyles = {
     "demos": {
         "font": "--headline3"
     },
-    "promotionalservices": {
-        "font": "--headline3"
-    },
     "sublabels": {
         "font": "--headline3"
     }

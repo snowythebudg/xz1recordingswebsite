@@ -1,11 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Text, LinkBox, Box, Section, Image, Strong, Span, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, LinkBox, Box, Section, Strong, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
-import { BsFillMusicPlayerFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -44,8 +43,21 @@ export default (() => {
 				lg-justify-content="flex-start"
 				background="#000000"
 			>
+				<Image
+					src="https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14:44:26.714Z"
+					display="block"
+					overflow="hidden"
+					width="45px"
+					height="45px"
+					position="absolute"
+					bottom="auto"
+					left="503px"
+					right="auto"
+					top="31px"
+					srcSet="https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
 				<LinkBox flex-direction="row" href="/index" display="flex" grid-gap="18px">
-					<Icon category="bs" icon={BsFillMusicPlayerFill} color="#4200ff" size="37px" />
 					<Text
 						margin="0"
 						md-margin="0px 0 0px 0"
@@ -133,9 +145,33 @@ export default (() => {
 					lg-text-align="center"
 					margin="0px 0px 0px 0px"
 				>
-					XZ1 Recordings specializes in distributing singles to streaming services around the world. We also strive to help out upcoming artists grow their career!
+					XZ1 Recordings specializes in distributing music to streaming services around the world. We also strive to help out upcoming artists grow their career!
 				</Text>
 			</Box>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000 radial-gradient(circle at center,#001e8e 0%,rgba(0,0,0,1) 100%)"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				Important announcement
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 is now releasing albums!
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				We are proud to announce that XZ1 Recordings has started distributing albums. Our former service for handling albums (Fusion Audio Distribution) is potentially shutting down which means that XZ1 Recordings will take over album operations. This is a big step in XZ1's evolution and we strive to start the new era of record labels (distribution-focused labels)
+			</Text>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,#0038ff 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
@@ -193,7 +229,7 @@ export default (() => {
 					lg-text-align="left"
 					sm-text-align="left"
 				>
-					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates a smaller sub-label called Solus Sound. Established as a platform exclusively for releasing singles, our label aims to empower musicians in launching their careers. XZ1 Recordings has moved on to start releasing EP's and albums. Since our inception, XZ1 Recordings has been committed to next level personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
+					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates multiple smaller sub-labels (see below). Established as a platform exclusively for releasing singles, our label aims to empower musicians in launching their careers. XZ1 Recordings has moved on to start releasing EP's and albums. Since our inception, XZ1 Recordings has been committed to next level personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
 				</Text>
 				<Text
 					margin="0px 0px 16px 0px"
@@ -332,42 +368,6 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						Community Engagement
-					</Strong>
-					: To actively engage with our community of artists, fans, and supporters through events, collaborations, and online platforms.
-					<br />
-					<br />
-					<br />
-					<br />
-					<Strong
-						color="#ffffff"
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						Environmental Responsibility
-					</Strong>
-					: To minimize our environmental impact through sustainable practices in packaging, distribution, and operations.
-					<br />
-					<br />
-					<br />
-					<br />
-					<Strong
-						color="#ffffff"
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
 						Continuous Improvement
 					</Strong>
 					: To continuously evolve and adapt to changes in the music industry, staying at the forefront of distribution trends and technologies.
@@ -395,7 +395,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
+		<Section padding="100px 0 100px 0" background="#000000 radial-gradient(circle at center,#000000 0%,rgba(0,0,0,1) 100%)" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
 				Frequently asked questions
 			</Text>
@@ -478,6 +478,9 @@ export default (() => {
 							Get in contact with us. We'll reply quick!
 							<br />
 							<br />
+							--------------------------------------------
+							<br />
+							<br />
 							To speak to XZ1 Live Chat, click{" "}
 							<Link
 								href="https://portal.xz1support.x4xs.xyz"
@@ -532,9 +535,7 @@ export default (() => {
 									>
 										here
 										<br />
-										<br />
 									</Link>
-									To view XZ1 promotional services, click{" "}
 									<Link
 										href="/promotionalservices"
 										target="_blank"
@@ -547,12 +548,20 @@ export default (() => {
 										user-select="auto"
 										pointer-events="auto"
 									>
-										here
-										<br />
 										<br />
 									</Link>
 									To read about the numerous sub-labels operated by XZ1, click{" "}
-									<Link href="/sublabels">
+									<Link
+										href="/sublabels"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
 										here
 									</Link>
 									<br />
