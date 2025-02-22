@@ -51,7 +51,7 @@ export default (() => {
 					height="45px"
 					position="absolute"
 					bottom="auto"
-					left="503px"
+					left="815px"
 					right="auto"
 					top="31px"
 					srcSet="https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14%3A44%3A26.714Z&quality=85&w=3200 3200w"
