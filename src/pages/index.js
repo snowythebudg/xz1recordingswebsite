@@ -597,7 +597,7 @@ export default (() => {
 							<br />
 							To speak to XZ1 Live Chat, click{" "}
 							<Link
-								href="xz1support.netlify.app"
+								href="https://xz1support.netlify.app"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
