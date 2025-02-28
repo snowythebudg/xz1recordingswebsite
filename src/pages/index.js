@@ -468,7 +468,7 @@ export default (() => {
 							<br />
 							<br />
 							To speak to XZ1 Live Chat, click{" "}
-							<Link href="#help.xzone.nts.mx">
+							<Link href="#xz1support.netlify.app">
 								here
 							</Link>
 							<br />
