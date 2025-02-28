@@ -179,7 +179,7 @@ export default (() => {
 					md-margin="0px 0px 25px 0px"
 					sm-text-align="center"
 				>
-					© 2024-2025 XZ1 Recording Ventures
+					© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment
 					<br />
 					Owned and operated by BudgieMint (https://ebb.l5.ca)
 				</Text>

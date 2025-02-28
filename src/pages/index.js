@@ -413,7 +413,7 @@ export default (() => {
 					text-align="center"
 					max-width="480px"
 				>
-					XZ1 Recordings operates numerous sub-labels that cater to multiple genres. You can join an XZ1 sub-label if you successfully get accepted into XZ1 Recordings OR if you're already an XZ1/Fusion client and meet one of these genre requirements.
+					XZ1 Recordings operates numerous sub-labels that cater to multiple genres. You can join an XZ1 sub-label if you successfully get accepted into XZ1 Recordings OR if you're already an XZ1/Fusion client and meet one of these genre requirements. When releasing, your (C) line will show as XZ1/Sub-label name. This is due to our launch of BluWave Digital Entertainment, everything is now under one umbrella.
 				</Text>
 			</Box>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
@@ -508,6 +508,33 @@ export default (() => {
 					</Text>
 				</Box>
 			</Box>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				Music publishing
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 MUSIC PUBLISHING
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. Taking this all into consideration, we've decided to include the XZ1 family of services under one umbrella, BluWave Digital Entertainment. If you're a current XZ1 client, you'll see this in your dashboard. No, we are not rebranding XZ1 Recordings. XZ1 is staying the exact same. However, we now have a cozy parent company to keep all our music services together. In Spotify and YouTube or anywhere where the label name is shown. BluWave Digital Entertainment will be shown. If you see this name, you know you're listening to an XZ1 or affiliated sub-label release. You can read more about BluWave{" "}
+				<Link href="bluwavedigital.netlify.app">
+					here
+				</Link>
+			</Text>
 		</Section>
 		<Section padding="100px 0 100px 0" background="#000000 radial-gradient(circle at center,#000000 0%,rgba(0,0,0,1) 100%)" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
@@ -726,7 +753,7 @@ export default (() => {
 		</Section>
 		<Components.Footer>
 			<Override slot="text">
-				© 2024-2025 XZ1 Recording Ventures
+				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment.
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
 			</Override>
