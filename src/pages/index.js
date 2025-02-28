@@ -468,17 +468,7 @@ export default (() => {
 							<br />
 							<br />
 							To speak to XZ1 Live Chat, click{" "}
-							<Link
-								href="https://portal.xz1support.x4xs.xyz"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
+							<Link href="#help.xzone.nts.mx">
 								here
 							</Link>
 							<br />
@@ -521,34 +511,6 @@ export default (() => {
 									>
 										here
 										<br />
-									</Link>
-									<Link
-										href="/promotionalservices"
-										target="_blank"
-										overflow-wrap="normal"
-										word-break="normal"
-										white-space="normal"
-										text-indent="0"
-										text-overflow="clip"
-										hyphens="manual"
-										user-select="auto"
-										pointer-events="auto"
-									>
-										<br />
-									</Link>
-									To read about the numerous sub-labels operated by XZ1, click{" "}
-									<Link
-										href="/sublabels"
-										overflow-wrap="normal"
-										word-break="normal"
-										white-space="normal"
-										text-indent="0"
-										text-overflow="clip"
-										hyphens="manual"
-										user-select="auto"
-										pointer-events="auto"
-									>
-										here
 									</Link>
 									<br />
 									<Link
