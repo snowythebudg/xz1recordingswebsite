@@ -174,14 +174,14 @@ export default (() => {
 				lg-justify-content="center"
 			>
 				<Image
-					src="https://images.unsplash.com/photo-1574169411236-be48f751eb90?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+					src="https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
 					object-fit="cover"
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
 					sm-min-height="100vw"
 					height="100%"
-					srcSet="https://images.unsplash.com/photo-1574169411236-be48f751eb90?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1574169411236-be48f751eb90?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1574169411236-be48f751eb90?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1574169411236-be48f751eb90?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1574169411236-be48f751eb90?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1574169411236-be48f751eb90?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1574169411236-be48f751eb90?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
+					srcSet="https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=500 500w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=800 800w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1080 1080w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1600 1600w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2000 2000w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2600 2600w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
@@ -529,7 +529,7 @@ export default (() => {
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						What's the royalty split
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
 						At the moment, the royalty split is 70/30. That is after the cut by the distributor is made
 					</Text>
 				</Box>
@@ -537,15 +537,15 @@ export default (() => {
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						Does XZ1 release albums
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						XZ1 Recordings used to be a single and EP only distributor. However, we are thinking about shutting down Fusion Audio Distribution which means that XZ1 is now accepting albums!
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						XZ1 now releases albums! Whether it's a mini-LP or a full length album. We accept all albums for distribution now. We used to be a single and EP only distributor but we're open to albums now!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						Do I need to sign a contract
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
 						We send contracts on a per release basis. Once we submit your release, you'll recieve a contract to sign in your email which can easily be signed through your XZ1 dashboard.
 					</Text>
 				</Box>
@@ -553,7 +553,7 @@ export default (() => {
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						How many releases can I release through XZ1
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
 						As many as you wish, do note that all releases you release through XZ1 will be binded to us for 365 days, after that you are free to re-release your release or keep it on XZ1.
 					</Text>
 				</Box>
@@ -561,15 +561,15 @@ export default (() => {
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						Do I need to pay anything
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
-						Not at all! We also do not provide advances at this moment.
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						Not at all!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						Do we allow AI generated music or music made partially with AI
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#b2bac1">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
 						Fully AI generated music is not allowed to be released on XZ1. Music partially made with AI tools such as BandLab's Songstarter tool are permitted as long as you make enough changes to them that it won't be striked for copyright.
 					</Text>
 				</Box>
@@ -714,7 +714,7 @@ export default (() => {
 									/>
 								</Box>
 								<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
-									<Button background="#3c00cc">
+									<Button background="#bd00ff">
 										Send
 									</Button>
 								</Box>
