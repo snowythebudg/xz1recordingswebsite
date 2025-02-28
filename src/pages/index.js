@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Span, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
+import { FaGlobe, FaCoffee, FaStreetView } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -215,7 +216,7 @@ export default (() => {
 					lg-text-align="left"
 					sm-text-align="left"
 				>
-					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates multiple smaller sub-labels (see below). Established as a platform exclusively for releasing singles, our label aims to empower musicians in launching their careers. XZ1 Recordings has moved on to start releasing EP's and albums. Since our inception, XZ1 Recordings has been committed to next level personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
+					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates multiple smaller sub-labels for different genres. Established as a platform exclusively for releasing singles, our label aims to empower musicians in launching their careers. XZ1 Recordings has moved on to start releasing EP's and albums. Since our inception, XZ1 Recordings has been committed to next level personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
 				</Text>
 				<Text
 					margin="0px 0px 16px 0px"
@@ -381,6 +382,133 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section padding="80px 0 80px 0" background="#000000" sm-padding="60px 0 60px 0">
+			<Box
+				width="100%"
+				display="flex"
+				flex-direction="column"
+				md-width="100%"
+				md-align-items="center"
+				md-justify-content="center"
+				md-text-align="center"
+				lg-width="100%"
+				margin="0px 0px 56px 0px"
+				align-items="center"
+			>
+				<Text
+					margin="0px 0px 16px 0px"
+					font="--headline2"
+					color="--light"
+					md-text-align="center"
+					sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					text-align="center"
+				>
+					Sub-labels that XZ1 Recordings operates
+				</Text>
+				<Text
+					margin="0px 0px 0px 0px"
+					font="--base"
+					color="#ffffff"
+					md-text-align="center"
+					text-align="center"
+					max-width="480px"
+				>
+					XZ1 Recordings operates numerous sub-labels that cater to multiple genres. You can join an XZ1 sub-label if you successfully get accepted into XZ1 Recordings OR if you're already an XZ1/Fusion client and meet one of these genre requirements.
+				</Text>
+			</Box>
+			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
+				<Box
+					padding="45px 45px"
+					lg-padding="45px 30px"
+					md-padding="45px 45px"
+					background="#000000"
+					border-radius="24px"
+					justify-content="flex-start"
+					flex-direction="column"
+					display="flex"
+				>
+					<Icon
+						category="fa"
+						icon={FaGlobe}
+						margin="0px 0px 30px 0px"
+						color="--indigo"
+						size="48px"
+					/>
+					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
+						Solus Sound
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="#ffffff"
+						font="--base"
+						lg-text-align="left"
+						flex="1 0 auto"
+					>
+						Solus Sound is the sub-label catered to ambient music. Solus Sound was founded BEFORE XZ1 Recordings and was mainly used by Red Palm Tree, BudgieMint's second artist alias
+					</Text>
+				</Box>
+				<Box
+					padding="45px 45px"
+					lg-padding="45px 30px"
+					md-padding="45px 45px"
+					background="#000000"
+					border-radius="24px"
+					justify-content="flex-start"
+					flex-direction="column"
+					display="flex"
+				>
+					<Icon
+						category="fa"
+						icon={FaCoffee}
+						margin="0px 0px 30px 0px"
+						color="--indigo"
+						size="48px"
+					/>
+					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
+						Affogato Music
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="#ffffff"
+						font="--base"
+						lg-text-align="left"
+						flex="1 0 auto"
+					>
+						Affogato Music is the jazz/jazz fusion sub-label on XZ1 Recordings. Although we probably won't get much jazz music in our catalog, it's still good to have a sub-label. Life is like jazz, it's best when you improvise.
+					</Text>
+				</Box>
+				<Box
+					padding="45px 45px"
+					lg-padding="45px 30px"
+					md-padding="45px 45px"
+					background="#000000"
+					border-radius="24px"
+					justify-content="flex-start"
+					flex-direction="column"
+					display="flex"
+				>
+					<Icon
+						category="fa"
+						icon={FaStreetView}
+						margin="0px 0px 30px 0px"
+						color="--indigo"
+						size="48px"
+					/>
+					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
+						17th Street
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="#ffffff"
+						font="--base"
+						lg-text-align="left"
+						flex="1 0 auto"
+					>
+						17th Street is the main sub-label for rap music on XZ1 Recordings. We get a lot of rap music, trust us. 17th Street is designed to cater to upcoming rap artists.
+					</Text>
+				</Box>
+			</Box>
+		</Section>
 		<Section padding="100px 0 100px 0" background="#000000 radial-gradient(circle at center,#000000 0%,rgba(0,0,0,1) 100%)" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
 				Frequently asked questions
@@ -468,7 +596,17 @@ export default (() => {
 							<br />
 							<br />
 							To speak to XZ1 Live Chat, click{" "}
-							<Link href="#xz1support.netlify.app">
+							<Link
+								href="#xz1support.netlify.app"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
 								here
 							</Link>
 							<br />
