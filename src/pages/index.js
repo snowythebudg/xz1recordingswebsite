@@ -13,7 +13,7 @@ export default (() => {
 			<title>
 				XZ1 Recordings - Music from the next generation
 			</title>
-			<meta name={"description"} content={"A single and EP only label for upcoming artists! "} />
+			<meta name={"description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-2" display="grid" background="#000000">
@@ -531,7 +531,7 @@ export default (() => {
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
 				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. Taking this all into consideration, we've decided to include the XZ1 family of services under one umbrella, BluWave Digital Entertainment. If you're a current XZ1 client, you'll see this in your dashboard. No, we are not rebranding XZ1 Recordings. XZ1 is staying the exact same. However, we now have a cozy parent company to keep all our music services together. In Spotify and YouTube or anywhere where the label name is shown. BluWave Digital Entertainment will be shown. If you see this name, you know you're listening to an XZ1 or affiliated sub-label release. You can read more about BluWave{" "}
-				<Link href="bluwavedigital.netlify.app">
+				<Link href="bluwavedigital.netlify.app" target="_blank">
 					here
 				</Link>
 			</Text>

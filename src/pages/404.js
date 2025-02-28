@@ -12,7 +12,7 @@ export default (() => {
 			<title>
 				XZ1 Recordings - Music from the next generation
 			</title>
-			<meta name={"description"} content={"A single and EP only label for upcoming artists! "} />
+			<meta name={"description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
