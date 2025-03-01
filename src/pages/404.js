@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Icon, LinkBox, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
+import { BsArrowLeftShort } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
@@ -15,50 +16,87 @@ export default (() => {
 			<meta name={"description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Section
-			min-height="100vh"
-			background="url(https://images.unsplash.com/photo-1527710200112-665192dc1c22?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center center/cover no-repeat"
-			md-background="url(https://images.unsplash.com/photo-1610337673044-720471f83677?auto=format&fit=crop&w=800&q=80) center center/cover no-repeat"
-			padding="88px 0 88px 0"
-			quarkly-title="404-7"
-		>
-			<Override slot="SectionContent" justify-content="center" max-width="1220px" align-items="center" />
+		<Section padding="0px 0 0px 0" lg-max-height="none" min-height="100vh" quarkly-title="404-3">
+			<Override
+				slot="SectionContent"
+				max-width="none"
+				width="100%"
+				flex-direction="row"
+				background="#000000"
+			/>
 			<Box
-				border-radius="24px"
+				align-items="flex-start"
 				display="flex"
-				justify-content="center"
-				padding="56px 106px 64px 106px"
-				background="--color-dark"
-				max-width="600px"
-				sm-padding="26px 30px 34px 30px"
-				align-items="center"
+				justify-content="space-between"
 				flex-direction="column"
+				width="50%"
+				lg-width="100%"
+				lg-align-items="center"
+				background="#000000"
 			>
-				<Text font="--headline1" color="--light" margin="0px 0px 16px 0px" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-					404
-				</Text>
-				<Text
-					md-width="100%"
-					font="--lead"
-					color="--lightD1"
-					margin="0px 0px 40px 0px"
-					text-align="center"
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					justify-content="flex-start"
+					padding="36px 36px 36px 36px"
 					width="100%"
-					lg-width="80%"
+					lg-align-items="center"
+					lg-justify-content="center"
+					lg-padding="24px 24px 24px 24px"
+				/>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="36px 36px 36px 36px"
+					lg-align-items="center"
+					lg-padding="24px 24px 24px 24px"
+					lg-justify-content="flex-start"
 				>
-					Sorry, this part of the XZ1 Recordings website is either broken (not that i would be surprised) or you just typed in a link wrong or something. Click "Return" to head home.
-				</Text>
-				<Link
-					font="--lead"
-					padding="12px 24px 12px 24px"
-					border-radius="8px"
-					background="--color-light"
-					href="/index"
-					text-decoration-line="initial"
-					color="--dark"
-				>
-					Return
-				</Link>
+					<Text font="--headline3" color="--purple" lg-margin="0px 0px 0px 0px">
+						404
+					</Text>
+					<Text
+						color="--light"
+						margin="8px 0px 16px -4px"
+						sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+						font="--headline1"
+						letter-spacing="-0.025em"
+						lg-font="normal 700 48px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					>
+						Page not found
+					</Text>
+					<Text
+						lg-width="80%"
+						font="--lead"
+						color="--dark"
+						margin="0px 0px 30px 0px"
+						lg-text-align="center"
+					>
+						Sorry, we couldn’t find the page you’re looking for.
+					</Text>
+					<Box display="flex" grid-template-columns="1fr 1fr" grid-gap="8px" lg-align-items="center">
+						<LinkBox
+							flex-direction="row"
+							padding="12px 8px 12px 8px"
+							transition="--opacityOut"
+							hover-opacity="0.7"
+							lg-margin="0px 0px 20px 0px"
+						>
+							<Icon
+								category="bs"
+								icon={BsArrowLeftShort}
+								size="24px"
+								margin="4px 4px 0px 0px"
+								color="#ffffff"
+							/>
+							<Text margin="0px 0px 0px 0px" font="--lead" color="--light">
+								Back to home
+							</Text>
+						</LinkBox>
+					</Box>
+				</Box>
 			</Box>
 		</Section>
 		<Components.Footer>
