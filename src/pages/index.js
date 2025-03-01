@@ -531,7 +531,7 @@ export default (() => {
 			</Text>
 			<Text margin="0px 0px 0px 0px" />
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. We are still figuring out how to pay and register songs for other artists. If you request publishing, you won't hear back from us about that until we have our publishing stuff sorted. You also need to be approved separately for publishing even if you are already an XZ1 or other BluWave label client.  To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack WRITER account by clicking{" "}
+				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. We are still figuring out how to pay and register songs for other artists. If you request publishing, you won't hear back from us about that until we have our publishing stuff sorted. You also need to be approved separately for publishing even if you are already an XZ1 client. To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack CREATOR account by clicking{" "}
 				<Link
 					href="https://alltrack.com/join"
 					target="_blank"
@@ -614,17 +614,11 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light" />
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						If you would like your release to show up with XZ1 Recordings as the label on Spotify and YouTube. Mention it in your release submission or demo submission and we'll use the fallback label name. If not specified, BluWave Digital Entertainment will be used as the default name. XZ1 Recording Ventures will always be mentioned in your (c) and (p) lines. If releasing under a sub-label, you'll see XZ1/Name of sub-label
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						What is "BluWave Digital Entertainment"
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded, BluWave Digital Entertainment also handles label distribution and royalty management for other labels.  BluWave Digital Entertainment will now show up as the label on all future XZ1 and affiliated label releases. The (c) and (p) lines of your releases will still show as XZ1, an XZ1 sub-label, or a label managed by BluWave.{" "}
+						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded. BluWave Digital Entertainment will now show up as the label on all future XZ1 and XZ1 sub-label releases. The (c) and (p) lines of your releases will still show as XZ1 or an XZ1 sub-label
 					</Text>
 				</Box>
 			</Box>
