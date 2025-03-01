@@ -531,7 +531,22 @@ export default (() => {
 			</Text>
 			<Text margin="0px 0px 0px 0px" />
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. We are still figuring out how to pay and register songs for other artists. If you request publishing, you won't hear back from us about that until we have our publishing stuff sorted. You also need to be approved separately for publishing even if you are already an XZ1 or other BluWave label client.  To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack account using the link here. If approved for AllTrack, you may request publishing by XZ1 by sending us an email or using the contact form. Please submit your first name and last name plus your designated AllTrack IPI number.
+				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. We are still figuring out how to pay and register songs for other artists. If you request publishing, you won't hear back from us about that until we have our publishing stuff sorted. You also need to be approved separately for publishing even if you are already an XZ1 or other BluWave label client.  To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack WRITER account by clicking{" "}
+				<Link
+					href="https://alltrack.com/join"
+					target="_blank"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					here
+				</Link>
+				. If approved for AllTrack, you may request publishing by XZ1 by sending us an email or using the contact form. Please submit your first name and last name plus your designated AllTrack IPI number.
 			</Text>
 		</Section>
 		<Section padding="100px 0 100px 0" background="#000000 radial-gradient(circle at center,#000000 0%,rgba(0,0,0,1) 100%)" quarkly-title="FAQ-4">
@@ -609,7 +624,7 @@ export default (() => {
 						What is "BluWave Digital Entertainment"
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded, although our publishing division may be discontinued in the near future. BluWave Digital Entertainment also handles label distribution and royalty management for other labels.  BluWave Digital Entertainment will now show up as the label on all future XZ1 and affiliated label releases. The (c) and (p) lines of your releases will still show as XZ1, an XZ1 sub-label, or a label managed by BluWave.
+						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded, BluWave Digital Entertainment also handles label distribution and royalty management for other labels.  BluWave Digital Entertainment will now show up as the label on all future XZ1 and affiliated label releases. The (c) and (p) lines of your releases will still show as XZ1, an XZ1 sub-label, or a label managed by BluWave.{" "}
 					</Text>
 				</Box>
 			</Box>
