@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Em, Span, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -529,33 +529,9 @@ export default (() => {
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
 				XZ1 MUSIC PUBLISHING
 			</Text>
-			<Text margin="0px 0px 0px 0px">
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					<Em
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						PUBLISHING ON HOLD, MAY BE DISCONTINUED
-					</Em>
-				</Strong>
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0" text-decoration-line="line-through">
-				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. We are still figuring out how to pay and register songs for other artists. If you request publishing, you won't hear back from us about that until we have our publishing stuff sorted. You also need to be approved separately for publishing even if you are already an XZ1 or other BluWave label client.{" "}
+			<Text margin="0px 0px 0px 0px" />
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. We are still figuring out how to pay and register songs for other artists. If you request publishing, you won't hear back from us about that until we have our publishing stuff sorted. You also need to be approved separately for publishing even if you are already an XZ1 or other BluWave label client.  To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack account using the link here. If approved for AllTrack, you may request publishing by XZ1 by sending us an email or using the contact form. Please submit your first name and last name plus your designated AllTrack IPI number.
 			</Text>
 		</Section>
 		<Section padding="100px 0 100px 0" background="#000000 radial-gradient(circle at center,#000000 0%,rgba(0,0,0,1) 100%)" quarkly-title="FAQ-4">
