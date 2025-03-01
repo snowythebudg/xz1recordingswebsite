@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Em, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -529,11 +529,33 @@ export default (() => {
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
 				XZ1 MUSIC PUBLISHING
 			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. Taking this all into consideration, we've decided to include the XZ1 family of services under one umbrella, BluWave Digital Entertainment. If you're a current XZ1 client, you'll see this in your dashboard. No, we are not rebranding XZ1 Recordings. XZ1 is staying the exact same. However, we now have a cozy parent company to keep all our music services together. In Spotify and YouTube or anywhere where the label name is shown. BluWave Digital Entertainment will be shown. If you see this name, you know you're listening to an XZ1 or affiliated sub-label release. You can read more about BluWave{" "}
-				<Link href="bluwavedigital.netlify.app" target="_blank">
-					here
-				</Link>
+			<Text margin="0px 0px 0px 0px">
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Em
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						PUBLISHING ON HOLD, MAY BE DISCONTINUED
+					</Em>
+				</Strong>
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0" text-decoration-line="line-through">
+				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. We are still figuring out how to pay and register songs for other artists. If you request publishing, you won't hear back from us about that until we have our publishing stuff sorted. You also need to be approved separately for publishing even if you are already an XZ1 or other BluWave label client.{" "}
 			</Text>
 		</Section>
 		<Section padding="100px 0 100px 0" background="#000000 radial-gradient(circle at center,#000000 0%,rgba(0,0,0,1) 100%)" quarkly-title="FAQ-4">
@@ -600,6 +622,20 @@ export default (() => {
 						Fully AI generated music is not allowed to be released on XZ1. Music partially made with AI tools such as BandLab's Songstarter tool are permitted as long as you make enough changes to them that it won't be striked for copyright.
 					</Text>
 				</Box>
+				<Box min-width="100px" min-height="100px">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light" />
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						If you would like your release to show up with XZ1 Recordings as the label on Spotify and YouTube. Mention it in your release submission or demo submission and we'll use the fallback label name. If not specified, BluWave Digital Entertainment will be used as the default name. XZ1 Recording Ventures will always be mentioned in your (c) and (p) lines. If releasing under a sub-label, you'll see XZ1/Name of sub-label
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+						What is "BluWave Digital Entertainment"
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded, although our publishing division may be discontinued in the near future. BluWave Digital Entertainment also handles label distribution and royalty management for other labels.  BluWave Digital Entertainment will now show up as the label on all future XZ1 and affiliated label releases. The (c) and (p) lines of your releases will still show as XZ1, an XZ1 sub-label, or a label managed by BluWave.
+					</Text>
+				</Box>
 			</Box>
 		</Section>
 		<Section background="--color-dark" color="--dark" padding="64px 0 64px 0">
@@ -623,18 +659,7 @@ export default (() => {
 							<br />
 							<br />
 							To speak to XZ1 Live Chat, click{" "}
-							<Link
-								href="https://xz1support.netlify.app"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-								target="_blank"
-							>
+							<Link href="https://xz1support.netlify.app" target="_blank">
 								here
 							</Link>
 							<br />
