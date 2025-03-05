@@ -103,7 +103,7 @@ export default (() => {
 			<Override slot="text">
 				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment.
 				<br />
-				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
+				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈
 			</Override>
 		</Components.Footer>
 		<Link

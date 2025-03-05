@@ -157,7 +157,7 @@ export default (() => {
 				XZ1 is now releasing albums!
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We are proud to announce that XZ1 Recordings has started distributing albums. Our former service for handling albums (Fusion Audio Distribution) is potentially shutting down which means that XZ1 Recordings will take over album operations. This is a big step in XZ1's evolution and we strive to start the new era of record labels (distribution-focused labels)
+				We are proud to announce that XZ1 Recordings has started distributing albums. Our former service for handling albums (Fusion Audio Distribution) is closed down which means that XZ1 Recordings will take over album operations. This is a big step in XZ1's evolution and we strive to power the new era of record labels (distribution-focused labels)
 			</Text>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,#0038ff 0%,rgba(0,0,0,1) 100%)">
@@ -531,7 +531,7 @@ export default (() => {
 			</Text>
 			<Text margin="0px 0px 0px 0px" />
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. We use AllTrack for our publishing so if you do not want that, do not request publishing. We are still figuring out how to pay and register songs for other artists. If you request publishing, you won't hear back from us about that until we have our publishing stuff sorted. You also need to be approved separately for publishing even if you are already an XZ1 client. To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack CREATOR account by clicking{" "}
+				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. You need to be approved separately for publishing even if you are already an XZ1 client. To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack CREATOR account by clicking{" "}
 				<Link
 					href="https://alltrack.com/join"
 					target="_blank"
@@ -546,7 +546,11 @@ export default (() => {
 				>
 					here
 				</Link>
-				. If approved for AllTrack, you may request publishing by XZ1 by sending us an email or using the contact form. Please submit your first name and last name plus your designated AllTrack IPI number.
+				. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
+				<Link href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" target="_blank">
+					this website{" "}
+				</Link>
+				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack IPI number.{" "}
 			</Text>
 		</Section>
 		<Section padding="100px 0 100px 0" background="#000000 radial-gradient(circle at center,#000000 0%,rgba(0,0,0,1) 100%)" quarkly-title="FAQ-4">
@@ -763,9 +767,9 @@ export default (() => {
 		</Section>
 		<Components.Footer>
 			<Override slot="text">
-				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment.
+				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment
 				<br />
-				Owned and operated by BudgieMint (https://ebb.l5.ca&#125;
+				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈
 			</Override>
 		</Components.Footer>
 		<Components.QuarklycommunityKitNetlifyForm />
