@@ -1,11 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Text, Icon, LinkBox, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, LinkBox, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsArrowLeftShort } from "react-icons/bs";
+import { FiArrowRight } from "react-icons/fi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
@@ -14,88 +14,66 @@ export default (() => {
 				XZ1 Recordings - Music from the next generation
 			</title>
 			<meta name={"description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14:44:26.714Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Section padding="0px 0 0px 0" lg-max-height="none" min-height="100vh" quarkly-title="404-3">
-			<Override
-				slot="SectionContent"
-				max-width="none"
-				width="100%"
-				flex-direction="row"
-				background="#000000"
-			/>
-			<Box
-				align-items="flex-start"
-				display="flex"
-				justify-content="space-between"
-				flex-direction="column"
-				width="50%"
-				lg-width="100%"
-				lg-align-items="center"
-				background="#000000"
-			>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					justify-content="flex-start"
-					padding="36px 36px 36px 36px"
-					width="100%"
-					lg-align-items="center"
-					lg-justify-content="center"
-					lg-padding="24px 24px 24px 24px"
-				/>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="36px 36px 36px 36px"
-					lg-align-items="center"
-					lg-padding="24px 24px 24px 24px"
-					lg-justify-content="flex-start"
+		<Section padding="88px 0 88px 0" min-height="100vh" quarkly-title="404-1" background="#000000 url(https://images.unsplash.com/photo-1606232390005-e6c6b0baf0c7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000)">
+			<Override slot="SectionContent" max-width="1220px" justify-content="center" background="#000000" />
+			<Box align-items="center" display="flex" justify-content="center" flex-direction="column">
+				<Text margin="0px 0px 0px 0px" font="--headline3" color="--purple">
+					404
+				</Text>
+				<Text
+					color="--light"
+					margin="8px 0px 16px 0px"
+					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					font="--headline1"
+					letter-spacing="-0.025em"
 				>
-					<Text font="--headline3" color="--purple" lg-margin="0px 0px 0px 0px">
-						404
-					</Text>
-					<Text
-						color="--light"
-						margin="8px 0px 16px -4px"
-						sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-						font="--headline1"
-						letter-spacing="-0.025em"
-						lg-font="normal 700 48px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					>
-						Page not found
-					</Text>
-					<Text
-						lg-width="80%"
+					Page not found
+				</Text>
+				<Text
+					lg-width="80%"
+					font="--lead"
+					color="--dark"
+					margin="0px 0px 40px 0px"
+					text-align="center"
+				>
+					Sorry, we couldn’t find the page you’re looking for.
+				</Text>
+				<Box display="grid" grid-template-columns="1fr 1fr" grid-gap="8px" sm-grid-template-columns="1fr">
+					<Link
 						font="--lead"
-						color="--dark"
-						margin="0px 0px 30px 0px"
-						lg-text-align="center"
+						padding="12px 24px 12px 24px"
+						background="--color-purple"
+						border-radius="8px"
+						href="/"
+						text-decoration-line="initial"
+						color="--light"
+						transition="--opacityOut"
+						hover-opacity="0.7"
 					>
-						Sorry, we couldn’t find the page you’re looking for.
-					</Text>
-					<Box display="flex" grid-template-columns="1fr 1fr" grid-gap="8px" lg-align-items="center">
-						<LinkBox
-							flex-direction="row"
-							padding="12px 8px 12px 8px"
-							transition="--opacityOut"
-							hover-opacity="0.7"
-							lg-margin="0px 0px 20px 0px"
-						>
-							<Icon
-								category="bs"
-								icon={BsArrowLeftShort}
-								size="24px"
-								margin="4px 4px 0px 0px"
-								color="#ffffff"
-							/>
-							<Text margin="0px 0px 0px 0px" font="--lead" color="--light">
-								Back to home
-							</Text>
-						</LinkBox>
-					</Box>
+						Go back to home
+					</Link>
+					<LinkBox
+						flex-direction="row"
+						padding="12px 6px 12px 8px"
+						hover-background="--color-dark"
+						hover-color="--light"
+						transition="background-color --transitionDuration-normal --transitionTimingFunction-easeOut 0s"
+						border-radius="8px"
+						href="mailto:snowythebudg@gmail.com?Issue with XZ1 Recordings site"
+					>
+						<Text margin="0px 0px 0px 0px" font="--lead" color="#ffffff">
+							Contact support{" "}
+						</Text>
+						<Icon
+							category="fi"
+							icon={FiArrowRight}
+							size="24px"
+							margin="4px 0px 0px 4px"
+							color="--purple"
+						/>
+					</LinkBox>
 				</Box>
 			</Box>
 		</Section>
@@ -105,6 +83,7 @@ export default (() => {
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈
 			</Override>
+			<Override slot="icon" color="--purple" />
 		</Components.Footer>
 		<Link
 			font={"--capture"}

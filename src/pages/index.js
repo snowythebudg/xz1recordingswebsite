@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, List, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
+import { FiBox, FiLock, FiEdit } from "react-icons/fi";
 import { FaGlobe, FaCoffee, FaStreetView } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
@@ -14,7 +15,7 @@ export default (() => {
 				XZ1 Recordings - Music from the next generation
 			</title>
 			<meta name={"description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14:44:26.714Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-2" display="grid" background="#000000">
 			<Override
@@ -66,7 +67,7 @@ export default (() => {
 			sm-padding="60px 0 96px 0"
 			quarkly-title="Hero-23"
 			padding="88px 0 88px 0"
-			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1504704911898-68304a7d2807?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1461696114087-397271a7aedc?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -142,7 +143,7 @@ export default (() => {
 			color="--light"
 			padding="80px 0"
 			sm-padding="40px 0"
-			background="#000000 radial-gradient(circle at center,#001e8e 0%,rgba(0,0,0,1) 100%)"
+			background="#000000 radial-gradient(circle at center,--color-purple 0%,rgba(0,0,0,1) 100%)"
 		>
 			<Text
 				as="h5"
@@ -151,16 +152,16 @@ export default (() => {
 				text-transform="uppercase"
 				letter-spacing="5px"
 			>
-				Important announcement
+				IMPORTANT ANNOUNCEMENT
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 is now releasing albums!
+				XZ1 goes pink!
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We are proud to announce that XZ1 Recordings has started distributing albums. Our former service for handling albums (Fusion Audio Distribution) is closed down which means that XZ1 Recordings will take over album operations. This is a big step in XZ1's evolution and we strive to power the new era of record labels (distribution-focused labels)
+				If you haven't already noticed, we've spiced up our website a little bit. To align with the pink branding of the XZ1 logo, we've made the site pink. You'll notice new pictures for most if not everything, some new sections have been added as well. We hope you enjoy this new site rebrand, as always if you have any feedback. Contact us below!
 			</Text>
 		</Section>
-		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,#0038ff 0%,rgba(0,0,0,1) 100%)">
+		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
 				display="flex"
@@ -174,14 +175,14 @@ export default (() => {
 				lg-justify-content="center"
 			>
 				<Image
-					src="https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+					src="https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
 					object-fit="cover"
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
 					sm-min-height="100vw"
 					height="100%"
-					srcSet="https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=500 500w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=800 800w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1080 1080w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1600 1600w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2000 2000w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2600 2600w,https://images.unsplash.com/photo-1607371059636-720f2c169e82?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=3200 3200w"
+					srcSet="https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
@@ -382,6 +383,228 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section
+			padding="90px 0 90px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			display="flex"
+			background="#000000"
+			overflow-y="hidden"
+			overflow-x="hidden"
+			quarkly-title="Advantages/Features-12"
+		>
+			<Override
+				slot="SectionContent"
+				flex-direction="row"
+				flex-wrap="wrap"
+				grid-gap="5%"
+				sm-min-width="280px"
+			/>
+			<Box
+				display="flex"
+				width="50%"
+				justify-content="flex-end"
+				lg-justify-content="center"
+				lg-width="100%"
+				padding="0px 0px 0px 16px"
+				align-items="center"
+				lg-padding="0px 0px 0px 0px"
+				font="20px sans-serif"
+			>
+				<Box
+					width="972px"
+					height="589px"
+					md-display="flex"
+					md-justify-content="center"
+					box-shadow="--xl"
+					lg-height="auto"
+				>
+					<Image
+						height="589px"
+						lg-width="100%"
+						width="972px"
+						border-radius="8px"
+						z-index="9"
+						position="relative"
+						lg-margin="0px 0px 0px 0px"
+						box-shadow="--xxl"
+						src="https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						object-fit="cover"
+						lg-height="auto"
+						lg-display="block"
+						srcSet="https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=500 500w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=800 800w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1080 1080w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1600 1600w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2000 2000w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2600 2600w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</Box>
+			</Box>
+			<Box
+				display="flex"
+				width="45%"
+				flex-direction="column"
+				justify-content="flex-start"
+				align-items="flex-start"
+				lg-width="100%"
+				lg-align-items="flex-start"
+				lg-margin="0px 0px 20px 0px"
+				sm-margin="32px 0px 40px 0px"
+				sm-padding="0px 0px 0px 0px"
+				padding="24px 0px 16px 0px"
+				lg-flex-direction="column"
+				lg-flex-wrap="no-wrap"
+				sm-width="100%"
+				md-margin="0px 0px 30px 0px"
+				lg-padding="36px 0px 16px 0px"
+			>
+				<Text as="p" font="--base" color="--purple" margin="0px 0px 8px 0px">
+					Why you should join XZ1
+				</Text>
+				<Text
+					as="h1"
+					margin="0px"
+					font="normal 600 40px/1.5 --fontFamily-sans"
+					color="--light"
+					width="100%"
+					md-width="100%"
+					md-margin="0px 0px 32px 0px"
+					md-padding="0px 0px 0px 0px"
+					sm-font="normal 600 40px/1.2 --fontFamily-sans"
+					lg-max-width="720px"
+				>
+					What you get as an XZ1 client
+				</Text>
+				<Text
+					as="p"
+					margin="20px 0 0 0"
+					font="--lead"
+					font-size="20px"
+					font-weight="300"
+					color="--light"
+					width="100%"
+					md-width="100%"
+					md-margin="0px 0px 0px 0px"
+					md-padding="0px 0px 0px 0px"
+					sm-font="--base"
+					lg-max-width="720px"
+				>
+					Joining XZ1 Recordings has many benefits. All of them are listed below! Scroll down to send a demo and start your journey with XZ1!
+				</Text>
+				<List
+					margin="40px 0px 0px 0px"
+					padding="0px 0px 0px 0px"
+					as="ul"
+					sm-margin="24px 0 0 0"
+					list-style-type="none"
+					font="normal normal 18px/150% sans-serif"
+					display="flex"
+					flex-direction="column"
+					grid-gap="25px"
+					lg-margin="32px 0px 0px 0px"
+				>
+					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px">
+						<Icon
+							display="block"
+							category="fi"
+							icon={FiBox}
+							size="20px"
+							color="--purple"
+							margin="5px 0 0 0"
+						/>
+						<Text
+							padding="0"
+							margin="0"
+							color="--light"
+							font="18px/27px --fontFamily-sans"
+							lg-max-width="720px"
+						>
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								font="normal 600 16px/1.5 --fontFamily-sans"
+								color="--light"
+							>
+								Reliable distribution.{" "}
+								<Span font-weight="300">
+									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution. Everything can be managed in one clean dashboard to ensure you have a good distribution experience
+								</Span>
+							</Span>
+						</Text>
+					</Box>
+					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px">
+						<Icon
+							display="block"
+							category="fi"
+							icon={FiLock}
+							size="20px"
+							color="--purple"
+							margin="5px 0 0 0"
+						/>
+						<Text
+							padding="0"
+							margin="0"
+							color="--darkL2"
+							font="18px/27px --fontFamily-sans"
+							lg-max-width="720px"
+						>
+							<Span
+								font-weight="600"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								font="normal 600 16px/1.5 --fontFamily-sans"
+								color="--light"
+							>
+								Rights protection and publishing.{" "}
+								<Span font-weight="300">
+									XZ1 Recordings has established exclusive publishing with AllTrack to provide you with quality music publishing and to make sure that you get every drop of your money.
+								</Span>
+							</Span>
+						</Text>
+					</Box>
+					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px">
+						<Icon
+							display="block"
+							category="fi"
+							icon={FiEdit}
+							size="20px"
+							color="--purple"
+							margin="5px 0 0 0"
+						/>
+						<Text padding="0" margin="0" font="18px/27px --fontFamily-sans" lg-max-width="720px">
+							<Span
+								font-weight="600"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								font="normal 600 16px/1.5 --fontFamily-sans"
+								color="--light"
+							>
+								Secure contracts.{" "}
+								<Span font-weight="300">
+									We provide all our artists with secure contracts when applying to ensure that your music stays protected and that you get all the money you need.
+								</Span>
+							</Span>
+						</Text>
+					</Box>
+				</List>
+			</Box>
+		</Section>
 		<Section padding="80px 0 80px 0" background="#000000" sm-padding="60px 0 60px 0">
 			<Box
 				width="100%"
@@ -431,7 +654,7 @@ export default (() => {
 						category="fa"
 						icon={FaGlobe}
 						margin="0px 0px 30px 0px"
-						color="--indigo"
+						color="--purple"
 						size="48px"
 					/>
 					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
@@ -461,7 +684,7 @@ export default (() => {
 						category="fa"
 						icon={FaCoffee}
 						margin="0px 0px 30px 0px"
-						color="--indigo"
+						color="--purple"
 						size="48px"
 					/>
 					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
@@ -491,7 +714,7 @@ export default (() => {
 						category="fa"
 						icon={FaStreetView}
 						margin="0px 0px 30px 0px"
-						color="--indigo"
+						color="--purple"
 						size="48px"
 					/>
 					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
@@ -553,7 +776,7 @@ export default (() => {
 				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack IPI number.{" "}
 			</Text>
 		</Section>
-		<Section padding="100px 0 100px 0" background="#000000 radial-gradient(circle at center,#000000 0%,rgba(0,0,0,1) 100%)" quarkly-title="FAQ-4">
+		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
 				Frequently asked questions
 			</Text>
@@ -590,7 +813,7 @@ export default (() => {
 						Do I need to sign a contract
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						We send contracts on a per release basis. Once we submit your release, you'll recieve a contract to sign in your email which can easily be signed through your XZ1 dashboard.
+						We send contracts on a per release basis. Once we submit your release, you'll recieve a contract to sign in your email which can easily be signed through your XZ1 dashboard. If you get assigned to an alternate XZ1 distributor. We will send you a contract to send, the contract will last for ONE year from the date of signing. If you'd like to review the contract before you apply, use the form below!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -606,7 +829,7 @@ export default (() => {
 						Do I need to pay anything
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						Not at all!
+						Not at all! We may start charging for extra services in the future but these services are purely optional and you are not required to use them.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -627,7 +850,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section background="--color-dark" color="--dark" padding="64px 0 64px 0">
+		<Section background="#000000" color="--dark" padding="64px 0 64px 0">
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
 				<Box padding="16px 16px 16px 16px" width="50%" lg-width="100%">
 					<Box>
@@ -638,17 +861,25 @@ export default (() => {
 							text-transform="uppercase"
 							margin="0"
 						>
-							Contact
+							Contact XZ1 or BluWave
 						</Text>
 						<Text font="--headline3" max-width="500px" margin="10px 0 0 0" color="#ffffff">
 							Get in contact with us. We'll reply quick!
 							<br />
 							<br />
-							--------------------------------------------
-							<br />
-							<br />
 							To speak to XZ1 Live Chat, click{" "}
-							<Link href="https://xz1support.netlify.app" target="_blank">
+							<Link
+								href="https://xz1support.netlify.app"
+								target="_blank"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
 								here
 							</Link>
 							<br />
@@ -755,7 +986,7 @@ export default (() => {
 									/>
 								</Box>
 								<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
-									<Button background="#bd00ff">
+									<Button background="--color-purple">
 										Send
 									</Button>
 								</Box>
@@ -767,10 +998,11 @@ export default (() => {
 		</Section>
 		<Components.Footer>
 			<Override slot="text">
-				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment
+				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment (https://bluwavedigital.netlify.app)
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈
 			</Override>
+			<Override slot="icon" background="#000000" color="--purple" />
 		</Components.Footer>
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />

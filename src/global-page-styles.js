@@ -4,13 +4,19 @@ import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
     "404": {
-        "font": "--headline3"
+        "font": "--headline3",
+        "transition": "",
+        "cursor": "auto"
     },
     "index": {
-        "font": "--headline3"
+        "font": "--headline3",
+        "transition": "",
+        "cursor": "auto"
     },
     "demos": {
-        "font": "--headline3"
+        "font": "--headline3",
+        "transition": "",
+        "cursor": "auto"
     }
 };
 

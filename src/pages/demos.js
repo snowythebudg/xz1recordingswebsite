@@ -14,7 +14,7 @@ export default (() => {
 				XZ1 Recordings - Music from the next generation
 			</title>
 			<meta name={"description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/music-player-fill.svg?v=2024-07-25T02:04:54.440Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14:44:26.714Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
 			<Override slot="SectionContent" align-items="center" />
@@ -43,7 +43,7 @@ export default (() => {
 			sm-padding="40px 0"
 			position="relative"
 			quarkly-title="Form-1"
-			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1510577956525-69bd3c29339e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1531349360275-16ecb0bf45bd?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
 		>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
 				<Box padding="16px 16px 16px 16px" width="50%" md-width="100%">
@@ -114,7 +114,7 @@ export default (() => {
 									</Box>
 									<Box width="100%" padding="8px 8px 8px 8px">
 										<Box display="flex" flex-direction="column" align-items="flex-start">
-											<Button background="--color-orange">
+											<Button background="--color-purple">
 												Send
 											</Button>
 										</Box>
@@ -158,7 +158,7 @@ export default (() => {
 						display="flex"
 						href="#"
 					>
-						<Icon category="bs" icon={BsFillMusicPlayerFill} color="#6d32ec" size="37px" />
+						<Icon category="bs" icon={BsFillMusicPlayerFill} color="--purple" size="37px" />
 					</LinkBox>
 				</Box>
 			</Box>
