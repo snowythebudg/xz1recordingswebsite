@@ -17,6 +17,11 @@ const pageStyles = {
         "font": "--headline3",
         "transition": "",
         "cursor": "auto"
+    },
+    "test": {
+        "font": "--headline3",
+        "transition": "",
+        "cursor": "auto"
     }
 };
 
