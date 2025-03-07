@@ -143,7 +143,7 @@ export default (() => {
 			color="--light"
 			padding="80px 0"
 			sm-padding="40px 0"
-			background="#000000 radial-gradient(circle at center,--color-purple 0%,rgba(0,0,0,1) 100%)"
+			background="#000000"
 		>
 			<Text
 				as="h5"
