@@ -17,11 +17,6 @@ const pageStyles = {
         "font": "--headline3",
         "transition": "",
         "cursor": "auto"
-    },
-    "noticeinf": {
-        "font": "--headline3",
-        "transition": "",
-        "cursor": "auto"
     }
 };
 
