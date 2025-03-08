@@ -18,7 +18,7 @@ const pageStyles = {
         "transition": "",
         "cursor": "auto"
     },
-    "test": {
+    "noticeinf": {
         "font": "--headline3",
         "transition": "",
         "cursor": "auto"

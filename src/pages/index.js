@@ -999,14 +999,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer>
-			<Override slot="text">
-				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment (https://bluwavedigital.netlify.app)
-				<br />
-				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈
-			</Override>
-			<Override slot="icon" background="#000000" color="--purple" />
-		</Components.Footer>
+		<Components.Footer2 />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
