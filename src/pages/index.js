@@ -140,30 +140,6 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				IMPORTANT ANNOUNCEMENT
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				New XZ1 footer
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We have changed the footer of the XZ1 site. You'll now be able to get to the demo submission portal by scrolling to the very bottom of the site and clicking the "Send a demo!" button in the middle!
-			</Text>
-		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
@@ -851,6 +827,30 @@ export default (() => {
 						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded.{" "}
 					</Text>
 				</Box>
+				<Box min-width="100px" min-height="100px">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+						I've been invited, but I don't know how to get into my dashboard
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						If you've been invited to XZ1's Labelcaster dashboard as a client. Click the link in your email and then click on "Forgot password?" and from there you can reset your password and get into your account.
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+						How should I submit releases?
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						You can use the XZ1 support portal located here to submit releases, or you may add me on Discord (@mintybudgie) and submit your releases. If you don't wanna do any of these, send an email to snowythebudg@gmail.com with your release information. We will state what release information you need during onboarding!
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+						What are XZ1's distribution channels?
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						XZ1 Recordings does digital distribution through a distributor called Labelcaster, we also do physical distribution (online, for select artists) through ElasticStage
+					</Text>
+				</Box>
 			</Box>
 		</Section>
 		<Section background="#000000" color="--dark" padding="64px 0 64px 0">
@@ -983,47 +983,13 @@ export default (() => {
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.Footer3>
-			<Override slot="text">
-				Reach out to XZ1 Recordings
-			</Override>
-			<Override slot="text6">
-				Hours of Operation/Extras
-			</Override>
-			<Override slot="text7">
-				Mon to Fri (8 am – 9 pm)
+			<Override slot="link" />
+			<Override slot="text4">
+				snowythebudg@gmail.com - Personal
 				<br />
-				{"\n"}Sat to Sun (11 am – 10 pm){" "}
+				xz1recordings@songwriter.net - Business (slower)
 				<br />
-				All times in MST/MDT (Mountain)
-				<br />
-				Access promotional services{" "}
-				<Link
-					href="https://drive.google.com/file/d/1XsOuqDjk_5esvAXQ7FgydALj-xDF9t39/view?usp=drive_link"
-					target="_blank"
-					color="--purple"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						here{" "}
-					</Strong>
-				</Link>
-				(paid)
+				https://ebb.l5.ca/contact{" "}
 			</Override>
 		</Components.Footer3>
 		<Link
