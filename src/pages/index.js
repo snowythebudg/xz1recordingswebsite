@@ -839,6 +839,14 @@ export default (() => {
 						XZ1 Recordings does digital distribution through a distributor called Labelcaster, we also do physical distribution (online, for select artists) through ElasticStage
 					</Text>
 				</Box>
+				<Box min-width="100px" min-height="100px">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+						Is there an age restriction for XZ1 Recordings
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						You need to be 13 or over to sign a contract with XZ1 Recordings. Artists that are suspected of being under the age of 13 will have their releases taken down and their royalties suspended.
+					</Text>
+				</Box>
 			</Box>
 		</Section>
 		<Section background="#000000" color="--dark" padding="64px 0 64px 0">
