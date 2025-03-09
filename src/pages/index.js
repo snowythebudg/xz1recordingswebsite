@@ -986,6 +986,45 @@ export default (() => {
 			<Override slot="text">
 				Reach out to XZ1 Recordings
 			</Override>
+			<Override slot="text6">
+				Hours of Operation/Extras
+			</Override>
+			<Override slot="text7">
+				Mon to Fri (8 am – 9 pm)
+				<br />
+				{"\n"}Sat to Sun (11 am – 10 pm){" "}
+				<br />
+				All times in MST/MDT (Mountain)
+				<br />
+				Access promotional services{" "}
+				<Link
+					href="https://drive.google.com/file/d/1XsOuqDjk_5esvAXQ7FgydALj-xDF9t39/view?usp=drive_link"
+					target="_blank"
+					color="--purple"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						here{" "}
+					</Strong>
+				</Link>
+				(paid)
+			</Override>
 		</Components.Footer3>
 		<Link
 			font={"--capture"}
