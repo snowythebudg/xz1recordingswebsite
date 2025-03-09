@@ -158,10 +158,10 @@ export default (() => {
 				IMPORTANT ANNOUNCEMENT
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 goes pink!
+				New XZ1 footer
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				If you haven't already noticed, we've spiced up our website a little bit. To align with the pink branding of the XZ1 logo, we've made the site pink. You'll notice new pictures for most if not everything, some new sections have been added as well. We hope you enjoy this new site rebrand, as always if you have any feedback. Contact us below!
+				We have changed the footer of the XZ1 site. You'll now be able to get to the demo submission portal by scrolling to the very bottom of the site and clicking the "Send a demo!" button in the middle!
 			</Text>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
@@ -848,7 +848,7 @@ export default (() => {
 						What is "BluWave Digital Entertainment"
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded. BluWave Digital Entertainment will now show up as the label on all future XZ1 and XZ1 sub-label releases. The (c) and (p) lines of your releases will still show as XZ1 or an XZ1 sub-label
+						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded.{" "}
 					</Text>
 				</Box>
 			</Box>
@@ -867,7 +867,7 @@ export default (() => {
 							Contact XZ1 or BluWave
 						</Text>
 						<Text font="--headline3" max-width="500px" margin="10px 0 0 0" color="#ffffff">
-							Get in contact with us. We'll reply quick!
+							Get in contact with us through the form or by clicking the "Email us" button down below. We'll reply quick!
 							<br />
 							<br />
 							To speak to XZ1 Live Chat, click{" "}
@@ -885,7 +885,6 @@ export default (() => {
 							>
 								here
 							</Link>
-							<br />
 							<br />
 							<Span
 								font-weight="normal"
@@ -908,25 +907,6 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									To submit a demo, click
-									<br />
-									{" "}
-									<Link
-										href="demos"
-										overflow-wrap="normal"
-										word-break="normal"
-										white-space="normal"
-										text-indent="0"
-										text-overflow="clip"
-										hyphens="manual"
-										user-select="auto"
-										pointer-events="auto"
-										target="_blank"
-									>
-										here
-										<br />
-									</Link>
-									<br />
 									<Link
 										href="/promotionalservices"
 										target="_blank"
@@ -999,10 +979,14 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer2 />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.Footer3>
+			<Override slot="text">
+				Reach out to XZ1 Recordings
+			</Override>
+		</Components.Footer3>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

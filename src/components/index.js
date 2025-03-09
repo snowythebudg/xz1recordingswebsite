@@ -1,3 +1,2 @@
-export { default as Footer } from "./Footer"
-export { default as Footer2 } from "./Footer2"
+export { default as Footer3 } from "./Footer3"
 export { default as QuarklycommunityKitNetlifyForm } from "./QuarklycommunityKitNetlifyForm"

@@ -1,11 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section, Icon, Box, Input, Button, LinkBox } from "@quarkly/widgets";
+import { Theme, Link, Text, Section, Icon, Box, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
+import * as Components from "components";
 import { MdEmail } from "react-icons/md";
-import { BsFillMusicPlayerFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"demos"} />
@@ -129,65 +129,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" quarkly-title="Footer-4" background="#000000">
-			<Box
-				display="flex"
-				lg-width="100%"
-				flex-direction="row"
-				lg-flex-direction="row"
-				justify-content="space-between"
-				width="100%"
-				padding="0 0px 50px 0px"
-				md-padding="0 0px 30px 0px"
-				lg-padding="0 0px 50px 0px"
-				md-flex-direction="column"
-				md-display="flex"
-				md-grid-gap="36px"
-			>
-				<Box
-					lg-margin="0px 0px 0px 0px"
-					width="30%"
-					display="flex"
-					lg-width="30%"
-					sm-width="20%"
-					md-width="10%"
-				>
-					<LinkBox
-						justify-content="center"
-						border-radius="100%"
-						width="36px"
-						height="36px"
-						align-items="center"
-						display="flex"
-						href="#"
-					>
-						<Icon category="bs" icon={BsFillMusicPlayerFill} color="--purple" size="37px" />
-					</LinkBox>
-				</Box>
-			</Box>
-			<Box
-				display="flex"
-				justify-content="space-between"
-				padding="50px 0px 0px 0px"
-				border-width="1px 0 0 0"
-				border-style="solid"
-				border-color="--color-lightD2"
-				md-padding="30px 0px 0px 0px"
-				md-flex-direction="column"
-			>
-				<Text
-					margin="0px 0px 0px 0px"
-					font="--base"
-					color="#ffffff"
-					md-margin="0px 0px 25px 0px"
-					sm-text-align="center"
-				>
-					© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment
-					<br />
-					Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈
-				</Text>
-			</Box>
-		</Section>
+		<Components.Footer3 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

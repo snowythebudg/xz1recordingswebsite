@@ -80,14 +80,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer>
-			<Override slot="text">
-				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment.
-				<br />
-				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈
-			</Override>
-			<Override slot="icon" color="--purple" />
-		</Components.Footer>
+		<Components.Footer3 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
