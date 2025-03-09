@@ -781,14 +781,6 @@ export default (() => {
 				</Box>
 				<Box min-width="100px" min-height="100px">
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
-						Does XZ1 release albums
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						XZ1 now releases albums! Whether it's a mini-LP or a full length album. We accept all albums for distribution now. We used to be a single and EP only distributor but we're open to albums now!
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						Do I need to sign a contract
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
@@ -801,14 +793,6 @@ export default (() => {
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
 						As many as you wish, do note that all releases you release through XZ1 will be binded to us for 365 days, after that you are free to re-release your release or keep it on XZ1.
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
-						Do I need to pay anything
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						Not at all! We may start charging for extra services in the future but these services are purely optional and you are not required to use them.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -840,7 +824,11 @@ export default (() => {
 						How should I submit releases?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						You can use the XZ1 support portal located here to submit releases, or you may add me on Discord (@mintybudgie) and submit your releases. If you don't wanna do any of these, send an email to snowythebudg@gmail.com with your release information. We will state what release information you need during onboarding!
+						You can use the XZ1 support portal located{" "}
+						<Link href="https://xz1support.netlify.app/submission" color="--purple">
+							here{" "}
+						</Link>
+						to submit releases, or you may add me on Discord (@mintybudgie) and submit your releases. If you don't wanna do any of these, send an email to snowythebudg@gmail.com with your release information. We will state what release information you need during onboarding!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -982,16 +970,7 @@ export default (() => {
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.Footer3>
-			<Override slot="link" />
-			<Override slot="text4">
-				snowythebudg@gmail.com - Personal
-				<br />
-				xz1recordings@songwriter.net - Business (slower)
-				<br />
-				https://ebb.l5.ca/contact{" "}
-			</Override>
-		</Components.Footer3>
+		<Components.Footer0308 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
