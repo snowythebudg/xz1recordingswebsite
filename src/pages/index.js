@@ -140,6 +140,33 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				IMPORTANT ANNOUNCEMENT
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 has a new distribution partner!
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				We are pleased to announce that we have partnered with MN2S Label Services for distribution! All future XZ1 and affiliated sub-label released will be distributed through MN2S. This deal will hopefully start the true launch of XZ1! You can view more about MN2S and the services they offer{" "}
+				<Link href="https://mn2s.com/" color="--purple">
+					here
+				</Link>
+			</Text>
+		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
@@ -784,7 +811,7 @@ export default (() => {
 						Do I need to sign a contract
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						We send contracts on a per release basis. Once we submit your release, you'll recieve a contract to sign in your email which can easily be signed through your XZ1 dashboard. If you get assigned to an alternate XZ1 distributor. We will send you a contract to send, the contract will last for ONE year from the date of signing. If you'd like to review the contract before you apply, use the form below!
+						As all labels, yes you do need to sign a contract. We are currently unsure of the contract terms since we're still negotiating with our label team.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -836,7 +863,7 @@ export default (() => {
 						What are XZ1's distribution channels?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						XZ1 Recordings does digital distribution through a distributor called Labelcaster, we also do physical distribution (online, for select artists) through ElasticStage
+						XZ1 Recordings does digital distribution through IIP-DDS (MN2S Label Services), we also do physical distribution (online, for select artists) through ElasticStage, or through MN2S if available.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
