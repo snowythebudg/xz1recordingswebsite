@@ -161,10 +161,35 @@ export default (() => {
 				XZ1 has a new distribution partner!
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We are pleased to announce that we have partnered with MN2S Label Services for distribution! All future XZ1 and affiliated sub-label released will be distributed through MN2S. This deal will hopefully start the true launch of XZ1! You can view more about MN2S and the services they offer{" "}
-				<Link href="https://mn2s.com/" color="--purple">
+				We are pleased to announce that we have partnered with MN2S Label Services for distribution! All future XZ1 and affiliated sub-label releases will be distributed through MN2S and assigned with a new XZ1U-00x catalog number as opposed to the former XZ1xx catalog numbers. This deal will hopefully start the true launch of XZ1! You can view more about MN2S and the services they offer{" "}
+				<Link
+					href="https://mn2s.com/"
+					color="--purple"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
 					here
 				</Link>
+				. What do we offer now that we have partnered up.{" "}
+				<br />
+				<br />
+				XZ1 now offers:
+				<br />
+				- Reliable distribution through FUGA
+				<br />
+				- Press releases
+				<br />
+				-Social media promo
+				<br />
+				- Excellent sync/synch opportunities
+				<br />
+				- DSP featured releases
 			</Text>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
@@ -536,8 +561,18 @@ export default (() => {
 								color="--light"
 							>
 								Reliable distribution.{" "}
-								<Span font-weight="300">
-									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution. Everything can be managed in one clean dashboard to ensure you have a good distribution experience
+								<Span
+									font-weight="300"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution through FUGA. XZ1 also offers free Dolby Atmos distribution so you can ensure your release gets the highest quality audio upon release.
 								</Span>
 							</Span>
 						</Text>
@@ -602,7 +637,17 @@ export default (() => {
 								color="--light"
 							>
 								Secure contracts.{" "}
-								<Span font-weight="300">
+								<Span
+									font-weight="300"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
 									We provide all our artists with secure contracts when applying to ensure that your music stays protected and that you get all the money you need.
 								</Span>
 							</Span>
@@ -843,7 +888,7 @@ export default (() => {
 						I've been invited, but I don't know how to get into my dashboard
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						If you've been invited to XZ1's Labelcaster dashboard as a client. Click the link in your email and then click on "Forgot password?" and from there you can reset your password and get into your account.
+						If you've been invited to XZ1's Labelcaster dashboard as a client before XZ1 switched to MN2S Label Services' distribution and never accepted your invite. Click the link in your email and then click on "Forgot password?" and from there you can reset your password and get into your account.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
