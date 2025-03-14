@@ -656,6 +656,77 @@ export default (() => {
 				</List>
 			</Box>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="#ffffff"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				XZ1 Artist Submission portal
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				An enhanced way to submit releases
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				We recently launched the XZ1ASP web platform. XZ1 clients can use this to submit releases, request publishing, send releases for publishing, and contact us. You will need to create an account to use the platform and we reserve the right to terminate your account as we see fit (if you aren't old enough, you aren't a client, etc). You can access the portal by clicking{" "}
+				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8">
+					here
+				</Link>
+			</Text>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				Music publishing
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 MUSIC PUBLISHING
+			</Text>
+			<Text margin="0px 0px 0px 0px" />
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. You need to be approved separately for publishing even if you are already an XZ1 client. To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack CREATOR account by clicking{" "}
+				<Link
+					href="https://alltrack.com/join"
+					target="_blank"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					here
+				</Link>
+				. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
+				<Link href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" target="_blank">
+					this website{" "}
+				</Link>
+				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack IPI number.{" "}
+			</Text>
+		</Section>
 		<Section padding="80px 0 80px 0" background="#000000" sm-padding="60px 0 60px 0">
 			<Box
 				width="100%"
@@ -783,50 +854,6 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				Music publishing
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 MUSIC PUBLISHING
-			</Text>
-			<Text margin="0px 0px 0px 0px" />
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. You need to be approved separately for publishing even if you are already an XZ1 client. To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack CREATOR account by clicking{" "}
-				<Link
-					href="https://alltrack.com/join"
-					target="_blank"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					here
-				</Link>
-				. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
-				<Link href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" target="_blank">
-					this website{" "}
-				</Link>
-				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack IPI number.{" "}
-			</Text>
-		</Section>
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
 				Frequently asked questions
@@ -848,7 +875,7 @@ export default (() => {
 						What's the royalty split
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						At the moment, the royalty split is 70/30. That is after the cut by the distributor is made
+						At the moment, the royalty split is 70/30 but this is negotiable with our team. Note that you get your split AFTER our distributor's 35% cut is taken. If you don't approve of it, then don't sign to XZ1
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -873,14 +900,6 @@ export default (() => {
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
 						Fully AI generated music is not allowed to be released on XZ1. Music partially made with AI tools such as BandLab's Songstarter tool are permitted as long as you make enough changes to them that it won't be striked for copyright.
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
-						What is "BluWave Digital Entertainment"
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						BluWave Digital Entertainment is the new parent company that houses all XZ1 services. We created this since our publishing division was founded.{" "}
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -916,7 +935,11 @@ export default (() => {
 						Is there an age restriction for XZ1 Recordings
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						You need to be 13 or over to sign a contract with XZ1 Recordings. Artists that are suspected of being under the age of 13 will have their releases taken down and their royalties suspended.
+						You need to be 13 or over to sign a contract with XZ1 Recordings. Artists that are suspected of being under the age of 13 will have their releases taken down and their royalties suspended. Your XZ1ASP (see{" "}
+						<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8">
+							here
+						</Link>
+						) account will also be deleted if you've made one.
 					</Text>
 				</Box>
 			</Box>
