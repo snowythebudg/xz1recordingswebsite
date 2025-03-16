@@ -678,7 +678,7 @@ export default (() => {
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
 				We recently launched the XZ1ASP web platform. XZ1 clients can use this to submit releases, request publishing, send releases for publishing, and contact us. You will need to create an account to use the platform and we reserve the right to terminate your account as we see fit (if you aren't old enough, you aren't a client, etc). You can access the portal by clicking{" "}
-				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8">
+				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" color="--purple">
 					here
 				</Link>
 			</Text>
@@ -717,11 +717,12 @@ export default (() => {
 					hyphens="manual"
 					user-select="auto"
 					pointer-events="auto"
+					color="--purple"
 				>
 					here
 				</Link>
 				. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
-				<Link href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" target="_blank">
+				<Link href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" target="_blank" color="--purple">
 					this website{" "}
 				</Link>
 				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack IPI number.{" "}
@@ -915,11 +916,26 @@ export default (() => {
 						How should I submit releases?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						You can use the XZ1 support portal located{" "}
-						<Link href="https://xz1support.netlify.app/submission" color="--purple">
+						You can use the new XZ1 artist submission portal located{" "}
+						<Link
+							href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
+							color="--purple"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							here{" "}
 						</Link>
-						to submit releases, or you may add me on Discord (@mintybudgie) and submit your releases. If you don't wanna do any of these, send an email to snowythebudg@gmail.com with your release information. We will state what release information you need during onboarding!
+						to submit releases, you can also use the XZ1 support portal located{" "}
+						<Link href="https://xz1support.netlify.app/submission" color="--purple">
+							here
+						</Link>
+						. You may add me on Discord (@mintybudgie) and submit your releases. If you don't wanna do any of these, send an email to snowythebudg@gmail.com with your release information. We will state what release information you need during onboarding!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -936,7 +952,7 @@ export default (() => {
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
 						You need to be 13 or over to sign a contract with XZ1 Recordings. Artists that are suspected of being under the age of 13 will have their releases taken down and their royalties suspended. Your XZ1ASP (see{" "}
-						<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8">
+						<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" color="--purple">
 							here
 						</Link>
 						) account will also be deleted if you've made one.
@@ -973,6 +989,7 @@ export default (() => {
 								hyphens="manual"
 								user-select="auto"
 								pointer-events="auto"
+								color="--purple"
 							>
 								here
 							</Link>
@@ -1073,7 +1090,42 @@ export default (() => {
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.Footer0308 />
+		<Components.Footer0308>
+			<Override slot="text7">
+				Mon to Fri (8 am – 9 pm)
+				<br />
+				{"\n"}Sat to Sun (11 am – 10 pm){" "}
+				<br />
+				All times in MST/MDT (Mountain)
+				<br />
+				Paid promotional service offers (South Africa only) located{" "}
+				<Link
+					color="--purple"
+					href="https://drive.google.com/file/d/1XsOuqDjk_5esvAXQ7FgydALj-xDF9t39/view"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						here
+					</Strong>
+				</Link>
+			</Override>
+		</Components.Footer0308>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
