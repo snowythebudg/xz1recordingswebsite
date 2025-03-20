@@ -248,7 +248,24 @@ export default (() => {
 					lg-text-align="left"
 					sm-text-align="left"
 				>
-					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates multiple smaller sub-labels for different genres. Established as a platform exclusively for releasing singles, our label aims to empower musicians in launching their careers. XZ1 Recordings has moved on to start releasing EP's and albums. Since our inception, XZ1 Recordings has been committed to next level personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
+					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates multiple smaller sub-labels for different genres. Established as a platform exclusively for releasing singles, our label aims to{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						empower musicians in launching their careers.{" "}
+					</Strong>
+					XZ1 Recordings has moved on to start releasing EP's and albums. Since our inception, XZ1 Recordings has been committed to{" "}
+					<Strong>
+						next level
+					</Strong>
+					{" "}personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
 				</Text>
 				<Text
 					margin="0px 0px 16px 0px"
