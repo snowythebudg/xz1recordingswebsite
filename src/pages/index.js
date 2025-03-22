@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
-import { FiBox, FiLock, FiEdit } from "react-icons/fi";
+import { FiBox, FiFilm, FiLock, FiEdit } from "react-icons/fi";
 import { FaGlobe, FaCoffee, FaStreetView } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
@@ -248,7 +248,7 @@ export default (() => {
 					lg-text-align="left"
 					sm-text-align="left"
 				>
-					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates multiple smaller sub-labels for different genres. Established as a platform exclusively for releasing singles, our label aims to{" "}
+					Founded with a passion for supporting emerging artists, XZ1 Recordings is a humble company founded in mid-2024. XZ1 Recordings also operates multiple smaller sub-labels for different genres. Formerly established as a platform exclusively for releasing singles, our label aims to{" "}
 					<Strong
 						overflow-wrap="normal"
 						word-break="normal"
@@ -262,7 +262,16 @@ export default (() => {
 						empower musicians in launching their careers.{" "}
 					</Strong>
 					XZ1 Recordings has moved on to start releasing EP's and albums. Since our inception, XZ1 Recordings has been committed to{" "}
-					<Strong>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
 						next level
 					</Strong>
 					{" "}personalized and quick music distribution for artists to cultivate their unique sound. Through strategic partnerships and a dedicated team, we continue to champion creativity and innovation in the music industry, ensuring that every artist's journey is marked by growth and success.
@@ -598,6 +607,41 @@ export default (() => {
 						<Icon
 							display="block"
 							category="fi"
+							icon={FiFilm}
+							size="20px"
+							color="--purple"
+							margin="5px 0 0 0"
+						/>
+						<Text
+							padding="0"
+							margin="0"
+							color="--light"
+							font="18px/27px --fontFamily-sans"
+							lg-max-width="720px"
+						>
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								font="normal 600 16px/1.5 --fontFamily-sans"
+								color="--light"
+							>
+								Promo opportunities.{" "}
+								<Span font-weight="300">
+									With our prestigious partnership with MN2S Label Services. XZ1 offers outstanding promotion and sync opportunities to all XZ1 clients to help boost their career.
+								</Span>
+							</Span>
+						</Text>
+					</Box>
+					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px">
+						<Icon
+							display="block"
+							category="fi"
 							icon={FiLock}
 							size="20px"
 							color="--purple"
@@ -665,7 +709,7 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									We provide all our artists with secure contracts when applying to ensure that your music stays protected and that you get all the money you need.
+									We provide all our artists with secure contracts when applying to ensure that your music stays protected and that you can release music worry-free!
 								</Span>
 							</Span>
 						</Text>
@@ -738,11 +782,23 @@ export default (() => {
 				>
 					here
 				</Link>
-				. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
-				<Link href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" target="_blank" color="--purple">
+				. You may also use an IPI number of your current PRO. Just specify that you won't be using an AllTrack IPI and we can still let you in. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
+				<Link
+					href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
+					target="_blank"
+					color="--purple"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
 					this website{" "}
 				</Link>
-				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack IPI number.{" "}
+				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack or other IPI number.{" "}
 			</Text>
 		</Section>
 		<Section padding="80px 0 80px 0" background="#000000" sm-padding="60px 0 60px 0">
