@@ -717,90 +717,6 @@ export default (() => {
 				</List>
 			</Box>
 		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="#ffffff"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				XZ1 Artist Submission portal
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				An enhanced way to submit releases
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We recently launched the XZ1ASP web platform. XZ1 clients can use this to submit releases, request publishing, send releases for publishing, and contact us. You will need to create an account to use the platform and we reserve the right to terminate your account as we see fit (if you aren't old enough, you aren't a client, etc). You can access the portal by clicking{" "}
-				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" color="--purple">
-					here
-				</Link>
-			</Text>
-		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				Music publishing
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 MUSIC PUBLISHING
-			</Text>
-			<Text margin="0px 0px 0px 0px" />
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. You need to be approved separately for publishing even if you are already an XZ1 client. To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack CREATOR account by clicking{" "}
-				<Link
-					href="https://alltrack.com/join"
-					target="_blank"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-					color="--purple"
-				>
-					here
-				</Link>
-				. You may also use an IPI number of your current PRO. Just specify that you won't be using an AllTrack IPI and we can still let you in. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
-				<Link
-					href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
-					target="_blank"
-					color="--purple"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					this website{" "}
-				</Link>
-				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack or other IPI number.{" "}
-			</Text>
-		</Section>
 		<Section padding="80px 0 80px 0" background="#000000" sm-padding="60px 0 60px 0">
 			<Box
 				width="100%"
@@ -928,6 +844,116 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="#ffffff"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				XZ1 Artist Submission portal
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				An enhanced way to submit releases
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				We recently launched the XZ1ASP web platform. XZ1 clients can use this to submit releases, request publishing, send releases for publishing, and contact us. You will need to create an account to use the platform and we reserve the right to terminate your account as we see fit (if you aren't old enough, you aren't a client, etc). You can access the portal by clicking{" "}
+				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" color="--purple">
+					here
+				</Link>
+			</Text>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				Music publishing
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 MUSIC PUBLISHING
+			</Text>
+			<Text margin="0px 0px 0px 0px" />
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				We have finally opened our own publishing division. You can request publishing while submitting your demo for us. You need to be approved separately for publishing even if you are already an XZ1 client. To get into XZ1 MUSIC PUBLISHING, you need to apply for a mandatory AllTrack CREATOR account by clicking{" "}
+				<Link
+					href="https://alltrack.com/join"
+					target="_blank"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+					color="--purple"
+				>
+					here
+				</Link>
+				. You may also use an IPI number of your current PRO. Just specify that you won't be using an AllTrack IPI and we can still let you in. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
+				<Link
+					href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
+					target="_blank"
+					color="--purple"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					this website{" "}
+				</Link>
+				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack or other IPI number.{" "}
+			</Text>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				audio editing{"\n\n"}
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 Creative Audio Industries
+			</Text>
+			<Text margin="0px 0px 0px 0px" />
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				XZ1 Creative Audio Industries is the audio editing division of XZ1 Recordings. XZ1CAI offers mixing, mastering, audio editing, and 5.1 Surround mixing/mastering. These services are included for free if you are a client of XZ1 Recordings. Non-label clients can get access to our services by purchasing one of the tiers and sending an email to support. You can view our non-label client pricing below.
+			</Text>
+		</Section>
+		<Components.Xz1Mastering />
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
 				Frequently asked questions
@@ -1031,6 +1057,14 @@ export default (() => {
 						) account will also be deleted if you've made one.
 					</Text>
 				</Box>
+				<Box min-width="100px" min-height="100px">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+						I paid for mastering services but I want a refund
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+						Please contact us within 3 days of recieving your final mastered/mixed/edited audio for a refund. If you do not request a refund within 3 days, your refund request will not be accepted. Do not request refunds through PayPal, contact us first and we'll help you and give you your refund.
+					</Text>
+				</Box>
 			</Box>
 		</Section>
 		<Section background="#000000" color="--dark" padding="64px 0 64px 0">
@@ -1044,7 +1078,7 @@ export default (() => {
 							text-transform="uppercase"
 							margin="0"
 						>
-							Contact XZ1 or BluWave
+							Contact XZ1
 						</Text>
 						<Text font="--headline3" max-width="500px" margin="10px 0 0 0" color="#ffffff">
 							Get in contact with us through the form or by clicking the "Email us" button down below. We'll reply quick!
