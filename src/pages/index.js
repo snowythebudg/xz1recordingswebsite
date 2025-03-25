@@ -1158,7 +1158,7 @@ export default (() => {
 				</Box>
 				<Box width="50%" padding="8px 8px 8px 8px" lg-width="100%">
 					<Box>
-						<Formspree endpoint="xvgpzloy" completeText="Thanks! We'll get back to you soon!" errorMessage="Something did not go well, please try again later.">
+						<Formspree endpoint="mdkednan" completeText="Thanks! We'll get back to you soon!" errorMessage="Something did not go well, please try again later.">
 							<Box
 								gap="16px"
 								display="grid"
@@ -1209,56 +1209,21 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.Footer0308>
-			<Override slot="text7">
-				Mon to Fri (8 am – 9 pm)
-				<br />
-				{"\n"}Sat to Sun (11 am – 10 pm){" "}
-				<br />
-				All times in MST/MDT (Mountain)
-				<br />
-				Paid promotional service offers (South Africa only) located{" "}
-				<Link
-					color="--purple"
-					href="https://drive.google.com/file/d/1XsOuqDjk_5esvAXQ7FgydALj-xDF9t39/view"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						here
-					</Strong>
-				</Link>
-			</Override>
 			<Override slot="text4">
-				snowythebudg@gmail.com - Personal
-				<br />
-				hello@xz1recordings.ca - General
-				<br />
-				View the XZ1ASP for more emails.
+				hello@xz1recordings.com{" "}
 			</Override>
-			<Override slot="linkBox" href="mailto:general@xz1recordings.ca" />
 			<Override slot="text9">
 				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment
+				<br />
+				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈{"\n\n"}
 			</Override>
+			<Override slot="linkBox" href="mailto:hello@xz1recordings.ca" />
+			<Override slot="button" type="link" href="/demos" />
 		</Components.Footer0308>
+		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitNetlifyForm />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

@@ -89,7 +89,7 @@ export default (() => {
 							<Text as="h3" font="--headline3" margin="0 0 20px 0">
 								Send us your demo!
 							</Text>
-							<Formspree endpoint="mzzpdwnq" completeText="Thanks! We'll get back to you soon if we like your demo" errorMessage="Unfortunately your submission did not go through, please resubmit!">
+							<Formspree endpoint="mnnpzank" completeText="Thanks! We'll get back to you soon if we like your demo" errorMessage="Unfortunately your submission did not go through, please resubmit!">
 								<Box gap="16px" display="flex" flex-direction="row" flex-wrap="wrap">
 									<Box padding="8px 8px 8px 8px" width="100%">
 										<Box display="flex" flex-direction="column">
