@@ -910,6 +910,9 @@ export default (() => {
 					here
 				</Link>
 				. You may also use an IPI number of your current PRO. Just specify that you won't be using an AllTrack IPI and we can still let you in. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
+				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp" color="--purple">
+					this website
+				</Link>
 				<Link
 					href="https://bluwavesp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
 					target="_blank"
@@ -923,7 +926,7 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					this website{" "}
+					{" "}
 				</Link>
 				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack or other IPI number.{" "}
 			</Text>
@@ -953,7 +956,9 @@ export default (() => {
 				XZ1 Creative Audio Industries is the audio editing division of XZ1 Recordings. XZ1CAI offers mixing, mastering, audio editing, and 5.1 Surround mixing/mastering. These services are included for free if you are a client of XZ1 Recordings. Non-label clients can get access to our services by purchasing one of the tiers and sending an email to support. You can view our non-label client pricing below.
 			</Text>
 		</Section>
-		<Components.Xz1Mastering />
+		<Components.Xz1Mastering>
+			<Override slot="button2" type="link" href="mailto:artistservices@xz1recordings.ca" />
+		</Components.Xz1Mastering>
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
 				Frequently asked questions
@@ -1031,10 +1036,21 @@ export default (() => {
 							here{" "}
 						</Link>
 						to submit releases, you can also use the XZ1 support portal located{" "}
-						<Link href="https://xz1support.netlify.app/submission" color="--purple">
+						<Link
+							color="--purple"
+							href="https://support.xz1recordings.ca/submission"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							here
 						</Link>
-						. You may add me on Discord (@mintybudgie) and submit your releases. If you don't wanna do any of these, send an email to snowythebudg@gmail.com with your release information. We will state what release information you need during onboarding!
+						. You may also send an email to distribution@xz1recordings.ca If you don't wanna do any of these, send an email to snowythebudg@gmail.com with your release information. We will state what release information you need during onboarding!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -1084,10 +1100,10 @@ export default (() => {
 							Get in contact with us through the form or by clicking the "Email us" button down below. We'll reply quick!
 							<br />
 							<br />
-							To speak to XZ1 Live Chat, click{" "}
+							To go to the XZ1 support portal, click{" "}
 							<Link
-								href="https://xz1support.netlify.app"
-								target="_blank"
+								href="https://support.xz1recordings.ca"
+								color="--purple"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -1096,7 +1112,6 @@ export default (() => {
 								hyphens="manual"
 								user-select="auto"
 								pointer-events="auto"
-								color="--purple"
 							>
 								here
 							</Link>
@@ -1232,6 +1247,14 @@ export default (() => {
 					</Strong>
 				</Link>
 			</Override>
+			<Override slot="text4">
+				snowythebudg@gmail.com - Personal
+				<br />
+				general@xz1recordings.ca - General
+				<br />
+				View the XZ1ASP for more emails.
+			</Override>
+			<Override slot="linkBox" href="mailto:general@xz1recordings.ca" />
 		</Components.Footer0308>
 		<Link
 			font={"--capture"}
