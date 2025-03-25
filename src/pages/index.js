@@ -1250,11 +1250,14 @@ export default (() => {
 			<Override slot="text4">
 				snowythebudg@gmail.com - Personal
 				<br />
-				general@xz1recordings.ca - General
+				hello@xz1recordings.ca - General
 				<br />
 				View the XZ1ASP for more emails.
 			</Override>
 			<Override slot="linkBox" href="mailto:general@xz1recordings.ca" />
+			<Override slot="text9">
+				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment
+			</Override>
 		</Components.Footer0308>
 		<Link
 			font={"--capture"}
