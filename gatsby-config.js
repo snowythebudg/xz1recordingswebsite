@@ -3,7 +3,7 @@ module.exports = {
         title: "Quarkly gatsby project",
         description: "",
         author: "@budgiemint",
-        siteUrl: "https://xzone.64-b.it"
+        siteUrl: "https://xz1recordings.ca"
     },
     plugins: [
         "gatsby-plugin-react-helmet",

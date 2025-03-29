@@ -13,11 +13,11 @@ export default (() => {
 			<title>
 				XZ1 Recordings - Music from the next generation
 			</title>
-			<meta name={"description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
+			<meta name={"description"} content={"XZ1 Recordings is a full-service record label offering music publishing, distribution, and artist support. We work with both emerging and established artists across all genres, helping you grow and reach global audiences."} />
 			<meta property={"og:title"} content={"XZ1 Recordings - Music from the next generation"} />
-			<meta property={"og:description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14:44:26.714Z"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14:44:26.714Z"} type={"image/x-icon"} />
+			<meta property={"og:description"} content={"XZ1 Recordings is a full-service record label offering music publishing, distribution, and artist support. We work with both emerging and established artists across all genres, helping you grow and reach global audiences."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1BASE.png?v=2025-03-28T23:58:12.545Z"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1BASE.png?v=2025-03-28T23:58:12.545Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section padding="88px 0 88px 0" min-height="100vh" quarkly-title="404-1" background="#000000 url(https://images.unsplash.com/photo-1606232390005-e6c6b0baf0c7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000)">
 			<Override slot="SectionContent" max-width="1220px" justify-content="center" background="#000000" />

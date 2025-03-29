@@ -14,11 +14,11 @@ export default (() => {
 			<title>
 				XZ1 Recordings - Music from the next generation
 			</title>
-			<meta name={"description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
+			<meta name={"description"} content={"XZ1 Recordings is a full-service record label offering music publishing, distribution, and artist support. We work with both emerging and established artists across all genres, helping you grow and reach global audiences."} />
 			<meta property={"og:title"} content={"XZ1 Recordings - Music from the next generation"} />
-			<meta property={"og:description"} content={"A distribution-focused record label and publisher for upcoming music artists!"} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14:44:26.714Z"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1.png?v=2024-09-17T14:44:26.714Z"} type={"image/x-icon"} />
+			<meta property={"og:description"} content={"XZ1 Recordings is a full-service record label offering music publishing, distribution, and artist support. We work with both emerging and established artists across all genres, helping you grow and reach global audiences."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1BASE.png?v=2025-03-28T23:58:12.545Z"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1BASE.png?v=2025-03-28T23:58:12.545Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-2" display="grid" background="#000000">
 			<Override
@@ -865,8 +865,19 @@ export default (() => {
 				An enhanced way to submit releases
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We recently launched the XZ1ASP web platform. XZ1 clients can use this to submit releases, request publishing, send releases for publishing, and contact us. You will need to create an account to use the platform and we reserve the right to terminate your account as we see fit (if you aren't old enough, you aren't a client, etc). You can access the portal by clicking{" "}
-				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" color="--purple">
+				We recently launched the XZ1ASP (now Artist Central) web platform. XZ1 clients can use this to submit releases, request publishing, send releases for publishing, and contact us. You will need to create an account to use the platform and we reserve the right to terminate your account as we see fit (if you aren't old enough, you aren't a client, etc). You can access the portal by clicking{" "}
+				<Link
+					href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
+					color="--purple"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
 					here
 				</Link>
 			</Text>

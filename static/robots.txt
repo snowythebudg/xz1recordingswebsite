@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xzone.64-b.it/sitemap-index.xml
+Sitemap: https://xz1recordings.ca/sitemap-index.xml
