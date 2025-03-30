@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
-import { FiBox, FiFilm, FiLock, FiEdit } from "react-icons/fi";
+import { FiBox, FiGift, FiFilm, FiLock, FiEdit } from "react-icons/fi";
 import { FaGlobe, FaCoffee, FaStreetView } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
@@ -553,6 +553,41 @@ export default (() => {
 									pointer-events="auto"
 								>
 									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution through FUGA. XZ1 also offers free Dolby Atmos distribution so you can ensure your release gets the highest quality audio upon release.
+								</Span>
+							</Span>
+						</Text>
+					</Box>
+					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px">
+						<Icon
+							display="block"
+							category="fi"
+							icon={FiGift}
+							size="20px"
+							color="--purple"
+							margin="5px 0 0 0"
+						/>
+						<Text
+							padding="0"
+							margin="0"
+							color="--light"
+							font="18px/27px --fontFamily-sans"
+							lg-max-width="720px"
+						>
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								font="normal 600 16px/1.5 --fontFamily-sans"
+								color="--light"
+							>
+								Extra distribution benefits.{" "}
+								<Span font-weight="300">
+									Joining XZ1 gives you access to compilation albums and multi-disc releases on Spotify!{" "}
 								</Span>
 							</Span>
 						</Text>
