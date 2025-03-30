@@ -146,58 +146,6 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				IMPORTANT ANNOUNCEMENT
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 has a new distribution partner!
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We are pleased to announce that we have partnered with MN2S Label Services for distribution! All future XZ1 and affiliated sub-label releases will be distributed through MN2S and assigned with a new XZ1U-00x catalog number as opposed to the former XZ1xx catalog numbers. This deal will hopefully start the true launch of XZ1! You can view more about MN2S and the services they offer{" "}
-				<Link
-					href="https://mn2s.com/"
-					color="--purple"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					here
-				</Link>
-				. What do we offer now that we have partnered up.{" "}
-				<br />
-				<br />
-				XZ1 now offers:
-				<br />
-				- Reliable distribution through FUGA
-				<br />
-				- Press releases
-				<br />
-				-Social media promo
-				<br />
-				- Excellent sync/synch opportunities
-				<br />
-				- DSP featured releases
-			</Text>
-		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
@@ -754,7 +702,7 @@ export default (() => {
 					text-align="center"
 					max-width="480px"
 				>
-					XZ1 Recordings operates numerous sub-labels that cater to multiple genres. You can join an XZ1 sub-label if you successfully get accepted into XZ1 Recordings OR if you're already an XZ1/Fusion client and meet one of these genre requirements. When releasing, your (C) line will show as XZ1/Sub-label name. This is due to our launch of BluWave Digital Entertainment, everything is now under one umbrella.
+					XZ1 Recordings operates numerous sub-labels that cater to multiple genres. You can join an XZ1 sub-label if you successfully get accepted into XZ1 Recordings OR if you're already an XZ1 or former Fusion client and meet one of these genre requirements. When releasing, your (C) line will show as XZ1/Sub-label name.
 				</Text>
 			</Box>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
@@ -1231,7 +1179,7 @@ export default (() => {
 				hello@xz1recordings.com{" "}
 			</Override>
 			<Override slot="text9">
-				© 2024-2025 XZ1 Recording Ventures, a division of BluWave Digital Entertainment
+				© 2024-2025 XZ1 Recording Ventures
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈{"\n\n"}
 			</Override>
