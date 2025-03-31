@@ -6,7 +6,6 @@ import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
 import { FiBox, FiGift, FiFilm, FiLock, FiEdit } from "react-icons/fi";
-import { FaGlobe, FaCoffee, FaStreetView } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -706,133 +705,6 @@ export default (() => {
 				</List>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" background="#000000" sm-padding="60px 0 60px 0">
-			<Box
-				width="100%"
-				display="flex"
-				flex-direction="column"
-				md-width="100%"
-				md-align-items="center"
-				md-justify-content="center"
-				md-text-align="center"
-				lg-width="100%"
-				margin="0px 0px 56px 0px"
-				align-items="center"
-			>
-				<Text
-					margin="0px 0px 16px 0px"
-					font="--headline2"
-					color="--light"
-					md-text-align="center"
-					sm-font="normal 700 32px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					text-align="center"
-				>
-					Sub-labels that XZ1 Recordings operates
-				</Text>
-				<Text
-					margin="0px 0px 0px 0px"
-					font="--base"
-					color="#ffffff"
-					md-text-align="center"
-					text-align="center"
-					max-width="480px"
-				>
-					XZ1 Recordings operates numerous sub-labels that cater to multiple genres. You can join an XZ1 sub-label if you successfully get accepted into XZ1 Recordings OR if you're already an XZ1 or former Fusion client and meet one of these genre requirements. When releasing, your (C) line will show as XZ1/Sub-label name.
-				</Text>
-			</Box>
-			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
-				<Box
-					padding="45px 45px"
-					lg-padding="45px 30px"
-					md-padding="45px 45px"
-					background="#000000"
-					border-radius="24px"
-					justify-content="flex-start"
-					flex-direction="column"
-					display="flex"
-				>
-					<Icon
-						category="fa"
-						icon={FaGlobe}
-						margin="0px 0px 30px 0px"
-						color="--purple"
-						size="48px"
-					/>
-					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
-						Solus Sound
-					</Text>
-					<Text
-						margin="0px 0px 0px 0px"
-						color="#ffffff"
-						font="--base"
-						lg-text-align="left"
-						flex="1 0 auto"
-					>
-						Solus Sound is the sub-label catered to ambient music. Solus Sound was founded BEFORE XZ1 Recordings and was mainly used by Red Palm Tree, BudgieMint's second artist alias
-					</Text>
-				</Box>
-				<Box
-					padding="45px 45px"
-					lg-padding="45px 30px"
-					md-padding="45px 45px"
-					background="#000000"
-					border-radius="24px"
-					justify-content="flex-start"
-					flex-direction="column"
-					display="flex"
-				>
-					<Icon
-						category="fa"
-						icon={FaCoffee}
-						margin="0px 0px 30px 0px"
-						color="--purple"
-						size="48px"
-					/>
-					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
-						Affogato Music
-					</Text>
-					<Text
-						margin="0px 0px 0px 0px"
-						color="#ffffff"
-						font="--base"
-						lg-text-align="left"
-						flex="1 0 auto"
-					>
-						Affogato Music is the jazz/jazz fusion sub-label on XZ1 Recordings. Although we probably won't get much jazz music in our catalog, it's still good to have a sub-label. Life is like jazz, it's best when you improvise.
-					</Text>
-				</Box>
-				<Box
-					padding="45px 45px"
-					lg-padding="45px 30px"
-					md-padding="45px 45px"
-					background="#000000"
-					border-radius="24px"
-					justify-content="flex-start"
-					flex-direction="column"
-					display="flex"
-				>
-					<Icon
-						category="fa"
-						icon={FaStreetView}
-						margin="0px 0px 30px 0px"
-						color="--purple"
-						size="48px"
-					/>
-					<Text margin="0px 0px 18px 0px" color="--light" font="--headline3" lg-text-align="left">
-						17th Street
-					</Text>
-					<Text
-						margin="0px 0px 0px 0px"
-						color="#ffffff"
-						font="--base"
-						lg-text-align="left"
-						flex="1 0 auto"
-					>
-						17th Street is the main sub-label for rap music on XZ1 Recordings. We get a lot of rap music, trust us. 17th Street is designed to cater to upcoming rap artists.
-					</Text>
-				</Box>
-			</Box>
-		</Section>
 		<Section
 			text-align="center"
 			background-color="--primary"
@@ -1020,7 +892,7 @@ export default (() => {
 						How should I submit releases?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						You can use the new XZ1 artist submission portal located{" "}
+						You can use the new XZ1ASP (also known as Artist Central) located{" "}
 						<Link
 							href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
 							color="--purple"
@@ -1050,7 +922,7 @@ export default (() => {
 						>
 							here
 						</Link>
-						. You may also send an email to distribution@xz1recordings.ca If you don't wanna do any of these, send an email to snowythebudg@gmail.com with your release information. We will state what release information you need during onboarding!
+						. If you don't wanna do any of these, send an email to distribution@xz1recordings.ca. We will state what release information you need during onboarding!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
