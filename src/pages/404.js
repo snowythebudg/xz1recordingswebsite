@@ -86,7 +86,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer0330 />
+		<Components.Footer03302 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

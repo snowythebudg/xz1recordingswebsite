@@ -1081,7 +1081,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer0330 />
+		<Components.Footer03302 />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
