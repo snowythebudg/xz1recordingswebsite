@@ -70,7 +70,7 @@ export default (() => {
 						hover-color="--light"
 						transition="background-color --transitionDuration-normal --transitionTimingFunction-easeOut 0s"
 						border-radius="8px"
-						href="mailto:snowythebudg@gmail.com?Issue with XZ1 Recordings site"
+						href="mailto:hello@xz1recordings.ca"
 					>
 						<Text margin="0px 0px 0px 0px" font="--lead" color="#ffffff">
 							Contact support{" "}
@@ -86,7 +86,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer0308 />
+		<Components.Footer0330 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

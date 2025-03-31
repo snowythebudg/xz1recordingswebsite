@@ -1081,18 +1081,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer0308>
-			<Override slot="text4">
-				hello@xz1recordings.com{" "}
-			</Override>
-			<Override slot="text9">
-				© 2024-2025 XZ1 Recording Ventures
-				<br />
-				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈{"\n\n"}
-			</Override>
-			<Override slot="linkBox" href="mailto:hello@xz1recordings.ca" />
-			<Override slot="button" type="link" href="/demos" />
-		</Components.Footer0308>
+		<Components.Footer0330 />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
