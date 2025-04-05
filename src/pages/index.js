@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, List, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, LinkBox, Box, Section, Button, Image, Strong, Icon, Span, List, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -144,6 +144,53 @@ export default (() => {
 					XZ1 Recordings specializes in distributing music to streaming services around the world. We also strive to help out upcoming artists grow their career!
 				</Text>
 			</Box>
+		</Section>
+		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
+			<Override slot="SectionContent" align-items="center" />
+			<Text margin="0px 0px 0px 0px" color="#ffffff" font="normal 300 20px/1.5 --fontFamily-googleOpenSans" letter-spacing="5px">
+				IMPORTANT ANNOUNCEMENT
+			</Text>
+			<Text
+				as="h2"
+				font="--headline1"
+				md-font="--headline2"
+				margin="20px 0 0 0"
+				color="#ffffff"
+			>
+				Introducing XZ1-DS
+			</Text>
+			<Text
+				as="p"
+				font="--lead"
+				margin="20px 0 20px 0"
+				text-align="center"
+				color="#ffffff"
+			>
+				We are pleased to announce that we are now running an open music distribution service to ALL artists! Click the button below to join. Do be warned, this site is brand new and may be buggy and have UI issues. We are working to fix it. Submissions will not be reviewed until we get admin access. If you need help, send an email to distribution@xz1recordings.ca or join the Discord server located{" "}
+				<Link
+					href="https://discord.gg/xBq9Fk9TwC"
+					color="--purple"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					here
+				</Link>
+			</Text>
+			<Button
+				font="--lead"
+				margin="20px"
+				background="--color-purple"
+				type="link"
+				href="https://distro.xz1recordings.ca"
+			>
+				Join
+			</Button>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
