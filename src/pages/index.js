@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, LinkBox, Box, Section, Button, Image, Strong, Icon, Span, List, Input } from "@quarkly/widgets";
+import { Theme, Link, Text, LinkBox, Box, Section, Button, Image, Strong, Icon, Span, List, Em, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -899,7 +899,11 @@ export default (() => {
 						What's the royalty split
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						At the moment, the royalty split is 70/30 but this is negotiable with our team. Note that you get your split AFTER our distributor's 35% cut is taken. If you don't approve of it, then don't sign to XZ1
+						At the moment, the royalty split is 70/30 but this is negotiable with our team. Note that you get your split AFTER our distributor's 35% cut is taken. We can{" "}
+						<Em>
+							try{" "}
+						</Em>
+						and arrange something for you if you think this split isn't good. We're committed to making your experience the best it can be!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
