@@ -6,22 +6,26 @@ const pageStyles = {
     "404": {
         "font": "--headline3",
         "transition": "",
-        "cursor": "auto"
+        "cursor": "auto",
+        "filter": ""
     },
     "index": {
         "font": "--headline3",
         "transition": "",
-        "cursor": "auto"
+        "cursor": "auto",
+        "filter": ""
     },
     "demos": {
         "font": "--headline3",
         "transition": "",
-        "cursor": "auto"
+        "cursor": "auto",
+        "filter": ""
     },
     "welcomenewclient": {
         "font": "--headline3",
         "transition": "",
-        "cursor": "auto"
+        "cursor": "auto",
+        "filter": ""
     }
 };
 

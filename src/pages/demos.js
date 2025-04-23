@@ -52,7 +52,7 @@ export default (() => {
 			sm-padding="40px 0"
 			position="relative"
 			quarkly-title="Form-1"
-			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1531349360275-16ecb0bf45bd?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1654331046188-a73586da7ed6?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
 		>
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
 				<Box padding="16px 16px 16px 16px" width="50%" md-width="100%">
@@ -135,7 +135,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer03302 />
+		<Components.Footer0422 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

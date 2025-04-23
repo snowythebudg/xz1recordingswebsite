@@ -25,10 +25,10 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
-		<Section padding="88px 0 88px 0" min-height="100vh" quarkly-title="404-1" background="#000000 url(https://images.unsplash.com/photo-1606232390005-e6c6b0baf0c7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000)">
+		<Section padding="88px 0 88px 0" min-height="100vh" quarkly-title="404-1" background="#000000">
 			<Override slot="SectionContent" max-width="1220px" justify-content="center" background="#000000" />
 			<Box align-items="center" display="flex" justify-content="center" flex-direction="column">
-				<Text margin="0px 0px 0px 0px" font="--headline3" color="--purple">
+				<Text margin="0px 0px 0px 0px" font="--headline3" color="#ff0095">
 					404
 				</Text>
 				<Text
@@ -53,7 +53,7 @@ export default (() => {
 					<Link
 						font="--lead"
 						padding="12px 24px 12px 24px"
-						background="--color-purple"
+						background="#ff0095"
 						border-radius="8px"
 						href="/"
 						text-decoration-line="initial"
@@ -80,13 +80,14 @@ export default (() => {
 							icon={FiArrowRight}
 							size="24px"
 							margin="4px 0px 0px 4px"
-							color="--purple"
+							color="#ff0095"
+							border-color="#ff0095"
 						/>
 					</LinkBox>
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer03302 />
+		<Components.Footer0422 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

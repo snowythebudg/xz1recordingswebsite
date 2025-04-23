@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, List, Button, Input } from "@quarkly/widgets";
+import { Theme, Link, Em, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, List, Button, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -52,8 +52,16 @@ export default (() => {
 				md-justify-content="flex-start"
 				lg-justify-content="flex-start"
 				background="#000000"
+				position="static"
 			>
-				<LinkBox flex-direction="row" href="/index" display="flex" grid-gap="18px">
+				<LinkBox
+					flex-direction="row"
+					href="/index"
+					display="flex"
+					grid-gap="18px"
+					text-transform="uppercase"
+					width="500px"
+				>
 					<Text
 						margin="0"
 						md-margin="0px 0 0px 0"
@@ -61,9 +69,22 @@ export default (() => {
 						font="--headline3"
 						sm-margin="0px 0 0px 0"
 						display="block"
-						color="#ffffff"
+						color="#ff0095"
+						letter-spacing="1.5px"
+						text-decoration-line="underline"
 					>
-						XZ1 Recordings
+						<Em
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							XZ1 Recordings
+						</Em>
 					</Text>
 				</LinkBox>
 			</Box>
@@ -75,7 +96,7 @@ export default (() => {
 			sm-padding="60px 0 96px 0"
 			quarkly-title="Hero-23"
 			padding="88px 0 88px 0"
-			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1461696114087-397271a7aedc?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) linear-gradient(0deg,#ff0095 0%,rgba(0,0,0,1) 53.3%) 0% 0% /auto repeat scroll padding-box"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -145,7 +166,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
+		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
 				display="flex"
@@ -157,16 +178,17 @@ export default (() => {
 				margin="0px 0px 0px 0px"
 				lg-padding="0px 0px 0px 0px"
 				lg-justify-content="center"
+				background="#000000"
 			>
 				<Image
-					src="https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+					src="https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
 					object-fit="cover"
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
 					sm-min-height="100vw"
 					height="100%"
-					srcSet="https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
+					srcSet="https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
@@ -424,7 +446,6 @@ export default (() => {
 			>
 				<Box
 					width="972px"
-					height="589px"
 					md-display="flex"
 					md-justify-content="center"
 					box-shadow="--xl"
@@ -466,13 +487,13 @@ export default (() => {
 				md-margin="0px 0px 30px 0px"
 				lg-padding="36px 0px 16px 0px"
 			>
-				<Text as="p" font="--base" color="--purple" margin="0px 0px 8px 0px">
+				<Text as="p" font="--base" color="#ff0095" margin="0px 0px 8px 0px">
 					Why you should join XZ1
 				</Text>
 				<Text
 					as="h1"
 					margin="0px"
-					font="normal 600 40px/1.5 --fontFamily-sans"
+					font="normal 600 40px/1.5 --fontFamily-googleMichroma"
 					color="--light"
 					width="100%"
 					md-width="100%"
@@ -486,7 +507,7 @@ export default (() => {
 				<Text
 					as="p"
 					margin="20px 0 0 0"
-					font="--lead"
+					font="normal 300 20px/1.5 &quot;Roboto Condensed&quot;, sans-serif"
 					font-size="20px"
 					font-weight="300"
 					color="--light"
@@ -505,26 +526,26 @@ export default (() => {
 					as="ul"
 					sm-margin="24px 0 0 0"
 					list-style-type="none"
-					font="normal normal 18px/150% sans-serif"
+					font="normal normal 18px/150% --fontFamily-googleRobotoCondensed"
 					display="flex"
 					flex-direction="column"
 					grid-gap="25px"
 					lg-margin="32px 0px 0px 0px"
 				>
-					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px">
+					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px" font="18px/27px --fontFamily-googleRobotoCondensed">
 						<Icon
 							display="block"
 							category="fi"
 							icon={FiBox}
 							size="20px"
-							color="--purple"
+							color="#ff0095"
 							margin="5px 0 0 0"
 						/>
 						<Text
 							padding="0"
 							margin="0"
 							color="--light"
-							font="18px/27px --fontFamily-sans"
+							font="18px/27px --fontFamily-googleRobotoCondensed"
 							lg-max-width="720px"
 						>
 							<Span
@@ -556,20 +577,20 @@ export default (() => {
 							</Span>
 						</Text>
 					</Box>
-					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px">
+					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px" font="18px/27px ">
 						<Icon
 							display="block"
 							category="fi"
 							icon={FiGift}
 							size="20px"
-							color="--purple"
+							color="#ff0095"
 							margin="5px 0 0 0"
 						/>
 						<Text
 							padding="0"
 							margin="0"
 							color="--light"
-							font="18px/27px --fontFamily-sans"
+							font="18px/27px --fontFamily-googleRobotoCondensed"
 							lg-max-width="720px"
 						>
 							<Span
@@ -607,7 +628,7 @@ export default (() => {
 							category="fi"
 							icon={FiLock}
 							size="20px"
-							color="--purple"
+							color="#ff0095"
 							margin="5px 0 0 0"
 						/>
 						<Text
@@ -643,7 +664,7 @@ export default (() => {
 							category="fi"
 							icon={FiEdit}
 							size="20px"
-							color="--purple"
+							color="#ff0095"
 							margin="5px 0 0 0"
 						/>
 						<Text padding="0" margin="0" font="18px/27px --fontFamily-sans" lg-max-width="720px">
@@ -704,7 +725,7 @@ export default (() => {
 				We recently launched the XZ1ASP (now Artist Central) web platform. XZ1 clients can use this to submit releases, request publishing, send releases for publishing, and contact us. You will need to create an account to use the platform and we reserve the right to terminate your account as we see fit (if you aren't old enough, you aren't a client, etc). You can access the portal by clicking{" "}
 				<Link
 					href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
-					color="--purple"
+					color="#ff0095"
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"
@@ -752,12 +773,12 @@ export default (() => {
 					hyphens="manual"
 					user-select="auto"
 					pointer-events="auto"
-					color="--purple"
+					color="#ff0095"
 				>
 					here
 				</Link>
 				. You may also use an IPI number of your current PRO. Just specify that you won't be using an AllTrack IPI and we can still let you in. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
-				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp" color="--purple">
+				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp" color="#ff0095">
 					this website
 				</Link>
 				<Link
@@ -780,7 +801,7 @@ export default (() => {
 		</Section>
 		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
 			<Override slot="SectionContent" align-items="center" />
-			<Text margin="0px 0px 0px 0px" color="#ffffff" font="normal 300 20px/1.5 --fontFamily-googleOpenSans" letter-spacing="5px">
+			<Text margin="0px 0px 0px 0px" color="#ffffff" font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed" letter-spacing="5px">
 				OPEN DISTRIBUTION SERVICE
 			</Text>
 			<Text
@@ -800,14 +821,14 @@ export default (() => {
 				color="#ffffff"
 			>
 				XZ1-DS is the open distribution service run by XZ1 Recordings. If you are a label client, we prefer you stick to distributing through our better distribution channels but if you aren't. Feel free to use the XZ1-DS. Exclusive clients are NOT ALLOWED to use this service unless we state you can. Should you need help (as the DS tends to be a bit buggy), you can contact us at distribution@xz1recordings.ca or join our Discord server{" "}
-				<Link href="https://discord.gg/xBq9Fk9TwC" color="--purple">
+				<Link href="https://discord.gg/xBq9Fk9TwC" color="#ff0095">
 					here
 				</Link>
 			</Text>
 			<Button
 				font="--lead"
 				margin="20px"
-				background="--color-purple"
+				background="#ff0095"
 				type="link"
 				href="https://distro.xz1recordings.ca"
 			>
@@ -836,17 +857,14 @@ export default (() => {
 			</Text>
 			<Text margin="0px 0px 0px 0px" />
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				XZ1 Creative Audio Industries is the audio editing division of XZ1 Recordings. XZ1CAI offers mixing, mastering, audio editing, and 5.1 Surround mixing/mastering. These services are included for free if you are a client of XZ1 Recordings. Non-label clients can get access to our services by purchasing one of the tiers and sending an email to support. You can view our non-label client pricing below.
+				XZ1 Creative Audio Industries is the audio editing division of XZ1 Recordings. XZ1CAI offers mixing, mastering, audio editing, and 5.1 Surround mixing/mastering. These services are included for free if you are a client of XZ1 Recordings. Non-label clients can contact us at artistservices@xz1recordings.ca to discuss custom pricing. The pricing tiers are no longer in place.
 			</Text>
 		</Section>
-		<Components.Xz1Mastering>
-			<Override slot="button2" type="link" href="mailto:artistservices@xz1recordings.ca" />
-		</Components.Xz1Mastering>
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
-			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="--light">
+			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-googleMichroma" color="--light">
 				Frequently asked questions
 			</Text>
-			<Text margin="0px 0px 70px 0px" font="normal 300 20px/1.5 --fontFamily-sansHelvetica" color="#b2bac1" sm-margin="0px 0px 50px 0px">
+			<Text margin="0px 0px 70px 0px" font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff" sm-margin="0px 0px 50px 0px">
 				Our answers to some of the most common questions artists ask when joining a label!
 			</Text>
 			<Box
@@ -859,38 +877,37 @@ export default (() => {
 				sm-grid-gap="35px 0"
 			>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
 						Do I need to sign a contract
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 						As all labels, yes you do need to sign a contract. You have the choice of signing an exclusive or a non-exclusive. Exclusive means you're required to release under XZ1 and only XZ1. A non-exclusive means you can release with whoever you want even if you're signed to XZ1. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
 						How many releases can I release through XZ1
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 						As many as you wish, do note that all releases you release through XZ1 will be binded to us for 365 days, after that you are free to re-release your release or keep it on XZ1.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
 						Do we allow AI generated music or music made partially with AI
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 						Fully AI generated music is not allowed to be released on XZ1. Music partially made with AI tools such as BandLab's Songstarter tool are permitted as long as you make enough changes to them that it won't be striked for copyright.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
 						How should I submit releases?
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 						You can use the new XZ1ASP (also known as Artist Central) located{" "}
 						<Link
 							href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
-							color="--purple"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -899,12 +916,13 @@ export default (() => {
 							hyphens="manual"
 							user-select="auto"
 							pointer-events="auto"
+							color="#ff0095"
 						>
 							here{" "}
 						</Link>
 						to submit releases, you can also use the XZ1 support portal located{" "}
 						<Link
-							color="--purple"
+							color="#ff0095"
 							href="https://support.xz1recordings.ca/submission"
 							overflow-wrap="normal"
 							word-break="normal"
@@ -921,30 +939,30 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
 						What are XZ1's distribution channels?
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 						XZ1 Recordings does digital distribution through a couple of distributors depending on which ones we have access to, we also do physical distribution (online, for select artists) through ElasticStage
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
 						Is there an age restriction for XZ1 Recordings
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 						You need to be 13 or over to sign a contract with XZ1 Recordings. Artists that are suspected of being under the age of 13 will have their releases taken down and their royalties suspended. Your XZ1ASP (see{" "}
-						<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" color="--purple">
+						<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" color="#ff0095">
 							here
 						</Link>
 						) account will also be deleted if you've made one.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
 						I paid for mastering services but I want a refund
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 						Please contact us within 3 days of recieving your final mastered/mixed/edited audio for a refund. If you do not request a refund within 3 days, your refund request will not be accepted. Do not request refunds through PayPal, contact us first and we'll help you and give you your refund.
 					</Text>
 				</Box>
@@ -969,8 +987,8 @@ export default (() => {
 							<br />
 							To go to the XZ1 support portal, click{" "}
 							<Link
-								href="https://support.xz1recordings.ca"
-								color="--purple"
+								href="https://artistcentral.xz1recordings.ca"
+								color="#ff0095"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -980,6 +998,12 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
+								here
+								<br />
+							</Link>
+							<br />
+							To go to the old XZ1 support portal (for release submission), click{" "}
+							<Link href="https://old.artistcentral.xz1recordings.ca/submission" color="#ff0095" target="_blank">
 								here
 							</Link>
 							<br />
@@ -1066,7 +1090,7 @@ export default (() => {
 									/>
 								</Box>
 								<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
-									<Button background="--color-purple">
+									<Button background="#ff0095">
 										Send
 									</Button>
 								</Box>
@@ -1076,7 +1100,16 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer03302 />
+		<Components.Footer0422>
+			<Override slot="text9">
+				© 2024-2025 XZ1 Recording Ventures. All rights reserved
+				<br />
+				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈{" "}
+				<br />
+				xz1recordings.ca is a registered domain on the CIRA (Canadian Internet Registration Authority)
+			</Override>
+			<Override slot="linkBox" color="#ff0095" />
+		</Components.Footer0422>
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />
 		<Components.QuarklycommunityKitNetlifyForm />

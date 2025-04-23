@@ -38,7 +38,8 @@ export default {
 		"styles": {
 			"font": "--headline3",
 			"transition": "",
-			"cursor": "auto"
+			"cursor": "auto",
+			"filter": ""
 		},
 		"seo": {
 			"title": "XZ1 Recordings - Music from the next generation",

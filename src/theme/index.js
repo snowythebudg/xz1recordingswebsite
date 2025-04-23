@@ -48,14 +48,36 @@ export default {
 		"serifTimes": "Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif",
 		"serifGeorgia": "Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif",
 		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif",
-		"googleOpenSans": "\"Open Sans\", sans-serif"
+		"googleOpenSans": "\"Open Sans\", sans-serif",
+		"googleComicNeue": "\"Comic Neue\", cursive",
+		"googleIbmPlexMono": "\"IBM Plex Mono\", monospace",
+		"googleSpaceMono": "\"Space Mono\", monospace",
+		"googleCourierPrime": "\"Courier Prime\", monospace",
+		"googleVt323": "\"VT323\", monospace",
+		"googleLato": "\"Lato\", sans-serif",
+		"googleNotoSansKr": "\"Noto Sans KR\", sans-serif",
+		"googleKanit": "\"Kanit\", sans-serif",
+		"googleTitilliumWeb": "\"Titillium Web\", sans-serif",
+		"googleMichroma": "\"Michroma\", sans-serif",
+		"googleRobotoCondensed": "\"Roboto Condensed\", sans-serif",
+		"googleNotoSans": "\"Noto Sans\", sans-serif",
+		"googleNotoColorEmoji": "\"Noto Color Emoji\", sans-serif",
+		"googleNanumGothic": "\"Nanum Gothic\", sans-serif",
+		"googleCabin": "\"Cabin\", sans-serif",
+		"googlePrompt": "\"Prompt\", sans-serif",
+		"googleMaterialSymbolsRounded": "\"Material Symbols Rounded\", monospace",
+		"googleMaterialSymbolsOutlined": "\"Material Symbols Outlined\", monospace",
+		"googleCousine": "\"Cousine\", monospace",
+		"googleShareTechMono": "\"Share Tech Mono\", monospace",
+		"googleMajorMonoDisplay": "\"Major Mono Display\", monospace",
+		"googleSixtyfour": "\"Sixtyfour\", monospace"
 	},
 	"font": {
-		"headline1": "normal 900 72px/1.2 --fontFamily-sans",
-		"headline2": "normal 900 42px/1.2 --fontFamily-sans",
-		"headline3": "normal 500 28px/1.2 --fontFamily-sans",
-		"base": "normal 300 16px/1.5 --fontFamily-sans",
-		"lead": "normal 300 20px/1.5 --fontFamily-sans"
+		"headline1": "normal normal 520 72px/1.2 --fontFamily-googleMichroma",
+		"headline2": "normal 900 42px/1.2 --fontFamily-googleMichroma",
+		"headline3": "normal 500 28px/1.2 --fontFamily-googleMichroma",
+		"base": "normal 300 16px/1.5 --fontFamily-googleRobotoCondensed",
+		"lead": "normal 300 20px/1.5 --fontFamily-googleRobotoCondensed"
 	},
 	"boxShadow": {
 		"m": "0 4px 5px -1px rgba(0, 0, 0, 0.1)",
@@ -171,6 +193,369 @@ export default {
 					"600italic",
 					"700italic",
 					"800italic"
+				]
+			}
+		},
+		"Comic Neue": {
+			"family": "Comic Neue",
+			"type": "google-fonts",
+			"meta": {
+				"category": "handwriting",
+				"variants": [
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"700",
+					"700italic"
+				]
+			}
+		},
+		"IBM Plex Mono": {
+			"family": "IBM Plex Mono",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"100",
+					"100italic",
+					"200",
+					"200italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"500",
+					"500italic",
+					"600",
+					"600italic",
+					"700",
+					"700italic"
+				]
+			}
+		},
+		"Space Mono": {
+			"family": "Space Mono",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"regular",
+					"italic",
+					"700",
+					"700italic"
+				]
+			}
+		},
+		"Courier Prime": {
+			"family": "Courier Prime",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"regular",
+					"italic",
+					"700",
+					"700italic"
+				]
+			}
+		},
+		"VT323": {
+			"family": "VT323",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"regular"
+				]
+			}
+		},
+		"Lato": {
+			"family": "Lato",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"100italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"700",
+					"700italic",
+					"900",
+					"900italic"
+				]
+			}
+		},
+		"Noto Sans KR": {
+			"family": "Noto Sans KR",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"200",
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700",
+					"800",
+					"900"
+				]
+			}
+		},
+		"Kanit": {
+			"family": "Kanit",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"100italic",
+					"200",
+					"200italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"500",
+					"500italic",
+					"600",
+					"600italic",
+					"700",
+					"700italic",
+					"800",
+					"800italic",
+					"900",
+					"900italic"
+				]
+			}
+		},
+		"Titillium Web": {
+			"family": "Titillium Web",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"200",
+					"200italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"600",
+					"600italic",
+					"700",
+					"700italic",
+					"900"
+				]
+			}
+		},
+		"Michroma": {
+			"family": "Michroma",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"regular"
+				]
+			}
+		},
+		"Roboto Condensed": {
+			"family": "Roboto Condensed",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"200",
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700",
+					"800",
+					"900",
+					"100italic",
+					"200italic",
+					"300italic",
+					"italic",
+					"500italic",
+					"600italic",
+					"700italic",
+					"800italic",
+					"900italic"
+				]
+			}
+		},
+		"Noto Sans": {
+			"family": "Noto Sans",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"200",
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700",
+					"800",
+					"900",
+					"100italic",
+					"200italic",
+					"300italic",
+					"italic",
+					"500italic",
+					"600italic",
+					"700italic",
+					"800italic",
+					"900italic"
+				]
+			}
+		},
+		"Noto Color Emoji": {
+			"family": "Noto Color Emoji",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"regular"
+				]
+			}
+		},
+		"Nanum Gothic": {
+			"family": "Nanum Gothic",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"regular",
+					"700",
+					"800"
+				]
+			}
+		},
+		"Cabin": {
+			"family": "Cabin",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"regular",
+					"500",
+					"600",
+					"700",
+					"italic",
+					"500italic",
+					"600italic",
+					"700italic"
+				]
+			}
+		},
+		"Prompt": {
+			"family": "Prompt",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"100italic",
+					"200",
+					"200italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"500",
+					"500italic",
+					"600",
+					"600italic",
+					"700",
+					"700italic",
+					"800",
+					"800italic",
+					"900",
+					"900italic"
+				]
+			}
+		},
+		"Material Symbols Rounded": {
+			"family": "Material Symbols Rounded",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"100",
+					"200",
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700"
+				]
+			}
+		},
+		"Material Symbols Outlined": {
+			"family": "Material Symbols Outlined",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"100",
+					"200",
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700"
+				]
+			}
+		},
+		"Cousine": {
+			"family": "Cousine",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"regular",
+					"italic",
+					"700",
+					"700italic"
+				]
+			}
+		},
+		"Share Tech Mono": {
+			"family": "Share Tech Mono",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"regular"
+				]
+			}
+		},
+		"Major Mono Display": {
+			"family": "Major Mono Display",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"regular"
+				]
+			}
+		},
+		"Sixtyfour": {
+			"family": "Sixtyfour",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"regular"
 				]
 			}
 		}
