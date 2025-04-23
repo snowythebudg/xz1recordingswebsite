@@ -1,11 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, LinkBox, Box, Section, Button, Image, Strong, Icon, Span, List, Em, Input } from "@quarkly/widgets";
+import { Theme, Link, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, List, Button, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
-import { FiBox, FiGift, FiFilm, FiLock, FiEdit } from "react-icons/fi";
+import { FiBox, FiGift, FiLock, FiEdit } from "react-icons/fi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -144,53 +144,6 @@ export default (() => {
 					XZ1 Recordings specializes in distributing music to streaming services around the world. We also strive to help out upcoming artists grow their career!
 				</Text>
 			</Box>
-		</Section>
-		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
-			<Override slot="SectionContent" align-items="center" />
-			<Text margin="0px 0px 0px 0px" color="#ffffff" font="normal 300 20px/1.5 --fontFamily-googleOpenSans" letter-spacing="5px">
-				IMPORTANT ANNOUNCEMENT
-			</Text>
-			<Text
-				as="h2"
-				font="--headline1"
-				md-font="--headline2"
-				margin="20px 0 0 0"
-				color="#ffffff"
-			>
-				Introducing XZ1-DS
-			</Text>
-			<Text
-				as="p"
-				font="--lead"
-				margin="20px 0 20px 0"
-				text-align="center"
-				color="#ffffff"
-			>
-				We are pleased to announce that we are now running an open music distribution service to ALL artists! Click the button below to join. Do be warned, this site is brand new and may be buggy and have UI issues. We are working to fix it. Submissions will not be reviewed until we get admin access. If you need help, send an email to distribution@xz1recordings.ca or join the Discord server located{" "}
-				<Link
-					href="https://discord.gg/xBq9Fk9TwC"
-					color="--purple"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					here
-				</Link>
-			</Text>
-			<Button
-				font="--lead"
-				margin="20px"
-				background="--color-purple"
-				type="link"
-				href="https://distro.xz1recordings.ca"
-			>
-				Join
-			</Button>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="--color-dark radial-gradient(at center,--color-purple 0%,rgba(0,0,0,1) 100%)">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
@@ -598,7 +551,7 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution through FUGA. XZ1 also offers free Dolby Atmos distribution so you can ensure your release gets the highest quality audio upon release.
+									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution. XZ1 also offers free Dolby Atmos distribution (depending on the distributor we use at the time of your signing) so you can ensure your release gets the highest quality audio upon release.
 								</Span>
 							</Span>
 						</Text>
@@ -632,43 +585,18 @@ export default (() => {
 								color="--light"
 							>
 								Extra distribution benefits.{" "}
-								<Span font-weight="300">
-									Joining XZ1 gives you access to compilation albums and multi-disc releases on Spotify!{" "}
-								</Span>
-							</Span>
-						</Text>
-					</Box>
-					<Box margin="0px 0px 0px 0px" display="flex" grid-gap="16px">
-						<Icon
-							display="block"
-							category="fi"
-							icon={FiFilm}
-							size="20px"
-							color="--purple"
-							margin="5px 0 0 0"
-						/>
-						<Text
-							padding="0"
-							margin="0"
-							color="--light"
-							font="18px/27px --fontFamily-sans"
-							lg-max-width="720px"
-						>
-							<Span
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-								font="normal 600 16px/1.5 --fontFamily-sans"
-								color="--light"
-							>
-								Promo opportunities.{" "}
-								<Span font-weight="300">
-									With our prestigious partnership with MN2S Label Services. XZ1 offers outstanding promotion and sync opportunities to all XZ1 clients to help boost their career.
+								<Span
+									font-weight="300"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									Joining XZ1 gives you access to compilation albums and multi-disc releases on Spotify! (also depends on what distributor we use at the time of your signing)
 								</Span>
 							</Span>
 						</Text>
@@ -850,6 +778,42 @@ export default (() => {
 				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack or other IPI number.{" "}
 			</Text>
 		</Section>
+		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
+			<Override slot="SectionContent" align-items="center" />
+			<Text margin="0px 0px 0px 0px" color="#ffffff" font="normal 300 20px/1.5 --fontFamily-googleOpenSans" letter-spacing="5px">
+				OPEN DISTRIBUTION SERVICE
+			</Text>
+			<Text
+				as="h2"
+				font="--headline1"
+				md-font="--headline2"
+				margin="20px 0 0 0"
+				color="#ffffff"
+			>
+				XZ1-DS
+			</Text>
+			<Text
+				as="p"
+				font="--lead"
+				margin="20px 0 20px 0"
+				text-align="center"
+				color="#ffffff"
+			>
+				XZ1-DS is the open distribution service run by XZ1 Recordings. If you are a label client, we prefer you stick to distributing through our better distribution channels but if you aren't. Feel free to use the XZ1-DS. Exclusive clients are NOT ALLOWED to use this service unless we state you can. Should you need help (as the DS tends to be a bit buggy), you can contact us at distribution@xz1recordings.ca or join our Discord server{" "}
+				<Link href="https://discord.gg/xBq9Fk9TwC" color="--purple">
+					here
+				</Link>
+			</Text>
+			<Button
+				font="--lead"
+				margin="20px"
+				background="--color-purple"
+				type="link"
+				href="https://distro.xz1recordings.ca"
+			>
+				Join
+			</Button>
+		</Section>
 		<Section
 			text-align="center"
 			background-color="--primary"
@@ -896,22 +860,10 @@ export default (() => {
 			>
 				<Box min-width="100px" min-height="100px">
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
-						What's the royalty split
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						At the moment, the royalty split is 70/30 but this is negotiable with our team. Note that you get your split AFTER our distributor's 35% cut is taken. We can{" "}
-						<Em>
-							try{" "}
-						</Em>
-						and arrange something for you if you think this split isn't good. We're committed to making your experience the best it can be!
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
 						Do I need to sign a contract
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						As all labels, yes you do need to sign a contract. We are currently unsure of the contract terms since we're still negotiating with our label team.
+						As all labels, yes you do need to sign a contract. You have the choice of signing an exclusive or a non-exclusive. Exclusive means you're required to release under XZ1 and only XZ1. A non-exclusive means you can release with whoever you want even if you're signed to XZ1. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -928,14 +880,6 @@ export default (() => {
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
 						Fully AI generated music is not allowed to be released on XZ1. Music partially made with AI tools such as BandLab's Songstarter tool are permitted as long as you make enough changes to them that it won't be striked for copyright.
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-sans" color="--light">
-						I've been invited, but I don't know how to get into my dashboard
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						If you've been invited to XZ1's Labelcaster dashboard as a client before XZ1 switched to MN2S Label Services' distribution and never accepted your invite. Click the link in your email and then click on "Forgot password?" and from there you can reset your password and get into your account.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -981,7 +925,7 @@ export default (() => {
 						What are XZ1's distribution channels?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-sansHelvetica" color="#ffffff">
-						XZ1 Recordings does digital distribution through IIP-DDS (MN2S Label Services), we also do physical distribution (online, for select artists) through ElasticStage, or through MN2S if available.
+						XZ1 Recordings does digital distribution through a couple of distributors depending on which ones we have access to, we also do physical distribution (online, for select artists) through ElasticStage
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
