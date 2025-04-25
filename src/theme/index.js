@@ -51,25 +51,25 @@ export default {
 		"googleOpenSans": "\"Open Sans\", sans-serif",
 		"googleComicNeue": "\"Comic Neue\", cursive",
 		"googleIbmPlexMono": "\"IBM Plex Mono\", monospace",
-		"googleSpaceMono": "\"Space Mono\", monospace",
 		"googleCourierPrime": "\"Courier Prime\", monospace",
+		"googleSpaceMono": "\"Space Mono\", monospace",
 		"googleVt323": "\"VT323\", monospace",
 		"googleLato": "\"Lato\", sans-serif",
 		"googleNotoSansKr": "\"Noto Sans KR\", sans-serif",
 		"googleKanit": "\"Kanit\", sans-serif",
 		"googleTitilliumWeb": "\"Titillium Web\", sans-serif",
 		"googleMichroma": "\"Michroma\", sans-serif",
-		"googleRobotoCondensed": "\"Roboto Condensed\", sans-serif",
 		"googleNotoSans": "\"Noto Sans\", sans-serif",
-		"googleNotoColorEmoji": "\"Noto Color Emoji\", sans-serif",
+		"googleRobotoCondensed": "\"Roboto Condensed\", sans-serif",
 		"googleNanumGothic": "\"Nanum Gothic\", sans-serif",
+		"googleNotoColorEmoji": "\"Noto Color Emoji\", sans-serif",
 		"googleCabin": "\"Cabin\", sans-serif",
 		"googlePrompt": "\"Prompt\", sans-serif",
-		"googleMaterialSymbolsRounded": "\"Material Symbols Rounded\", monospace",
 		"googleMaterialSymbolsOutlined": "\"Material Symbols Outlined\", monospace",
+		"googleMaterialSymbolsRounded": "\"Material Symbols Rounded\", monospace",
 		"googleCousine": "\"Cousine\", monospace",
-		"googleShareTechMono": "\"Share Tech Mono\", monospace",
 		"googleMajorMonoDisplay": "\"Major Mono Display\", monospace",
+		"googleShareTechMono": "\"Share Tech Mono\", monospace",
 		"googleSixtyfour": "\"Sixtyfour\", monospace"
 	},
 	"font": {
@@ -234,8 +234,8 @@ export default {
 				]
 			}
 		},
-		"Space Mono": {
-			"family": "Space Mono",
+		"Courier Prime": {
+			"family": "Courier Prime",
 			"type": "google-fonts",
 			"meta": {
 				"category": "monospace",
@@ -247,8 +247,8 @@ export default {
 				]
 			}
 		},
-		"Courier Prime": {
-			"family": "Courier Prime",
+		"Space Mono": {
+			"family": "Space Mono",
 			"type": "google-fonts",
 			"meta": {
 				"category": "monospace",
@@ -364,33 +364,6 @@ export default {
 				]
 			}
 		},
-		"Roboto Condensed": {
-			"family": "Roboto Condensed",
-			"type": "google-fonts",
-			"meta": {
-				"category": "sans-serif",
-				"variants": [
-					"100",
-					"200",
-					"300",
-					"regular",
-					"500",
-					"600",
-					"700",
-					"800",
-					"900",
-					"100italic",
-					"200italic",
-					"300italic",
-					"italic",
-					"500italic",
-					"600italic",
-					"700italic",
-					"800italic",
-					"900italic"
-				]
-			}
-		},
 		"Noto Sans": {
 			"family": "Noto Sans",
 			"type": "google-fonts",
@@ -418,13 +391,30 @@ export default {
 				]
 			}
 		},
-		"Noto Color Emoji": {
-			"family": "Noto Color Emoji",
+		"Roboto Condensed": {
+			"family": "Roboto Condensed",
 			"type": "google-fonts",
 			"meta": {
 				"category": "sans-serif",
 				"variants": [
-					"regular"
+					"100",
+					"200",
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700",
+					"800",
+					"900",
+					"100italic",
+					"200italic",
+					"300italic",
+					"italic",
+					"500italic",
+					"600italic",
+					"700italic",
+					"800italic",
+					"900italic"
 				]
 			}
 		},
@@ -437,6 +427,16 @@ export default {
 					"regular",
 					"700",
 					"800"
+				]
+			}
+		},
+		"Noto Color Emoji": {
+			"family": "Noto Color Emoji",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"regular"
 				]
 			}
 		},
@@ -484,8 +484,8 @@ export default {
 				]
 			}
 		},
-		"Material Symbols Rounded": {
-			"family": "Material Symbols Rounded",
+		"Material Symbols Outlined": {
+			"family": "Material Symbols Outlined",
 			"type": "google-fonts",
 			"meta": {
 				"category": "monospace",
@@ -500,8 +500,8 @@ export default {
 				]
 			}
 		},
-		"Material Symbols Outlined": {
-			"family": "Material Symbols Outlined",
+		"Material Symbols Rounded": {
+			"family": "Material Symbols Rounded",
 			"type": "google-fonts",
 			"meta": {
 				"category": "monospace",
@@ -529,8 +529,8 @@ export default {
 				]
 			}
 		},
-		"Share Tech Mono": {
-			"family": "Share Tech Mono",
+		"Major Mono Display": {
+			"family": "Major Mono Display",
 			"type": "google-fonts",
 			"meta": {
 				"category": "monospace",
@@ -539,8 +539,8 @@ export default {
 				]
 			}
 		},
-		"Major Mono Display": {
-			"family": "Major Mono Display",
+		"Share Tech Mono": {
+			"family": "Share Tech Mono",
 			"type": "google-fonts",
 			"meta": {
 				"category": "monospace",
@@ -560,5 +560,5 @@ export default {
 			}
 		}
 	},
-	"version": 8
+	"version": 29
 }

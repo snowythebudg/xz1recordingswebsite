@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Em, Text, LinkBox, Box, Section, Image, Strong, Icon, Span, List, Button, Input } from "@quarkly/widgets";
+import { Theme, Link, Span, Text, LinkBox, Box, Section, Image, Strong, Icon, List, Button, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -59,7 +59,6 @@ export default (() => {
 					href="/index"
 					display="flex"
 					grid-gap="18px"
-					text-transform="uppercase"
 					width="500px"
 				>
 					<Text
@@ -70,10 +69,10 @@ export default (() => {
 						sm-margin="0px 0 0px 0"
 						display="block"
 						color="#ff0095"
-						letter-spacing="1.5px"
-						text-decoration-line="underline"
+						text-transform="uppercase"
+						border-color="#ffffff"
 					>
-						<Em
+						<Span
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -83,8 +82,11 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							XZ1 Recordings
-						</Em>
+							<Span>
+								XZ1 Recordings
+							</Span>
+							<Span />
+						</Span>
 					</Text>
 				</LinkBox>
 			</Box>
@@ -96,7 +98,7 @@ export default (() => {
 			sm-padding="60px 0 96px 0"
 			quarkly-title="Hero-23"
 			padding="88px 0 88px 0"
-			background="rgba(0, 0, 0, 0) linear-gradient(0deg,#ff0095 0%,rgba(0,0,0,1) 53.3%) 0% 0% /auto repeat scroll padding-box"
+			background="linear-gradient(0deg,rgba(0,0,0,0) 45.7%,rgba(0,0,0,1) 100%),rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/66a1919115ac540018708a4f/images/Untitled%20design%20%285%29.png?v=2025-04-25T03:55:01.084Z) 0% 0% /cover repeat scroll padding-box"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -162,7 +164,7 @@ export default (() => {
 					lg-text-align="center"
 					margin="0px 0px 0px 0px"
 				>
-					XZ1 Recordings specializes in distributing music to streaming services around the world. We also strive to help out upcoming artists grow their career!
+					XZ1 Recordings specializes in distributing music to streaming services around the world. We also strive to help out upcoming artists grow their career and provide essential services to all artists to ensure their music gets the best support it can!
 				</Text>
 			</Box>
 		</Section>
@@ -557,7 +559,7 @@ export default (() => {
 								hyphens="manual"
 								user-select="auto"
 								pointer-events="auto"
-								font="normal 600 16px/1.5 --fontFamily-sans"
+								font="normal 600 16px/1.5 --fontFamily-googleRobotoCondensed"
 								color="--light"
 							>
 								Reliable distribution.{" "}
@@ -602,7 +604,7 @@ export default (() => {
 								hyphens="manual"
 								user-select="auto"
 								pointer-events="auto"
-								font="normal 600 16px/1.5 --fontFamily-sans"
+								font="normal 600 16px/1.5 --fontFamily-googleRobotoCondensed"
 								color="--light"
 							>
 								Extra distribution benefits.{" "}
@@ -648,7 +650,7 @@ export default (() => {
 								hyphens="manual"
 								user-select="auto"
 								pointer-events="auto"
-								font="normal 600 16px/1.5 --fontFamily-sans"
+								font="normal 600 16px/1.5 --fontFamily-googleRobotoCondensed"
 								color="--light"
 							>
 								Rights protection and publishing.{" "}
@@ -667,7 +669,7 @@ export default (() => {
 							color="#ff0095"
 							margin="5px 0 0 0"
 						/>
-						<Text padding="0" margin="0" font="18px/27px --fontFamily-sans" lg-max-width="720px">
+						<Text padding="0" margin="0" font="18px/27px --fontFamily-googleRobotoCondensed" lg-max-width="720px">
 							<Span
 								font-weight="600"
 								overflow-wrap="normal"
@@ -678,7 +680,7 @@ export default (() => {
 								hyphens="manual"
 								user-select="auto"
 								pointer-events="auto"
-								font="normal 600 16px/1.5 --fontFamily-sans"
+								font="normal 600 16px/1.5 --fontFamily-googleRobotoCondensed"
 								color="--light"
 							>
 								Secure contracts.{" "}
@@ -1105,8 +1107,6 @@ export default (() => {
 				© 2024-2025 XZ1 Recording Ventures. All rights reserved
 				<br />
 				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈{" "}
-				<br />
-				xz1recordings.ca is a registered domain on the CIRA (Canadian Internet Registration Authority)
 			</Override>
 			<Override slot="linkBox" color="#ff0095" />
 		</Components.Footer0422>
