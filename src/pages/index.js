@@ -862,6 +862,33 @@ export default (() => {
 				XZ1 Creative Audio Industries is the audio editing division of XZ1 Recordings. XZ1CAI offers mixing, mastering, audio editing, and 5.1 Surround mixing/mastering. These services are included for free if you are a client of XZ1 Recordings. Non-label clients can contact us at artistservices@xz1recordings.ca to discuss custom pricing. The pricing tiers are no longer in place.
 			</Text>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				PArtner with XZ1
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				Partner with us!
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				Does your label want to access XZ1 services and portals! If so, you should send us an email and partner with us. We can handle your distribution and other services in exchange for your label becoming a division of XZ1 Recordings. You still own your label, we just oversee operations! If you're interested, use the contact form below or use the form on XZ1 Artist Central (ASP) located{" "}
+				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp" color="#ff0095">
+					here
+				</Link>
+			</Text>
+		</Section>
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-googleMichroma" color="--light">
 				Frequently asked questions
@@ -979,19 +1006,7 @@ export default (() => {
 							</Link>
 							<br />
 							To go to the old XZ1 support portal, click{" "}
-							<Link
-								href="https://old.artistcentral.xz1recordings.ca/submission"
-								color="#ff0095"
-								target="_blank"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								user-select="auto"
-								pointer-events="auto"
-							>
+							<Link href="https://old.artistcentral.xz1recordings.ca" color="#ff0095">
 								here
 							</Link>
 							<br />
