@@ -70,7 +70,8 @@ export default {
 		"googleCousine": "\"Cousine\", monospace",
 		"googleMajorMonoDisplay": "\"Major Mono Display\", monospace",
 		"googleShareTechMono": "\"Share Tech Mono\", monospace",
-		"googleSixtyfour": "\"Sixtyfour\", monospace"
+		"googleSixtyfour": "\"Sixtyfour\", monospace",
+		"googleLibreBarcode39Text": "\"Libre Barcode 39 Text\", cursive"
 	},
 	"font": {
 		"headline1": "normal normal 520 72px/1.2 --fontFamily-googleMichroma",
@@ -558,7 +559,17 @@ export default {
 					"regular"
 				]
 			}
+		},
+		"Libre Barcode 39 Text": {
+			"family": "Libre Barcode 39 Text",
+			"type": "google-fonts",
+			"meta": {
+				"category": "display",
+				"variants": [
+					"regular"
+				]
+			}
 		}
 	},
-	"version": 29
+	"version": 30
 }

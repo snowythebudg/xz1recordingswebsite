@@ -43,6 +43,7 @@ const beforeBodyRawHtmls = [];
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Major%20Mono%20Display:ital,wght@0,400&display=swap" />,
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share%20Tech%20Mono:ital,wght@0,400&display=swap" />,
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sixtyfour:ital,wght@0,400&display=swap" />,
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre%20Barcode%2039%20Text:ital,wght@0,400&display=swap" />,
   ]);
    setPostBodyComponents([
     <script

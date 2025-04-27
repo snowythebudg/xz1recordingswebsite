@@ -65,7 +65,7 @@ export default (() => {
 						margin="0"
 						md-margin="0px 0 0px 0"
 						text-align="left"
-						font="--headline3"
+						font="normal 500 28px/1.2 --fontFamily-googleMichroma"
 						sm-margin="0px 0 0px 0"
 						display="block"
 						color="#ff0095"
@@ -907,34 +907,8 @@ export default (() => {
 						How should I submit releases?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						You can use the new XZ1ASP (also known as Artist Central) located{" "}
-						<Link
-							href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-							color="#ff0095"
-						>
-							here{" "}
-						</Link>
-						to submit releases, you can also use the XZ1 support portal located{" "}
-						<Link
-							color="#ff0095"
-							href="https://support.xz1recordings.ca/submission"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							user-select="auto"
-							pointer-events="auto"
-						>
+						You can use the dedicated release submission portal derived off the old support site. The XZ1ASP has file size restrictions and you cannot submit releases through it. You can access the release submission portal{" "}
+						<Link href="https://rs.xz1recordings.ca" color="#ff0095">
 							here
 						</Link>
 						. If you don't wanna do any of these, send an email to distribution@xz1recordings.ca. We will state what release information you need during onboarding!
@@ -1004,8 +978,20 @@ export default (() => {
 								<br />
 							</Link>
 							<br />
-							To go to the old XZ1 support portal (for release submission), click{" "}
-							<Link href="https://old.artistcentral.xz1recordings.ca/submission" color="#ff0095" target="_blank">
+							To go to the old XZ1 support portal, click{" "}
+							<Link
+								href="https://old.artistcentral.xz1recordings.ca/submission"
+								color="#ff0095"
+								target="_blank"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
 								here
 							</Link>
 							<br />
