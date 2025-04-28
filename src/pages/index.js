@@ -168,6 +168,49 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				IMPORTANT ANNOUNCEMENT
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				Distribution interruptions
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				On April 22nd, 2025. MN2S Label Services, our distribution partner, terminated our agreement with no reason whatsoever. As a result, our entire catalog was taken down from streaming services. We've asked for a reason, yet nothing. With this, all new XZ1 releases will be forwarded to Xenon Studios (https://xenonstudios.org) for the time being until we hopefully sign a distribution deal with a more reliable provider. This is not throwing shade at MN2S Label Services, we personally don't feel they had a good reason to ban us but it is what it is. We should be back up and running with a new distribution partner sometime between April 28th, 2025 and May 15th, 2025. For the time being, Xenon Studios will handle our distribution. If we do not find a new distributor before May 15th, all clients under an exclusive contract will be temporarily released from being locked to XZ1 and will be able to use a different distributor until we get sorted. We are extremely sorry for the inconvenience and we will try our best to assure this does not happen again. If you have any questions, join our Discord server located{" "}
+				<Link
+					color="#ff0095"
+					href="https://discord.gg/G4h76bH6nF"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					here{" "}
+				</Link>
+				{" "}or click{" "}
+				<Link href="mailto:distribution@xz1recordings.ca" color="#ff0095">
+					here{" "}
+				</Link>
+				to send an email to us. Best wishes to all XZ1 artists and potential artists!{" "}
+			</Text>
+		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
