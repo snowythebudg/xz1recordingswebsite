@@ -11,11 +11,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"demos"} />
 		<Helmet>
 			<title>
-				XZ1 Recordings - Music from the next generation
+				XZ1 Recordings - Submit a demo!
 			</title>
-			<meta name={"description"} content={"XZ1 Recordings is a full-service record label offering music publishing, distribution, and artist support. We work with both emerging and established artists across all genres, helping you grow and reach global audiences."} />
-			<meta property={"og:title"} content={"XZ1 Recordings - Music from the next generation"} />
-			<meta property={"og:description"} content={"XZ1 Recordings is a full-service record label offering music publishing, distribution, and artist support. We work with both emerging and established artists across all genres, helping you grow and reach global audiences."} />
+			<meta name={"description"} content={"Submit a demo to XZ1 Recordings!"} />
+			<meta property={"og:title"} content={"XZ1 Recordings - Submit a demo!"} />
+			<meta property={"og:description"} content={"Submit a demo to XZ1 Recordings!"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />

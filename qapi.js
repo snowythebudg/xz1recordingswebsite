@@ -24,12 +24,21 @@ export default {
 		"66a276e72fc7070018ba3895": {
 			"id": "66a276e72fc7070018ba3895",
 			"pageUrl": "demos",
-			"name": "demos"
+			"name": "demos",
+			"seo": {
+				"title": "XZ1 Recordings - Submit a demo!",
+				"description": "Submit a demo to XZ1 Recordings!",
+				"og:description": "Submit a demo to XZ1 Recordings!",
+				"og:title": "XZ1 Recordings - Submit a demo!"
+			}
 		},
 		"67f476bde5d27700189d3b06": {
 			"id": "67f476bde5d27700189d3b06",
 			"pageUrl": "welcomenewclient",
-			"name": "welcomenewclient"
+			"name": "welcomenewclient",
+			"seo": {
+				"hide": true
+			}
 		}
 	},
 	"mode": "production",
