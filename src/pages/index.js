@@ -873,6 +873,14 @@ export default (() => {
 				</Box>
 				<Box min-width="100px" min-height="100px">
 					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
+						Do you do promotion
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
+						Yes, but only in a small capacity. XZ1 Recordings is a distribution and audio services focused label. If you have money to pay for advertising campaigns ($500-$1500), we can definitely set you up with high tier advertising through The Orchard!
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px">
+					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
 						How should I submit releases?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
