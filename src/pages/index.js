@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Span, Text, LinkBox, Box, Section, Image, Strong, Icon, List, Button, Input } from "@quarkly/widgets";
+import { Theme, Link, Span, Text, LinkBox, Box, Section, Image, Strong, Icon, List, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -730,7 +730,7 @@ export default (() => {
 		<Section
 			text-align="center"
 			background-color="--primary"
-			color="#ffffff"
+			color="--light"
 			padding="80px 0"
 			sm-padding="40px 0"
 			background="#000000"
@@ -742,27 +742,41 @@ export default (() => {
 				text-transform="uppercase"
 				letter-spacing="5px"
 			>
-				XZ1 Artist Submission portal
+				PArtner with XZ1
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				An enhanced way to submit releases
+				Powered by XZ1
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				We recently launched the XZ1ASP (now Artist Central) web platform. XZ1 clients can use this to submit releases, request publishing, send releases for publishing, and contact us. You will need to create an account to use the platform and we reserve the right to terminate your account as we see fit (if you aren't old enough, you aren't a client, etc). You can access the portal by clicking{" "}
-				<Link
-					href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
-					color="#ff0095"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
+				Does your label want to access XZ1 services and portals! If so, consider enrolling to XZ1 Recordings' Powered by XZ1 label partnership program! We give you access to distribution through The Orchard, basic promotion through Instagram, access to every XZ1 ecosystem service (Artist Central, Creative Audio Industries, XZ1RS). If you're interested, check out Powered by XZ1 by clicking{" "}
+				<Link href="https://poweredby.xz1recordings.ca" color="#ff0095" target="_blank">
 					here
 				</Link>
+			</Text>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				audio editing{"\n\n"}
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 Creative Audio Industries
+			</Text>
+			<Text margin="0px 0px 0px 0px" />
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				XZ1 Creative Audio Industries is the audio editing division of XZ1 Recordings. XZ1CAI offers mixing, mastering, audio editing, and 5.1 Surround mixing/mastering. These services are included for free if you are a client of XZ1 Recordings. Non-label clients can contact us at artistservices@xz1recordings.ca to discuss custom pricing. The pricing tiers are no longer in place.
 			</Text>
 		</Section>
 		<Section
@@ -825,94 +839,6 @@ export default (() => {
 				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack or other IPI number.{" "}
 			</Text>
 		</Section>
-		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
-			<Override slot="SectionContent" align-items="center" />
-			<Text margin="0px 0px 0px 0px" color="#ffffff" font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed" letter-spacing="5px">
-				OPEN DISTRIBUTION SERVICE
-			</Text>
-			<Text
-				as="h2"
-				font="--headline1"
-				md-font="--headline2"
-				margin="20px 0 0 0"
-				color="#ffffff"
-			>
-				XZ1-DS
-			</Text>
-			<Text
-				as="p"
-				font="--lead"
-				margin="20px 0 20px 0"
-				text-align="center"
-				color="#ffffff"
-			>
-				XZ1-DS is the open distribution service run by XZ1 Recordings. If you are a label client, we prefer you stick to distributing through our better distribution channels but if you aren't. Feel free to use the XZ1-DS. Exclusive clients are NOT ALLOWED to use this service unless we state you can. Should you need help (as the DS tends to be a bit buggy), you can contact us at distribution@xz1recordings.ca or join our Discord server{" "}
-				<Link href="https://discord.gg/xBq9Fk9TwC" color="#ff0095">
-					here
-				</Link>
-			</Text>
-			<Button
-				font="--lead"
-				margin="20px"
-				background="#ff0095"
-				type="link"
-				href="https://distro.xz1recordings.ca"
-			>
-				Join
-			</Button>
-		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				audio editing{"\n\n"}
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 Creative Audio Industries
-			</Text>
-			<Text margin="0px 0px 0px 0px" />
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				XZ1 Creative Audio Industries is the audio editing division of XZ1 Recordings. XZ1CAI offers mixing, mastering, audio editing, and 5.1 Surround mixing/mastering. These services are included for free if you are a client of XZ1 Recordings. Non-label clients can contact us at artistservices@xz1recordings.ca to discuss custom pricing. The pricing tiers are no longer in place.
-			</Text>
-		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				PArtner with XZ1
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				Partner with us!
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Does your label want to access XZ1 services and portals! If so, you should send us an email and partner with us. We can handle your distribution and other services in exchange for your label becoming a division of XZ1 Recordings. You still own your label, we just oversee operations! If you're interested, use the contact form below or use the form on XZ1 Artist Central (ASP) located{" "}
-				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp" color="#ff0095">
-					here
-				</Link>
-			</Text>
-		</Section>
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
 			<Text margin="0px 0px 15px 0px" font="normal 600 42px/1.2 --fontFamily-googleMichroma" color="--light">
 				Frequently asked questions
@@ -935,14 +861,6 @@ export default (() => {
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 						As all labels, yes you do need to sign a contract. You have the choice of signing an exclusive or a non-exclusive. Exclusive means you're required to release under XZ1 and only XZ1. A non-exclusive means you can release with whoever you want even if you're signed to XZ1. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it.
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
-						How many releases can I release through XZ1
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						As many as you wish, do note that all releases you release through XZ1 will be binded to us for 365 days, after that you are free to re-release your release or keep it on XZ1.
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -970,7 +888,7 @@ export default (() => {
 						What are XZ1's distribution channels?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						XZ1 Recordings does digital distribution through a couple of distributors depending on which ones we have access to, we also do physical distribution (online, for select artists) through ElasticStage
+						XZ1 Recordings does digital distribution through KAMAPRO/The Orchard and Labelcaster (former), we also do physical distribution (online, for select artists) through ElasticStage
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -983,14 +901,6 @@ export default (() => {
 							here
 						</Link>
 						) account will also be deleted if you've made one.
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 15px 0px" font="normal 500 25px/1.2 --fontFamily-googleMichroma" color="--light">
-						I paid for mastering services but I want a refund
-					</Text>
-					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						Please contact us within 3 days of recieving your final mastered/mixed/edited audio for a refund. If you do not request a refund within 3 days, your refund request will not be accepted. Do not request refunds through PayPal, contact us first and we'll help you and give you your refund.
 					</Text>
 				</Box>
 			</Box>
