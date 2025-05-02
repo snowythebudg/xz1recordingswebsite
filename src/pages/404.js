@@ -25,6 +25,9 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
+		<Components.QuarklycommunityKitScrollIndicator>
+			<Override slot="Indicator" background="#ff0095" />
+		</Components.QuarklycommunityKitScrollIndicator>
 		<Section padding="88px 0 88px 0" min-height="100vh" quarkly-title="404-1" background="#000000">
 			<Override slot="SectionContent" max-width="1220px" justify-content="center" background="#000000" />
 			<Box align-items="center" display="flex" justify-content="center" flex-direction="column">

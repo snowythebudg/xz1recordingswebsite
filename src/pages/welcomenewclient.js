@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -24,6 +24,9 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
+		<Components.QuarklycommunityKitScrollIndicator>
+			<Override slot="Indicator" background="#ff0095" />
+		</Components.QuarklycommunityKitScrollIndicator>
 		<Section
 			text-align="center"
 			background-color="--primary"

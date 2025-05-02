@@ -1135,9 +1135,9 @@ export default (() => {
 			</Override>
 			<Override slot="linkBox" color="#ff0095" />
 		</Components.Footer0422>
-		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.QuarklycommunityKitNetlifyForm />
-		<Components.QuarklycommunityKitNetlifyForm />
+		<Components.QuarklycommunityKitScrollIndicator>
+			<Override slot="Indicator" background="#ff0095" />
+		</Components.QuarklycommunityKitScrollIndicator>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
