@@ -1045,17 +1045,10 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer0422>
-			<Override slot="text9">
-				© 2024-2025 XZ1 Recording Ventures. All rights reserved
-				<br />
-				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈{" "}
-			</Override>
-			<Override slot="linkBox" color="#ff0095" />
-		</Components.Footer0422>
 		<Components.QuarklycommunityKitScrollIndicator>
 			<Override slot="Indicator" background="#ff0095" />
 		</Components.QuarklycommunityKitScrollIndicator>
+		<Components.Footer0510 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

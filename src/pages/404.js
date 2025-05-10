@@ -90,13 +90,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer0422>
-			<Override slot="text9">
-				© 2024-2025 XZ1 Recording Ventures
-				<br />
-				Owned and operated by BudgieMint (https://ebb.l5.ca) 🏳️‍🌈{" "}
-			</Override>
-		</Components.Footer0422>
+		<Components.Footer0510 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

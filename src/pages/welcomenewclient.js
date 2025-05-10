@@ -40,10 +40,10 @@ export default (() => {
 				Welcome to XZ1 Recordings!
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Guess what? You are now a part of XZ1 Recordings! We're surprised you actually made it in, distribution has been a hard feat for us lately. Anyways, you'll recieve an onboarding email to your email on file shortly and if you need any help, you can feel free to email us at any time (we answer fast!). Again, we're so thankful you decided to pick XZ1 as your label (unless we scouted you out, that's a different story). 
-You can access our other distribution branch over{" "}
+				Guess what? You are now a part of XZ1 Recordings! If you need any help, you can feel free to email us at any time (we answer fast!). Again, we're so thankful you decided to pick XZ1 as your label (unless we scouted you out, that's a different story). To send releases, you can use our release submission site by clicking{" "}
 				<Link
-					href="https://distro.xz1recordings.ca"
+					href="https://rs.xz1recordings.ca"
+					color="#ff0095"
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"
@@ -52,11 +52,10 @@ You can access our other distribution branch over{" "}
 					hyphens="manual"
 					user-select="auto"
 					pointer-events="auto"
-					color="#ff0095"
 				>
-					here{" "}
+					here{" "}
 				</Link>
-				but we recommend you stick to using our specialized label distribution if you're an exclusive client (signed under an exclusive license). You can also contact us about our creative audio services (mastering, mixing, etc) by clicking{" "}
+				. You can also contact us about our creative audio services (mastering, mixing, etc) by clicking{" "}
 				<Link
 					href="https://creativeaudio.xz1recordings.ca"
 					color="#ff0095"
@@ -74,7 +73,7 @@ You can access our other distribution branch over{" "}
 				or finding our email down below in the footer. Payments are made through PayPal (this applies to label payouts and creative audio service fees)
 			</Text>
 		</Section>
-		<Components.Footer0422 />
+		<Components.Footer0510 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
