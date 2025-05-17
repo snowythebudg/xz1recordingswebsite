@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
-import { FiBox, FiGift, FiLock, FiEdit } from "react-icons/fi";
+import { FiBox, FiGift, FiLock, FiMic } from "react-icons/fi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -598,7 +598,7 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution. XZ1 also offers free Dolby Atmos distribution (depending on the distributor we use at the time of your signing) so you can ensure your release gets the highest quality audio upon release.
+									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution through The Orchard
 								</Span>
 							</Span>
 						</Text>
@@ -643,7 +643,7 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									Joining XZ1 gives you access to compilation albums and multi-disc releases on Spotify! (also depends on what distributor we use at the time of your signing)
+									Joining XZ1 gives you access to multi-disc releases on Spotify!
 								</Span>
 							</Span>
 						</Text>
@@ -688,7 +688,7 @@ export default (() => {
 						<Icon
 							display="block"
 							category="fi"
-							icon={FiEdit}
+							icon={FiMic}
 							size="20px"
 							color="#ff0095"
 							margin="5px 0 0 0"
@@ -707,7 +707,7 @@ export default (() => {
 								font="normal 600 16px/1.5 --fontFamily-googleRobotoCondensed"
 								color="--light"
 							>
-								Secure contracts.{" "}
+								Complimentary mastering services.{" "}
 								<Span
 									font-weight="300"
 									overflow-wrap="normal"
@@ -719,7 +719,7 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									We provide all our artists with secure contracts when applying to ensure that your music stays protected and that you can release music worry-free!
+									We provide all our artists and partner labels with free mastering for all clients. We master in 16 or 24 bit .wav and .flac with a bit rate of your choosing.{" "}
 								</Span>
 							</Span>
 						</Text>
@@ -749,7 +749,19 @@ export default (() => {
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
 				Does your label want to access XZ1 services and portals! If so, consider enrolling to XZ1 Recordings' Powered by XZ1 label partnership program! We give you access to distribution through The Orchard, basic promotion through Instagram, access to every XZ1 ecosystem service (Artist Central, Creative Audio Industries, XZ1RS). If you're interested, check out Powered by XZ1 by clicking{" "}
-				<Link href="https://poweredby.xz1recordings.ca" color="#ff0095" target="_blank">
+				<Link
+					href="https://poweredby.xz1recordings.ca"
+					color="#ff0095"
+					target="_blank"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
 					here
 				</Link>
 			</Text>
