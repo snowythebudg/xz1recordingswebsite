@@ -168,30 +168,6 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				important announcement
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 has a new distribution partner! (again)
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				As of April 28th, 2025. XZ1 has partnered with KAMAPRO for our distribution operations. KAMAPRO utilizes The Orchard for distribution which means all XZ1 clients will have access to extensive global distribution through Sony's infrastructure. Delivery times should be around 2 days approximately and is currently accessible by exclusive a non-exclusive clients although this may change in the future should we have any new distribution partners alongside KAMAPRO. We shouldn't have any more distributor terminations as KAMAPRO's service does not involve signing an agreement. We like to think that XZ1 Recordings is possibly your easiest way into The Orchard due to the fact that we're pretty lenient on who we sign. This is mainly because XZ1 is focused more on emerging artists as opposed to established artists, we do accept all though. We also just wanted to clarify that XZ1 is not a promotion-focused label, in fact. We don't do much promo besides our Instagram account. XZ1 was always a distribution and artist services (mastering, etc) focused label since the start. Anyways, thanks for reading this. If you're new, consider sending a demo!{"\n\n"}
-			</Text>
-		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
