@@ -73,7 +73,7 @@ export default (() => {
 				or finding our email down below in the footer. Payments are made through PayPal (this applies to label payouts and creative audio service fees)
 			</Text>
 		</Section>
-		<Components.Footer0510 />
+		<Components.Footer0605 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

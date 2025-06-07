@@ -82,10 +82,28 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							<Span>
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							>
 								XZ1 Recordings
 							</Span>
-							<Span />
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+							/>
 						</Span>
 					</Text>
 				</LinkBox>
@@ -98,7 +116,7 @@ export default (() => {
 			sm-padding="60px 0 96px 0"
 			quarkly-title="Hero-23"
 			padding="88px 0 88px 0"
-			background="linear-gradient(0deg,rgba(0,0,0,0) 45.7%,rgba(0,0,0,1) 100%),rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/66a1919115ac540018708a4f/images/Untitled%20design%20%285%29.png?v=2025-04-25T03:55:01.084Z) 0% 0% /cover repeat scroll padding-box"
+			background="linear-gradient(0deg,rgba(0,0,0,0) 45.7%,rgba(0,0,0,1) 100%),rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1566055909643-a51b4271aa47?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /cover repeat scroll padding-box"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -124,7 +142,7 @@ export default (() => {
 					sm-margin="0px 0px 12px 0px"
 					letter-spacing="2px"
 				>
-					Music from the next generation
+					Happy Pride Month!
 				</Text>
 			</Box>
 			<Box
@@ -167,6 +185,30 @@ export default (() => {
 					XZ1 Recordings specializes in distributing music to streaming services around the world. We also strive to help out upcoming artists grow their career and provide essential services to all artists to ensure their music gets the best support it can!
 				</Text>
 			</Box>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				important announcement
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				Happy Pride Month!
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				Sorry for being a couple days late for the site announcement but Happy Pride Month to the queer community! We're so excited to be celebrating this year and we really hope that our queer clients feel powerful and happy! As a queer-owned record label. We have a profound love for Pride Month, even if the American government wants to stop it (we aren't from America, we're Canadian). For our queer folks in the US, we love you. You deserve to feel loved, supported, and cared for and we will do everything to make sure you guys feel this way. To all the MAGA freaks, No, straight people do not need their own pride month, Christian Pride Month is not a thing, and queer people are not groomers. Thanks for coming to our TED Talk, Happy Pride Month!
+			</Text>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
@@ -1036,7 +1078,7 @@ export default (() => {
 		<Components.QuarklycommunityKitScrollIndicator>
 			<Override slot="Indicator" background="#ff0095" />
 		</Components.QuarklycommunityKitScrollIndicator>
-		<Components.Footer0510 />
+		<Components.Footer0605 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
