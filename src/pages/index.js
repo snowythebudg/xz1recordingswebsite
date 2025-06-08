@@ -210,6 +210,34 @@ export default (() => {
 				Sorry for being a couple days late for the site announcement but Happy Pride Month to the queer community! We're so excited to be celebrating this year and we really hope that our queer clients feel powerful and happy! As a queer-owned record label. We have a profound love for Pride Month, even if the American government wants to stop it (we aren't from America, we're Canadian). For our queer folks in the US, we love you. You deserve to feel loved, supported, and cared for and we will do everything to make sure you guys feel this way. To all the MAGA freaks, No, straight people do not need their own pride month, Christian Pride Month is not a thing, and queer people are not groomers. Thanks for coming to our TED Talk, Happy Pride Month!
 			</Text>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				roster playlist
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 Spotify playlist!
+			</Text>
+			<Text margin="0px 0px 0px 0px" />
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				Do you want to listen to our artists' work, look no further! You can access our entire catalog on Spotify by clicking{" "}
+				<Link color="#ff0095" href="https://open.spotify.com/playlist/3rLQkdVDJ8QeCbp3NoWBzM?si=1dd6efc448264f1a">
+					here
+				</Link>
+			</Text>
+		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
