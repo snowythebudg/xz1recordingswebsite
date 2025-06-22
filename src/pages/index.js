@@ -644,7 +644,7 @@ export default (() => {
 									user-select="auto"
 									pointer-events="auto"
 								>
-									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution through The Orchard
+									Distribution is our biggest focus, which means that we give all our XZ1 clients reliable and fast distribution
 								</Span>
 							</Span>
 						</Text>
@@ -794,7 +794,7 @@ export default (() => {
 				Powered by XZ1
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Does your label want to access XZ1 services and portals! If so, consider enrolling to XZ1 Recordings' Powered by XZ1 label partnership program! We give you access to distribution through The Orchard, basic promotion through Instagram, access to every XZ1 ecosystem service (Artist Central, Creative Audio Industries, XZ1RS). If you're interested, check out Powered by XZ1 by clicking{" "}
+				Does your label want to access XZ1 services and portals! If so, consider enrolling to XZ1 Recordings' Powered by XZ1 label partnership program! We give you access to our distribution channels, basic promotion through Instagram, access to every XZ1 ecosystem service (Artist Central, Creative Audio Industries, XZ1RS). If you're interested, check out Powered by XZ1 by clicking{" "}
 				<Link
 					href="https://poweredby.xz1recordings.ca"
 					color="#ff0095"
@@ -954,7 +954,7 @@ export default (() => {
 						What are XZ1's distribution channels?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						XZ1 Recordings does digital distribution through KAMAPRO/The Orchard and Labelcaster (former), we also do physical distribution (online, for select artists) through ElasticStage
+						XZ1 Recordings does digital distribution through KAMAPRO and Labelcaster (former), we also do physical distribution (online, for select artists) through ElasticStage
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
