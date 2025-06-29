@@ -794,7 +794,7 @@ export default (() => {
 				Powered by XZ1
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Does your label want to access XZ1 services and portals! If so, consider enrolling to XZ1 Recordings' Powered by XZ1 label partnership program! We give you access to our distribution channels, basic promotion through Instagram, access to every XZ1 ecosystem service (Artist Central, Creative Audio Industries, XZ1RS). If you're interested, check out Powered by XZ1 by clicking{" "}
+				Does your label want to access XZ1 services and portals! If so, consider enrolling to XZ1 Recordings' Powered by XZ1 label partnership program! We give you access to our distribution channels, basic promotion through Instagram, access to every XZ1 ecosystem service (Artist Central, Mastering Enteprises, XZ1RS). If you're interested, check out Powered by XZ1 by clicking{" "}
 				<Link
 					href="https://poweredby.xz1recordings.ca"
 					color="#ff0095"
@@ -827,14 +827,18 @@ export default (() => {
 				text-transform="uppercase"
 				letter-spacing="5px"
 			>
-				audio editing{"\n\n"}
+				mastering services
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 Creative Audio Industries
+				XZ1 Mastering Enterprises
 			</Text>
 			<Text margin="0px 0px 0px 0px" />
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				XZ1 Creative Audio Industries is the audio editing division of XZ1 Recordings. XZ1CAI offers mixing, mastering, audio editing, and 5.1 Surround mixing/mastering. These services are included for free if you are a client of XZ1 Recordings. Non-label clients can contact us at artistservices@xz1recordings.ca to discuss custom pricing. The pricing tiers are no longer in place.
+				XZ1 Mastering Enterprises (formerly known as XZ1 Creative Audio Industries) is the audio mastering division of XZ1 Recordings. XZ1ME offers mastering in any format at any bitrate. These services are included for free if you are a EXCLUSIVE client of XZ1 Recordings. Non-label clients can click{" "}
+				<Link href="https://mastering.xz1recordings.ca" color="#ff0095" target="_blank">
+					here
+				</Link>
+				{" "}to access our site, view the price list, and order by sending an email to artistservices@xz1recordings.ca
 			</Text>
 		</Section>
 		<Section
@@ -876,7 +880,18 @@ export default (() => {
 					here
 				</Link>
 				. You may also use an IPI number of your current PRO. Just specify that you won't be using an AllTrack IPI and we can still let you in. If approved for AllTrack, you may request publishing by XZ1 by heading to{" "}
-				<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp" color="#ff0095">
+				<Link
+					href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp"
+					color="#ff0095"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
 					this website
 				</Link>
 				<Link
@@ -895,6 +910,9 @@ export default (() => {
 					{" "}
 				</Link>
 				and making an account. You will then see a tab that says "Request publishing services", you can apply there. Please submit your first name and last name plus your designated AllTrack or other IPI number.{" "}
+				<br />
+				<br />
+				NOTE: If you released through us on The Orchard, your release will automatically be assigned to XZ1 MUSIC PUBLISHING. If you have arrangements with your own PRO or a publisher. Please send an email to publishing@xz1recordings.ca to get that corrected!
 			</Text>
 		</Section>
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-4">
