@@ -186,58 +186,6 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				important announcement
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				A statement on XZ1's extended distribution delays
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0" text-align="left">
-				Now is the time where we'd usually be excited about our 1st year of operations which falls on the 24th. Unfortunately this year, we can't say that. Our sub-distributor (KAMAPRO) decided that they'd stop using The Orchard and disabled our and everyone else's ability to create new releases. This has taken a huge impact on XZ1 Recordings as we've been without stable distribution infrastructure for almost an entire month. While we are trying to secure a deal with The Orchard, we still have 4 releases, some of which have been pending since June. We also have a 1 year compilation album that's supposed on the 24th but we can almost assure it won't be out by then. We've already allowed exclusive clients of XZ1 Recordings to temporarily break their contract terms so they don't fall behind. This whole thing has taken a toll on us as we've been doing nothing but trying to sort out distribution options and honestly, we're not ready to leave The Orchard yet. We've already spoken to Operations at The Orchard and they've been nothing but amazing. Now's the hard part, we're trying to get in contact with The Orchard's CMAAS department. Operations referred us to them and they still haven't recieved an update from CMAAS. We hope this works out and we hope someone at The Orchard hears our call for help. Distribution issues aside, jaié! aure's 2nd studio album "duae" released yesterday and it's such a good record. We highly (and we mean that) recommend checking it out! To finish off, if you're a client of XZ1 Recordings as of now. We know this is out of our control but we're sorry. Thank you to the people who have helped us in finding alternate distribution options. If you're reading this and know a representative at The Orchard or work for them. PLEASE send us an email at distribution@xz1recordings.ca{"\n\n"}
-			</Text>
-		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				roster playlist
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 Spotify playlist!
-			</Text>
-			<Text margin="0px 0px 0px 0px" />
-			<Text as="p" font="--lead" margin="40px 0 20px 0" text-align="center">
-				Do you want to listen to our artists' work, look no further! You can access our entire catalog on Spotify by clicking{" "}
-				<Link color="#ff0095" href="https://open.spotify.com/playlist/3rLQkdVDJ8QeCbp3NoWBzM?si=1dd6efc448264f1a">
-					here
-				</Link>
-			</Text>
-		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
@@ -772,6 +720,34 @@ export default (() => {
 					</Box>
 				</List>
 			</Box>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				roster playlist
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				XZ1 Spotify playlist!
+			</Text>
+			<Text margin="0px 0px 0px 0px" />
+			<Text as="p" font="--lead" margin="40px 0 20px 0" text-align="center">
+				Do you want to listen to our artists' work, look no further! You can access our entire catalog on Spotify by clicking{" "}
+				<Link color="#ff0095" href="https://open.spotify.com/playlist/3rLQkdVDJ8QeCbp3NoWBzM?si=1dd6efc448264f1a">
+					here
+				</Link>
+			</Text>
 		</Section>
 		<Section
 			text-align="center"
