@@ -89,20 +89,7 @@ export default (() => {
 				<br />
 				Notice about demos:
 				<br />
-				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!
-Sat to Sun (11 am – 10 pm){" "}
-				<br />
-				All times in MST/MDT (Mountain)
-				<br />
-				<br />
-				Summer closure:
-				<br />
-				We are closed every summer from August 1st to August 20th. This depends on the year as sometimes we might need to stay open due to distribution delays the month prior.
-				<br />
-				<br />
-				Notice about demos:
-				<br />
-				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!
+				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!{" "}
 			</Override>
 		</Components.Footer0731>
 		<Link
