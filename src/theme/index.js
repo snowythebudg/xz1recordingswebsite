@@ -71,7 +71,8 @@ export default {
 		"googleMajorMonoDisplay": "\"Major Mono Display\", monospace",
 		"googleShareTechMono": "\"Share Tech Mono\", monospace",
 		"googleSixtyfour": "\"Sixtyfour\", monospace",
-		"googleLibreBarcode39Text": "\"Libre Barcode 39 Text\", cursive"
+		"googleLibreBarcode39Text": "\"Libre Barcode 39 Text\", cursive",
+		"googleRubik": "\"Rubik\", sans-serif"
 	},
 	"font": {
 		"headline1": "normal normal 520 72px/1.2 --fontFamily-googleMichroma",
@@ -567,6 +568,29 @@ export default {
 				"category": "display",
 				"variants": [
 					"regular"
+				]
+			}
+		},
+		"Rubik": {
+			"family": "Rubik",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700",
+					"800",
+					"900",
+					"300italic",
+					"italic",
+					"500italic",
+					"600italic",
+					"700italic",
+					"800italic",
+					"900italic"
 				]
 			}
 		}

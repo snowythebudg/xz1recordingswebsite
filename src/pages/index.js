@@ -1116,7 +1116,7 @@ export default (() => {
 				<br />
 				Notice about demos:
 				<br />
-				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!
+				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!{" "}
 			</Override>
 		</Components.Footer0731>
 		<Link
