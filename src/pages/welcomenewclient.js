@@ -55,9 +55,9 @@ export default (() => {
 				>
 					here{" "}
 				</Link>
-				. You can also contact us about our creative audio services (mastering, mixing, etc) by clicking{" "}
+				. You can also contact us about our mastering services by clicking{" "}
 				<Link
-					href="https://creativeaudio.xz1recordings.ca"
+					href="https://mastering.xz1recordings.ca"
 					color="#ff0095"
 					overflow-wrap="normal"
 					word-break="normal"
@@ -70,10 +70,41 @@ export default (() => {
 				>
 					here{" "}
 				</Link>
-				or finding our email down below in the footer. Payments are made through PayPal (this applies to label payouts and creative audio service fees)
+				or finding our email down below in the footer. Payments and royalty payouts are made through Stripe and/or PayPal{" "}
 			</Text>
 		</Section>
-		<Components.Footer0605 />
+		<Components.Footer0731>
+			<Override slot="text7">
+				Mon to Fri (8 am – 9 pm)
+				<br />
+				{"\n"}Sat to Sun (11 am – 10 pm){" "}
+				<br />
+				All times in MST/MDT (Mountain)
+				<br />
+				<br />
+				Summer closure:
+				<br />
+				We are closed every summer from August 1st to August 20th. This depends on the year as sometimes we might need to stay open due to distribution delays the month prior.
+				<br />
+				<br />
+				Notice about demos:
+				<br />
+				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!
+Sat to Sun (11 am – 10 pm){" "}
+				<br />
+				All times in MST/MDT (Mountain)
+				<br />
+				<br />
+				Summer closure:
+				<br />
+				We are closed every summer from August 1st to August 20th. This depends on the year as sometimes we might need to stay open due to distribution delays the month prior.
+				<br />
+				<br />
+				Notice about demos:
+				<br />
+				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!
+			</Override>
+		</Components.Footer0731>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
