@@ -186,6 +186,54 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				important announcement
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				New distribution deal in the works!
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				After a long 1 month delay, we are in the process of signing a deal with Ltdfm Global for distribution. With this deal, we can finally regain access to The Orchard's distribution network + even more tools. The deal should be finalized and signed sometime between August 4th, 2025 and August 9th, 2025. Artists can request an invite to Insights and Accounting but not Workstation. Submissions will be handled through XZ1 RS as always. Thanks!
+			</Text>
+		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				Somewhat important announcement (ish?)
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				A small mistake on the footer
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				For some stupid reason, the "All times in MST/MDT (Mountain)" phrase from the top of our footer has also made its way to the bottom and we can't fix it (trust me, we've tried). Someday we'll figure out something but just ignore it please.
+			</Text>
+		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
 			<Box
@@ -1097,33 +1145,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.QuarklycommunityKitScrollIndicator>
-			<Override slot="Indicator" background="#ff0095" />
-		</Components.QuarklycommunityKitScrollIndicator>
-		<Components.Footer0731>
-			<Override slot="text7">
-				Mon to Fri (8 am – 9 pm)
-				<br />
-				{"\n"}Sat to Sun (11 am – 10 pm){" "}
-				<br />
-				All times in MST/MDT (Mountain)
-				<br />
-				<br />
-				Summer closure:
-				<br />
-				We are closed every summer from August 1st to August 20th. This depends on the year as sometimes we might need to stay open due to distribution delays the month prior.
-				<br />
-				<br />
-				Notice about demos:
-				<br />
-				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!
-			</Override>
-			<Override slot="text9">
-				© 2025 XZ1 Recording Ventures
-				<br />
-				Site version 1.25.6 (build 07313){"\n\n"}
-			</Override>
-		</Components.Footer0731>
+		<Components.Footer07312 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

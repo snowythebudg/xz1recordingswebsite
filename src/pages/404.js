@@ -25,9 +25,6 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
-		<Components.QuarklycommunityKitScrollIndicator>
-			<Override slot="Indicator" background="#ff0095" />
-		</Components.QuarklycommunityKitScrollIndicator>
 		<Section padding="88px 0 88px 0" min-height="100vh" quarkly-title="404-1" background="#000000">
 			<Override slot="SectionContent" max-width="1220px" justify-content="center" background="#000000" />
 			<Box align-items="center" display="flex" justify-content="center" flex-direction="column">
@@ -90,30 +87,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer0731>
-			<Override slot="text7">
-				Mon to Fri (8 am – 9 pm)
-				<br />
-				{"\n"}Sat to Sun (11 am – 10 pm){" "}
-				<br />
-				All times in MST/MDT (Mountain)
-				<br />
-				<br />
-				Summer closure:
-				<br />
-				We are closed every summer from August 1st to August 20th. This depends on the year as sometimes we might need to stay open due to distribution delays the month prior.
-				<br />
-				<br />
-				Notice about demos:
-				<br />
-				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!
-			</Override>
-			<Override slot="text9">
-				© 2025 XZ1 Recording Ventures
-				<br />
-				Site version 1.25.6 (build 07313)
-			</Override>
-		</Components.Footer0731>
+		<Components.Footer07312 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

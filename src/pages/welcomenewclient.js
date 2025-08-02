@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override } from "@quarkly/components";
+import { RawHtml } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -25,9 +25,6 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
-		<Components.QuarklycommunityKitScrollIndicator>
-			<Override slot="Indicator" background="#ff0095" />
-		</Components.QuarklycommunityKitScrollIndicator>
 		<Section
 			text-align="center"
 			background-color="--primary"
@@ -73,30 +70,7 @@ export default (() => {
 				or finding our email down below in the footer. Payments and royalty payouts are made through Stripe and/or PayPal{" "}
 			</Text>
 		</Section>
-		<Components.Footer0731>
-			<Override slot="text7">
-				Mon to Fri (8 am – 9 pm)
-				<br />
-				{"\n"}Sat to Sun (11 am – 10 pm){" "}
-				<br />
-				All times in MST/MDT (Mountain)
-				<br />
-				<br />
-				Summer closure:
-				<br />
-				We are closed every summer from August 1st to August 20th. This depends on the year as sometimes we might need to stay open due to distribution delays the month prior.
-				<br />
-				<br />
-				Notice about demos:
-				<br />
-				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!
-			</Override>
-			<Override slot="text9">
-				© 2025 XZ1 Recording Ventures
-				<br />
-				Site version 1.25.6 (build 07313){"\n\n\n\n"}
-			</Override>
-		</Components.Footer0731>
+		<Components.Footer07312 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

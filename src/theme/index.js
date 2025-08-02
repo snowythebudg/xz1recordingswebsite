@@ -595,5 +595,5 @@ export default {
 			}
 		}
 	},
-	"version": 30
+	"version": 35
 }

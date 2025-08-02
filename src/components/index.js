@@ -1,4 +1,4 @@
-export { default as QuarklycommunityKitScrollIndicator } from "./QuarklycommunityKitScrollIndicator"
+export { default as Footer07312 } from "./Footer07312"
 export { default as Footer0731 } from "./Footer0731"
 export { default as Footer0605 } from "./Footer0605"
 export { default as Footer0510 } from "./Footer0510"
