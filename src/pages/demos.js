@@ -16,13 +16,13 @@ export default (() => {
 			<meta name={"description"} content={"Submit a demo to XZ1 Recordings!"} />
 			<meta property={"og:title"} content={"XZ1 Recordings - Submit a demo!"} />
 			<meta property={"og:description"} content={"Submit a demo to XZ1 Recordings!"} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} type={"image/x-icon"} />
-			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
-			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
-			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
-			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
-			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/xz1%20redesign%20proper.png?v=2025-03-29T00:25:09.176Z"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1%20REDESIGN%20TAKE%20II%20%288%29.png?v=2025-08-02T19:59:20.688Z"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1%20REDESIGN%20TAKE%20II%20%288%29.png?v=2025-08-02T19:59:20.688Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1%20REDESIGN%20TAKE%20II%20%288%29.png?v=2025-08-02T19:59:20.688Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1%20REDESIGN%20TAKE%20II%20%288%29.png?v=2025-08-02T19:59:20.688Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1%20REDESIGN%20TAKE%20II%20%288%29.png?v=2025-08-02T19:59:20.688Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1%20REDESIGN%20TAKE%20II%20%288%29.png?v=2025-08-02T19:59:20.688Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1%20REDESIGN%20TAKE%20II%20%288%29.png?v=2025-08-02T19:59:20.688Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
 		<Section padding="80px 0" sm-padding="40px 0" background="#000000">
