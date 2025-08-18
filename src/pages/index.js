@@ -204,7 +204,7 @@ export default (() => {
 				important announcement
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				New distribution deal in the works!
+				XZ1 has re-opened distribution
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
 				After a long 1 month delay, we are in the process of signing a deal with Ltdfm Global for distribution. With this deal, we can finally regain access to The Orchard's distribution network + even more tools. The deal should be finalized and signed sometime between August 4th, 2025 and August 9th, 2025. Artists can request an invite to Insights and Accounting but not Workstation. Submissions will be handled through XZ1 RS as always. Thanks!
