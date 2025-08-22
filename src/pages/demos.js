@@ -76,8 +76,8 @@ export default (() => {
 								Email XZ1 Recordings
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
-								<Link href="mailto:snowythebudg@gmail.com?XZ1 Recordings Inquiry" text-decoration="none" hover-text-decoration="underline" color="--light">
-									snowythebudg@gmail.com
+								<Link href="mailto:distribution@xz1recordings.ca" text-decoration="none" hover-text-decoration="underline" color="--light">
+									distribution@xz1recordings.ca
 								</Link>
 							</Text>
 						</Box>
