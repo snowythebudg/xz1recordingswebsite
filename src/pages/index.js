@@ -201,30 +201,6 @@ export default (() => {
 				text-transform="uppercase"
 				letter-spacing="5px"
 			>
-				important announcement
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				XZ1 has re-opened distribution
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				After a long 1 month delay, we are in the process of signing a deal with Ltdfm Global for distribution. With this deal, we can finally regain access to The Orchard's distribution network + even more tools. The deal should be finalized and signed sometime between August 4th, 2025 and August 9th, 2025. Artists can request an invite to Insights and Accounting but not Workstation. Submissions will be handled through XZ1 RS as always. Thanks!
-			</Text>
-		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
 				Somewhat important announcement (ish?)
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
