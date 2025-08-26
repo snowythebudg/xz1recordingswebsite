@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -70,7 +70,13 @@ export default (() => {
 				or finding our email down below in the footer. Payments and royalty payouts are made through Stripe and/or PayPal{" "}
 			</Text>
 		</Section>
-		<Components.Footer07312 />
+		<Components.Footer07312>
+			<Override slot="text9">
+				© 2025 XZ1 Recording Ventures
+				<br />
+				Site version 1.25.7 (build 08251){" "}
+			</Override>
+		</Components.Footer07312>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

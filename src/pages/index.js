@@ -65,11 +65,10 @@ export default (() => {
 						margin="0"
 						md-margin="0px 0 0px 0"
 						text-align="left"
-						font="normal 500 28px/1.2 --fontFamily-googleMichroma"
+						font="normal 500 56px/1.2 --fontFamily-googleLibreBarcode39Text"
 						sm-margin="0px 0 0px 0"
 						display="block"
 						color="#ff0095"
-						text-transform="uppercase"
 						border-color="#ffffff"
 					>
 						<Span
@@ -92,7 +91,7 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								XZ1 Recordings
+								XZ1 recordings
 							</Span>
 							<Span
 								overflow-wrap="normal"
@@ -116,7 +115,7 @@ export default (() => {
 			sm-padding="60px 0 96px 0"
 			quarkly-title="Hero-23"
 			padding="88px 0 88px 0"
-			background="linear-gradient(0deg,rgba(0,0,0,0) 45.7%,rgba(0,0,0,1) 100%),rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/66a1919115ac540018708a4f/images/Untitled%20design%20%285%29.png?v=2025-04-25T03:55:01.084Z) 0% 0% /cover repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1X%20%281%29.png?v=2025-08-26T02:22:45.017Z) 0% 0% /cover repeat scroll padding-box"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -225,14 +224,14 @@ export default (() => {
 				background="#000000"
 			>
 				<Image
-					src="https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+					src="https://images.unsplash.com/photo-1646700612268-874f60506470?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
 					object-fit="cover"
 					transform="translateY(0px)"
 					transition="transform 0.2s ease-in-out 0s"
 					hover-transform="translateY(-10px)"
 					sm-min-height="100vw"
 					height="100%"
-					srcSet="https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1536599514254-ee89271345b0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
+					srcSet="https://images.unsplash.com/photo-1646700612268-874f60506470?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1646700612268-874f60506470?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1646700612268-874f60506470?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1646700612268-874f60506470?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1646700612268-874f60506470?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1646700612268-874f60506470?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1646700612268-874f60506470?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
 			</Box>
@@ -504,11 +503,11 @@ export default (() => {
 						position="relative"
 						lg-margin="0px 0px 0px 0px"
 						box-shadow="--xxl"
-						src="https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						src="https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
 						object-fit="cover"
 						lg-height="auto"
 						lg-display="block"
-						srcSet="https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=500 500w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=800 800w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1080 1080w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1600 1600w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2000 2000w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2600 2600w,https://images.unsplash.com/photo-1506994011460-5482746d30a1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=3200 3200w"
+						srcSet="https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=500 500w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=800 800w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1080 1080w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1600 1600w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2000 2000w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2600 2600w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
@@ -1121,7 +1120,13 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer07312 />
+		<Components.Footer07312>
+			<Override slot="text9">
+				© 2025 XZ1 Recording Ventures
+				<br />
+				Site version 1.25.7 (build 08251){" "}
+			</Override>
+		</Components.Footer07312>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
