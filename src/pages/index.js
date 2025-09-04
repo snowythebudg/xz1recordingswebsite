@@ -65,7 +65,7 @@ export default (() => {
 						margin="0"
 						md-margin="0px 0 0px 0"
 						text-align="left"
-						font="normal 500 56px/1.2 --fontFamily-googleLibreBarcode39Text"
+						font="normal 500 40px/1 --fontFamily-googleMichroma"
 						sm-margin="0px 0 0px 0"
 						display="block"
 						color="#ff0095"
@@ -91,7 +91,7 @@ export default (() => {
 								user-select="auto"
 								pointer-events="auto"
 							>
-								XZ1 recordings
+								XZ1 Recordings
 							</Span>
 							<Span
 								overflow-wrap="normal"
@@ -115,7 +115,7 @@ export default (() => {
 			sm-padding="60px 0 96px 0"
 			quarkly-title="Hero-23"
 			padding="88px 0 88px 0"
-			background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/66a1919115ac540018708a4f/images/XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1XZ1X%20%281%29.png?v=2025-08-26T02:22:45.017Z) 0% 0% /cover repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/66a1919115ac540018708a4f/images/Untitled%20design%20%285%29.png?v=2025-04-25T03:55:01.084Z) 0% 0% /cover repeat scroll padding-box"
 		>
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -184,30 +184,6 @@ export default (() => {
 					XZ1 Recordings specializes in distributing music to streaming services around the world. We also strive to help out upcoming artists grow their career and provide essential services to all artists to ensure their music gets the best support it can!
 				</Text>
 			</Box>
-		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
-				Somewhat important announcement (ish?)
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				A small mistake on the footer
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				For some stupid reason, the "All times in MST/MDT (Mountain)" phrase from the top of our footer has also made its way to the bottom and we can't fix it (trust me, we've tried). Someday we'll figure out something but just ignore it please.
-			</Text>
 		</Section>
 		<Section padding="48px 0 48px 0" sm-padding="60px 0 60px 0" quarkly-title="About-14" background="#000000">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" sm-min-width="280px" />
@@ -503,11 +479,11 @@ export default (() => {
 						position="relative"
 						lg-margin="0px 0px 0px 0px"
 						box-shadow="--xxl"
-						src="https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
+						src="https://images.unsplash.com/photo-1665640622150-0729c9f00adb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
 						object-fit="cover"
 						lg-height="auto"
 						lg-display="block"
-						srcSet="https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=500 500w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=800 800w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1080 1080w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=1600 1600w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2000 2000w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=2600 2600w,https://images.unsplash.com/photo-1608488576473-c4ff7000870c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000&w=3200 3200w"
+						srcSet="https://images.unsplash.com/photo-1665640622150-0729c9f00adb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1665640622150-0729c9f00adb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1665640622150-0729c9f00adb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1665640622150-0729c9f00adb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1665640622150-0729c9f00adb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1665640622150-0729c9f00adb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1665640622150-0729c9f00adb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
@@ -787,45 +763,6 @@ export default (() => {
 				text-transform="uppercase"
 				letter-spacing="5px"
 			>
-				PArtner with XZ1
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				Powered by XZ1
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Does your label want to access XZ1 services and portals! If so, consider enrolling to XZ1 Recordings' Powered by XZ1 label partnership program! We give you access to our distribution channels, basic promotion through Instagram, access to every XZ1 ecosystem service (Artist Central, Mastering Enteprises, XZ1RS). If you're interested, check out Powered by XZ1 by clicking{" "}
-				<Link
-					href="https://poweredby.xz1recordings.ca"
-					color="#ff0095"
-					target="_blank"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					here
-				</Link>
-			</Text>
-		</Section>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-			>
 				mastering services
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
@@ -935,7 +872,7 @@ export default (() => {
 						Do I need to sign a contract
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						As all labels, yes you do need to sign a contract. You have the choice of signing an exclusive or a non-exclusive. Exclusive means you're required to release under XZ1 and only XZ1. A non-exclusive means you can release with whoever you want even if you're signed to XZ1. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it.
+						As all labels, yes you do need to sign a contract. You have the choice of signing an exclusive or a non-exclusive. Exclusive means you're required to release under XZ1 and only XZ1 but you get numerous benefits over a non-exclusive contract. These benefits include free mastering, discounted billboards through XZ1 Billboard/Campaign Services, and priority artist support and promotion. A non-exclusive means you can release with whoever you want even if you're signed to XZ1. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it however we only reserve this for larger artists (50k monthly+)
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -943,7 +880,7 @@ export default (() => {
 						Do we allow AI generated music or music made partially with AI
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						Fully AI generated music is not allowed to be released on XZ1. Music partially made with AI tools such as BandLab's Songstarter tool are permitted as long as you make enough changes to them that it won't be striked for copyright.
+						Fully AI generated music is not allowed to be released on XZ1. Music partially made with AI tools such as BandLab's Songstarter tool are permitted as long as you make enough changes to them that it won't be striked for copyright.{" "}
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -951,7 +888,10 @@ export default (() => {
 						Do you do promotion
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						Yes, but only in a small capacity. XZ1 Recordings is a distribution and audio services focused label. If you have money to pay for advertising campaigns ($500-$1500), we can definitely set you up with high tier advertising through The Orchard!
+						Yes, but only in a small capacity. XZ1 Recordings is a distribution and audio services focused label. We do offer billboard services with a minimum spend of $40 CAD. Exclusive clients of XZ1 can also get 30-50% off on campaigns. You can see more information at{" "}
+						<Link href="https://campaign.xz1recordings.ca" target="_blank" color="#ff0095">
+							this link
+						</Link>
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -959,11 +899,22 @@ export default (() => {
 						How should I submit releases?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						You can use the dedicated release submission portal derived off the old support site. The XZ1ASP has file size restrictions and you cannot submit releases through it. You can access the release submission portal{" "}
-						<Link href="https://rs.xz1recordings.ca" color="#ff0095">
+						You can use the dedicated release submission portal derived off the old support site. You can access the release submission portal{" "}
+						<Link
+							href="https://rs.xz1recordings.ca"
+							color="#ff0095"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							here
 						</Link>
-						. If you don't wanna do any of these, send an email to distribution@xz1recordings.ca. We will state what release information you need during onboarding!
+						. If you don't wanna do any of these, send an email to distribution@xz1recordings.ca and ask what metadata you need to submit a release through email!
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -979,8 +930,19 @@ export default (() => {
 						Is there an age restriction for XZ1 Recordings
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						You need to be 13 or over to sign a contract with XZ1 Recordings. Artists that are suspected of being under the age of 13 will have their releases taken down and their royalties suspended. Your XZ1ASP (see{" "}
-						<Link href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8" color="#ff0095">
+						You need to be 13 or over to sign a contract with XZ1 Recordings. Artists that are suspected of being under the age of 13 will have their releases taken down and their royalties suspended. Your XZ1 Artist Central/ASP (see{" "}
+						<Link
+							href="https://xz1asp.formaloo.app/app/j1vtlnjuyfyn7hp/p/qS2iVsm8"
+							color="#ff0095"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							here
 						</Link>
 						) account will also be deleted if you've made one.
@@ -1124,7 +1086,24 @@ export default (() => {
 			<Override slot="text9">
 				© 2025 XZ1 Recording Ventures
 				<br />
-				Site version 1.25.7 (build 08251){" "}
+				Site version 1.25.8 (build 09031){" "}
+			</Override>
+			<Override slot="text7">
+				Mon to Fri (8 am – 9 pm)
+				<br />
+				{"\n"}Sat to Sun (11 am – 10 pm){" "}
+				<br />
+				All times in MST/MDT (Mountain)
+				<br />
+				<br />
+				Summer closure:
+				<br />
+				We are closed every summer from August 1st to August 20th. This depends on the year as sometimes we might need to stay open due to distribution delays the month prior.
+				<br />
+				<br />
+				Notice about demos:
+				<br />
+				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!{" "}
 			</Override>
 		</Components.Footer07312>
 		<Link
