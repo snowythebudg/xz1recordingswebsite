@@ -139,7 +139,7 @@ export default (() => {
 			<Override slot="text9">
 				© 2025 XZ1 Recording Ventures
 				<br />
-				Site version 1.25.7 (build 08251){" "}
+				Site version 1.25.7 (build 08251)
 			</Override>
 		</Components.Footer07312>
 		<Link

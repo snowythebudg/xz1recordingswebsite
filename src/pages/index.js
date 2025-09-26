@@ -872,7 +872,7 @@ export default (() => {
 						Do I need to sign a contract
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						As all labels, yes you do need to sign a contract. You have the choice of signing an exclusive or a non-exclusive. Exclusive means you're required to release under XZ1 and only XZ1 but you get numerous benefits over a non-exclusive contract. These benefits include free mastering, discounted billboards through XZ1 Billboard/Campaign Services, and priority artist support and promotion. A non-exclusive means you can release with whoever you want even if you're signed to XZ1. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it however we only reserve this for larger artists (50k monthly+)
+						As all labels (except for those scummy phonk labels), yes you do need to sign a contract. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it however we only reserve this for larger artists (50k monthly+)
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -922,7 +922,7 @@ export default (() => {
 						What are XZ1's distribution channels?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						XZ1 Recordings does digital distribution through KAMAPRO and Labelcaster (former), we also do physical distribution (online, for select artists) through ElasticStage
+						XZ1 Recordings does digital distribution through KAMAPRO (Danmark Music Group), we also do physical distribution (online, for select artists) through ElasticStage
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -1103,7 +1103,9 @@ export default (() => {
 				<br />
 				Notice about demos:
 				<br />
-				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails!{" "}
+				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails! 
+Sat to Sun (11 am – 10 pm){" "}
+				<br />
 			</Override>
 		</Components.Footer07312>
 		<Link
