@@ -135,13 +135,11 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer07312>
-			<Override slot="text9">
-				© 2025 XZ1 Recording Ventures
-				<br />
-				Site version 1.25.7 (build 08251)
+		<Components.Footer1130>
+			<Override slot="link" href="mailto:distribution@xz1recordings.ca">
+				distribution@xz1recordings.ca
 			</Override>
-		</Components.Footer07312>
+		</Components.Footer1130>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

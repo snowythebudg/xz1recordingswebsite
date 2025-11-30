@@ -1082,32 +1082,41 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer07312>
-			<Override slot="text9">
-				© 2025 XZ1 Recording Ventures
-				<br />
-				Site version 1.25.8 (build 09031){" "}
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				send a demo!
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				How do I send a demo?
+			</Text>
+			<Text margin="0px 0px 0px 0px" />
+			<Text as="p" font="--lead" margin="40px 0 20px 0" text-align="center">
+				Go to https://www.xz1recordings.ca/demos to send in a demo :)
+			</Text>
+		</Section>
+		<Components.Footer1130>
+			<Override slot="link" href="mailto:distribution@xz1recordings.ca">
+				distribution@xz1recordings.ca
 			</Override>
-			<Override slot="text7">
-				Mon to Fri (8 am – 9 pm)
+			<Override slot="text3">
+				E-mail
 				<br />
-				{"\n"}Sat to Sun (11 am – 10 pm){" "}
-				<br />
-				All times in MST/MDT (Mountain)
-				<br />
-				<br />
-				Summer closure:
-				<br />
-				We are closed every summer from August 1st to August 20th. This depends on the year as sometimes we might need to stay open due to distribution delays the month prior.
-				<br />
-				<br />
-				Notice about demos:
-				<br />
-				Please send a demo to the proper channels (our demo portal or Discord). We will not accept demos sent to one of our emails! 
-Sat to Sun (11 am – 10 pm){" "}
 				<br />
 			</Override>
-		</Components.Footer07312>
+		</Components.Footer1130>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
