@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section, Icon, Box, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, Em, Strong, Section, Icon, Box, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree } from "@quarkly/components";
@@ -44,6 +44,13 @@ export default (() => {
 				color="#ffffff"
 			>
 				Welcome to XZ1 Recordings' demo submission portal. Scroll down below to submit your demo!
+				<br />
+				<br />
+				<Strong>
+					<Em>
+						We are no longer signing new clients, unless your music really impresses us or you have existing traction.{" "}
+					</Em>
+				</Strong>
 			</Text>
 		</Section>
 		<Section
