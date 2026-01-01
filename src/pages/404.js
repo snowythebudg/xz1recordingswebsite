@@ -91,6 +91,9 @@ export default (() => {
 			<Override slot="link" href="mailto:distribution@xz1recordings.ca">
 				distribution@xz1recordings.ca
 			</Override>
+			<Override slot="text5">
+				© 2026 XZ1 Recording Ventures Inc.
+			</Override>
 		</Components.Footer1130>
 		<Link
 			font={"--capture"}

@@ -1116,6 +1116,9 @@ export default (() => {
 				<br />
 				<br />
 			</Override>
+			<Override slot="text5">
+				© 2026 XZ1 Recording Ventures Inc.
+			</Override>
 		</Components.Footer1130>
 		<Link
 			font={"--capture"}
