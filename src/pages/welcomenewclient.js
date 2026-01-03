@@ -181,10 +181,10 @@ export default (() => {
 				>
 					PayPal
 				</Strong>
-				. Please ensure your payment details are up to date in your dashboard.
+				. Please send us your payout details and make sure they are fully up to date so you can recieve your hard-earned royalties!
 				<br />
 				<br />
-				Let’s get to work.{"\n\n"}
+				Let’s start releasing music!.{"\n\n"}
 			</Text>
 		</Section>
 		<Components.Footer1130>
