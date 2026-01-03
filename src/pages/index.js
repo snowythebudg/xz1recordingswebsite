@@ -872,7 +872,7 @@ export default (() => {
 						Do I need to sign a contract
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						As all labels (except for those scummy phonk labels), yes you do need to sign a contract. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it however we only reserve this for larger artists (50k monthly+)
+						As all labels, yes you do need to sign a contract. Splits by default are 70/30 regardless of what distributor we use, we can arrange custom splits should you ever need it however we only reserve this for larger artists (50k monthly+)
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -888,8 +888,20 @@ export default (() => {
 						Do you do promotion
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						Yes, but only in a small capacity. XZ1 Recordings is a distribution and audio services focused label. We do offer billboard services with a minimum spend of $40 CAD. Exclusive clients of XZ1 can also get 30-50% off on campaigns. You can see more information at{" "}
-						<Link href="https://campaign.xz1recordings.ca" target="_blank" color="#ff0095">
+						Yes, but only in a small capacity. XZ1 Recordings is a distribution and audio services focused label. We do offer billboard services with a minimum spend of $40 CAD. Clients of XZ1 Recordings can also get 30-50% off on campaigns. You can see more information at{" "}
+						<Link
+							href="https://campaign.xz1recordings.ca"
+							target="_blank"
+							color="#ff0095"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							this link
 						</Link>
 					</Text>
@@ -922,7 +934,7 @@ export default (() => {
 						What are XZ1's distribution channels?
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
-						XZ1 Recordings does digital distribution through KAMAPRO (Danmark Music Group), we also do physical distribution (online, for select artists) through ElasticStage
+						XZ1 Recordings does digital distribution through KAMAPRO (Danmark Music Group), Plastic Head Media (The Orchard), and our in-house company, Trackball Distribution, we also do physical distribution (online, for select artists) through ElasticStage
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">

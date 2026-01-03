@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Strong, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -36,8 +36,37 @@ export default (() => {
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
 				Welcome to XZ1 Recordings!
 			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Guess what? You are now a part of XZ1 Recordings! If you need any help, you can feel free to email us at any time (we answer fast!). Again, we're so thankful you decided to pick XZ1 as your label (unless we scouted you out, that's a different story). To send releases, you can use our release submission site by clicking{" "}
+			<Text as="p" font="--lead" margin="40px 0 20px 0" text-align="left">
+				Welcome to the roster! We are thrilled to have you with XZ1 Recordings and look forward to building your catalog with you.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Getting Started:
+					<br />
+				</Strong>
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Submit a Release:
+				</Strong>
+				{" "}Please use our secure submission portal by clicking{" "}
 				<Link
 					href="https://rs.xz1recordings.ca"
 					color="#ff0095"
@@ -50,11 +79,55 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					here{" "}
+					here
 				</Link>
-				. You can also contact us about our mastering services by clicking{" "}
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Mastering Services:
+				</Strong>
+				{" "}If you need audio engineering for upcoming tracks, you can start a mastering order by going{" "}
 				<Link
+					color="#ff0095"
 					href="https://mastering.xz1recordings.ca"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					here
+				</Link>
+				.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Artist Support:
+				</Strong>
+				{" "}If you have questions, reply directly to this email or reach us at{" "}
+				<Link
+					href="mailto:distribution@xz1recordings.ca"
 					color="#ff0095"
 					overflow-wrap="normal"
 					word-break="normal"
@@ -65,9 +138,53 @@ export default (() => {
 					user-select="auto"
 					pointer-events="auto"
 				>
-					here{" "}
+					distribution@xz1recordings.ca
 				</Link>
-				or finding our email down below in the footer. Payments and royalty payouts are made through Stripe and/or PayPal{" "}
+				. We prioritize artist inquiries and will get back to you promptly.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Admin Note:
+				</Strong>
+				{"\n"}All royalty payouts are processed securely via{" "}
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Stripe
+				</Strong>
+				{" "}or{" "}
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					PayPal
+				</Strong>
+				. Please ensure your payment details are up to date in your dashboard.
+				<br />
+				<br />
+				Let’s get to work.{"\n\n"}
 			</Text>
 		</Section>
 		<Components.Footer1130>
